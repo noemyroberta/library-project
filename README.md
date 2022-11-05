@@ -1,12 +1,13 @@
 # library-project :books:
 Library projeta um sistema de uso de uma biblioteca virtual, podendo ser acessada por acessos de administradores ou usuários.
 
+
 ## Especificações de Requisitos do Usuário
 
----
 ### Autenticação :closed_lock_with_key:
 **_Usuário pode efetuar login no sistema utilizando nome de usuário e senha;_**
 - O sistema deve notificar login reconhecido ou não.
+
 
 ### Funcionalidades :hammer:
 O que usuários podem fazer?
@@ -17,6 +18,7 @@ O que usuários podem fazer?
 5. Solicitar renovação de empréstimo;
 6. Devolver livro e/ou exemplar.
 
+
 #### 01: Solicitar empréstimo de livro
 **_Usuário pode solicitar empréstimo de livro;_**
 - O sistema deve verificar a elegibilidade do usuário para empréstimo;
@@ -24,10 +26,12 @@ O que usuários podem fazer?
 - O usuário tem um prazo de 15 dias para realizar a devolução do livro;
 - O livro só poderá ser emprestado se possuir uma quantidade maior que 1 no acervo da biblioteca.
 
+
 #### 02: Solicitar empréstimo de exemplar
 **_Usuário pode solicitar empréstimo de exemplar;_**
 - O sistema deve verificar a elegibilidade do usuário para empréstimo;
 - O usuário deve digitar o código do exemplar para empréstimo.
+
 
 #### 03: Visualizar empréstimos realizados
 **_Usuário pode visualizar empréstimos realizados com status de cada empréstimo (devolvido, emprestado, atrasado);_**
@@ -35,7 +39,8 @@ O que usuários podem fazer?
 - O sistema deve mostrar o status de cada empréstimo realizado;
 - O sistema deve mostrar o tipo de documento emprestado - livro ou exemplar;
 - O sistema deve mostrar o prazo referente ao status.
-  
+
+
 #### 04: Visualizar multas
 _**Usuário pode visualizar multas e sua situação (paga, aberta)**_
 - O sistema deve verificar e mostrar o status das multas: se foram pagadas ou não;
@@ -47,10 +52,12 @@ _**Usuário pode visualizar multas e sua situação (paga, aberta)**_
 - O sistema deve pedir as informações do Cartão de Débito, para o caso de pagamento por Cartão de Débito;
 - O sistema deve modificar o status da multa e informar. ao usuário, o código da multa e o valor que foi descontado.
 
+
 #### 05: Solicitar renovação de empréstimo
 **_Usuário pode renovar empréstimo previamente efetuado;_**
 - O sistema deve verificar se a data de devolução prevista é equivalente à data atual;
 - O sistema deve verificar se o usuário não possui multas ativas em histórico de empréstimos.
+
 
 #### 06: Devolver livro e/ou exemplar
 _**Usuário deve retornar o livro e/ou exemplar para o acervo da biblioteca;**_
@@ -58,13 +65,13 @@ _**Usuário deve retornar o livro e/ou exemplar para o acervo da biblioteca;**_
 - O usuário terá uma multa de R$ 3,00/dia, caso ultrapasse o prazo de 15 dias para a devolução do livro;
 - O sistema deve informar se houver atraso e o valor total da multa.
 
-## Especificações de Requisitos do Admin
 
----
+## Especificações de Requisitos do Admin
 
 ### Autenticação :closed_lock_with_key:
 **_Administrador pode efetuar login no sistema utilizando nome de usuário e senha;_**
 - O sistema deve notificar login reconhecido ou não.
+
 
 ### Funcionalidades :hammer:
 **_Admnistrador pode efetuar as ações de..._**
@@ -81,17 +88,21 @@ _**Usuário deve retornar o livro e/ou exemplar para o acervo da biblioteca;**_
 - O ano de registro posterior ao ano atual, não será válido;
 - O sistema deve notificar indicando caso o livro de cadastro (com o mesmo código) já conste no sistema;
 
+
 #### 03: Visualizar o perfil do usuário (dados pessoais, histórico de empréstimos e multas)
 **_Administrador pode verificar a situação do usuário enviando o nome de usuário;_**
 - O administrador pode realizar consultas para verificar a situação do usuário, se ele possui multas e/ou histórico de empréstimos).
+
 
 #### 04: Realizar consultas de livros no acervo da biblioteca
 **_Administrador pode realizar consultas de livros no acervo pesquisando pelo ISBN do livro (código);_**
 - O sistema deverá notificar o status do livro pesquisado (ativo, emprestado, inativo).
 
+
 #### 05: Visualizar livros e exemplares próximos da data de devolução
 **_Administrador pode visualizar todos os livros próximos da data de devolução no período de 5 dias;_**
 - O sistema deverá verificar todos os livros com previsão de devolução da data atual a 5 dias e printar as informações do livro e usuário em questão.
+
 
 #### 06: Cadastrar usuário no sistema
 **_Administrador pode cadastrar usuário no sistema enviando os dados de nome, nome de usuário, e-mail e senha;_**
@@ -101,9 +112,6 @@ _**Usuário deve retornar o livro e/ou exemplar para o acervo da biblioteca;**_
 - O nome de usuário é válido sem "_" (espaço) e sem letras maiúsculas (ASADOWISGBFVKJXCN);
 - O sistema deve notificar indicando para o login caso o e-mail de cadastro já conste no sistema;
 - O sistema deve notificar cadastro reconhecido ou não.
-
----
-
 
 
 
