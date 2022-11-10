@@ -92,18 +92,22 @@ _**Usuário deve retornar o livro e/ou exemplar para o acervo da biblioteca;**_
 - O sistema deve notificar indicando caso o livro de cadastro (com o mesmo código) já conste no sistema;
 
 > 03: Visualizar o perfil do usuário (dados pessoais, histórico de empréstimos e multas)
+
 **_Administrador pode verificar a situação do usuário enviando o nome de usuário;_**
 - O administrador pode realizar consultas para verificar a situação do usuário, se ele possui multas e/ou histórico de empréstimos).
 
 > 04: Realizar consultas de livros no acervo da biblioteca
+
 **_Administrador pode realizar consultas de livros no acervo pesquisando pelo ISBN do livro (código);_**
 - O sistema deverá notificar o status do livro pesquisado (ativo, emprestado, inativo).
 
 > 05: Visualizar livros e exemplares próximos da data de devolução
+
 **_Administrador pode visualizar todos os livros próximos da data de devolução no período de 5 dias;_**
 - O sistema deverá verificar todos os livros com previsão de devolução da data atual a 5 dias e printar as informações do livro e usuário em questão.
 
 > 06: Cadastrar usuário no sistema
+
 **_Administrador pode cadastrar usuário no sistema enviando os dados de nome, nome de usuário, e-mail e senha;_**
 - O e-mail de cadastro é válido contendo "." (ponto) e domínios como (gmail.com, hotmail.com, outlook.com);
 - A senha de cadastro é válida contendo mais de 5 caracteres;
