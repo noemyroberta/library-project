@@ -3,8 +3,10 @@
 
 ## Sumário
 
-<details>
-    <summary>Especificações de Requisitos do Usuário</summary>
+1. [Especificações de Requisitos do Usuário](#Especificações-de-Requisitos-do-Usuário);
+2. [Especificações de Requisitos do Administrador](#Especificações-de-Requisitos-do-Administrador).
+
+## Especificações de Requisitos do Usuário
 
 ### Autenticação :closed_lock_with_key:
 **_Usuário pode efetuar login no sistema utilizando nome de usuário e senha;_**
@@ -34,6 +36,7 @@ O que usuários podem fazer?
 - O usuário deve digitar o código do exemplar para empréstimo.
 
 > 03: Visualizar empréstimos realizados
+
 **_Usuário pode visualizar empréstimos realizados com status de cada empréstimo (devolvido, emprestado, atrasado);_**
 - O sistema deve mostrar o histórico de realizações de empréstimo do usuário;
 - O sistema deve mostrar o status de cada empréstimo realizado;
@@ -64,12 +67,9 @@ _**Usuário deve retornar o livro e/ou exemplar para o acervo da biblioteca;**_
 - O usuário deverá informar o código do livro (ISBN) para devolução ao acervo.
 - O usuário terá uma multa de R$ 3,00/dia, caso ultrapasse o prazo de 15 dias para a devolução do livro;
 - O sistema deve informar se houver atraso e o valor total da multa.
-</details>
 
-<br>
 
-<details>
-<summary>Especificações de Requisitos do Admin</summary>
+## Especificações de Requisitos do Administrador
 
 ### Autenticação :closed_lock_with_key:
 **_Administrador pode efetuar login no sistema utilizando nome de usuário e senha;_**
@@ -111,7 +111,6 @@ _**Usuário deve retornar o livro e/ou exemplar para o acervo da biblioteca;**_
 - O nome de usuário é válido sem "_" (espaço) e sem letras maiúsculas (ASADOWISGBFVKJXCN);
 - O sistema deve notificar indicando para o login caso o e-mail de cadastro já conste no sistema;
 - O sistema deve notificar cadastro reconhecido ou não.
-</details>
 
 ## Licença
 
