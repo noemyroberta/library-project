@@ -8,10 +8,10 @@ public class Fine {
     private int quantityOfDaysLate;
     private Integer fineValue;
 
-    public Fine(User user, Material material, int quantityOfDaysLate, Integer fineValue) {
+    public Fine(User user, Material material, Integer fineValue) {
         this.user = user;
         this.material = material;
-        this.quantityOfDaysLate = quantityOfDaysLate;
+        this.quantityOfDaysLate = 0;
         this.fineValue = fineValue;
     }
 
