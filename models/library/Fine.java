@@ -1,25 +1,37 @@
 package models.library;
 
 import models.auth.User;
+import models.library.observable.FineSubject;
+import utils.DateFormat;
 
 public class Fine {
     private User user;
     private Material material;
-    private int quantityOfDaysLate;
-    private Integer fineValue;
+    private final FineSubject subject;
 
-    public Fine(User user, Material material, int quantityOfDaysLate) {
+    public Fine() {
+        this.subject = new FineSubject();
+    }
+
+    public Fine(User user, Material material, DateFormat returnDate) {
         this.user = user;
         this.material = material;
-        this.quantityOfDaysLate = quantityOfDaysLate;
+        this.subject = new FineSubject();
+        calculateTotalFine(returnDate);
     }
 
-    public Integer totalFine() {
-        return 0;
+    public void calculateTotalFine(DateFormat returnDate) {
+        for (int i = 0; i < DateFormat.getQuantityOfDaysBeforeToday(returnDate); i++) {
+            updateFineValue();
+        }
     }
 
-    public void setFineValue(Integer fineValue) {
-        this.fineValue = fineValue;
+    private void updateFineValue() {
+        this.subject.setState();
+    }
+
+    public Integer getFineValue() {
+        return this.subject.getState();
     }
 
     @Override
@@ -27,8 +39,7 @@ public class Fine {
         return "Fine{" +
                 "user=" + user +
                 ", material=" + material +
-                ", quantityOfDaysLate=" + quantityOfDaysLate +
-                ", fineValue=" + fineValue +
+                ", fineValue=" + getFineValue() +
                 '}';
     }
 }

@@ -1,39 +1,30 @@
 package models.library;
 
 import models.auth.User;
-
-import java.util.Date;
+import utils.DateFormat;
 
 public class Loan {
     private User user;
     private Material material;
-    private Date returnDate;
+    private DateFormat returnDate;
+    private Fine fine;
 
-    public Loan(User user, Material material, Date returnDate) {
+    public Loan(User user, Material material) {
         this.user = user;
         this.material = material;
-        this.returnDate = returnDate;
-        createFine();
+        this.returnDate = new DateFormat();
+        this.fine = createFine();
     }
 
-    private void createFine() {
-        if (isLate()) {
-            Fine fine = new Fine(user, material, getQuantityOfDaysLate());
-            System.out.println(fine.toString());
-            user.addFine(fine);
+    private Fine createFine() {
+        if (DateFormat.isBeforeToday(returnDate)) {
+            Fine fine = new Fine(user, material, returnDate);
+            return fine;
         }
+        return new Fine();
     }
 
-    private boolean isLate() {
-
-        return getQuantityOfDaysLate() > 0;
-    }
-
-    private int getQuantityOfDaysLate() {
-        Date currentDate = new Date(System.currentTimeMillis());
-
-        return (int) ((currentDate.getTime() - returnDate.getTime()));
-    }
+    public Fine getFine() {return fine;}
 
     public User getUser() {
         return user;
@@ -51,11 +42,22 @@ public class Loan {
         this.material = material;
     }
 
-    public Date getReturnDate() {
+    public DateFormat getReturnDate() {
         return returnDate;
     }
 
-    public void setReturnDate(Date returnDate) {
+    public void setReturnDate(DateFormat returnDate) {
         this.returnDate = returnDate;
+        this.fine = createFine();
+    }
+
+    @Override
+    public String toString() {
+        return "Loan{" +
+                "user=" + user +
+                ", material=" + material +
+                ", returnDate=" + returnDate +
+                ", fine=" + fine +
+                '}';
     }
 }
