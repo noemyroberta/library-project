@@ -8,10 +8,10 @@ public class Copy extends Material {
     private ArrayList<Loan> loans;
     private ArrayList<Fine> fines;
 
-    public Copy(String ISBN, String author, DateFormat registerDate, String edition, ArrayList<Loan> loans, ArrayList<Fine> fines) {
+    public Copy(String ISBN, String author, DateFormat registerDate, String edition) {
         super(ISBN, author, registerDate, edition);
-        this.loans = loans;
-        this.fines = fines;
+        this.loans = new ArrayList<Loan>();
+        this.fines = new ArrayList<Fine>();
     }
 
     public ArrayList<Loan> getLoans() {

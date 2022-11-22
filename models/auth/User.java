@@ -23,7 +23,11 @@ public class User extends Person {
 
     public static User getInstance() {
         if (instance == null) {
-            instance = new User();
+            synchronized (User.class) {
+                if (instance == null) {
+                    instance = new User();
+                }
+            }
         }
         return instance;
     }
