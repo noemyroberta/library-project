@@ -6,15 +6,26 @@ import models.library.Loan;
 import java.util.ArrayList;
 
 public class User extends Person {
-    private ArrayList<Loan> loans = new ArrayList<Loan>();
-    private ArrayList<Fine> fines = new ArrayList<Fine>();
+    private ArrayList<Loan> loans;
+    private ArrayList<Fine> fines;
 
-    public User() {}
+    private static User instance = null;
 
-    public User(String name, String email, String username, String password, ArrayList<Loan> loans, ArrayList<Fine> fines) {
+    public User() {
+
+    }
+
+    public User(String name, String email, String username, String password) {
         super(name, email, username, password);
-        this.loans = loans;
-        this.fines = fines;
+        this.loans = new ArrayList<Loan>();
+        this.fines = new ArrayList<Fine>();
+    }
+
+    public static User getInstance() {
+        if (instance == null) {
+            instance = new User();
+        }
+        return instance;
     }
 
     public ArrayList<Loan> getLoans() {
