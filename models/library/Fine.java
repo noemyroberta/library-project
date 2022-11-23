@@ -1,7 +1,7 @@
 package models.library;
 
 import models.auth.User;
-import models.library.observable.FineSubject;
+import models.library.fine_observable.FineSubject;
 import utils.DateFormat;
 
 public class Fine {

@@ -1,4 +1,4 @@
-package models.library.observable;
+package models.library.fine_observable;
 
 public class FineSubject extends Subject {
     private Integer value;
