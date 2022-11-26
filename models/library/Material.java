@@ -8,7 +8,7 @@ public abstract class Material {
     private DateFormat registerDate;
     private String edition;
 
-    public Material(String ISBN, String author, DateFormat registerDate, String edition) {
+    public Material(String ISBN, String author, String edition, DateFormat registerDate) {
         this.ISBN = ISBN;
         this.author = author;
         this.registerDate = registerDate;

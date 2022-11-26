@@ -9,7 +9,7 @@ public class Copy extends Material {
     private ArrayList<Fine> fines;
 
     public Copy(String ISBN, String author, DateFormat registerDate, String edition) {
-        super(ISBN, author, registerDate, edition);
+        super(ISBN, author, edition, registerDate);
         this.loans = new ArrayList<Loan>();
         this.fines = new ArrayList<Fine>();
     }
