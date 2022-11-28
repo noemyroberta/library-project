@@ -29,8 +29,10 @@ public class Login implements ILogin {
             if (loginType.equals("admin")) {
                 if (AdminRepository.getAdminByCredentials(username, password) != null) {
                     System.out.println("Administrador reconhecido!");
-                    Admin admin = AdminRepository.getAdminByCredentials(username, password);
-                    admin.setIsLoggedIn(true);
+                    Admin adminFound = AdminRepository.getAdminByCredentials(username, password);
+
+                    Admin instance = Admin.getInstance();
+                    turnOnAsInstance(adminFound, instance);
                 } else {
                     System.out.println("Administrador não reconhecido. Favor, logar como usuário");
                 }
@@ -39,13 +41,9 @@ public class Login implements ILogin {
                 if (UserRepository.getUserByCredentials(username, password) != null) {
                     System.out.println("Usuário reconhecido!");
                     User userFound = UserRepository.getUserByCredentials(username, password);
-                    User instance = User.getInstance();
 
-                    instance.setName(userFound.getName());
-                    instance.setUsername(userFound.getUsername());
-                    instance.setPassword(userFound.getPassword());
-                    instance.setEmail(userFound.getEmail());
-                    instance.setIsLoggedIn(true);
+                    User instance = User.getInstance();
+                    turnOnAsInstance(userFound, instance);
                 } else {
                     System.out.println("Usuário não reconhecido. Favor, logar como administrador");
                 }
@@ -56,7 +54,6 @@ public class Login implements ILogin {
             System.exit(0);
         }
     }
-
 
     private boolean checkRegisterExist(String username, String password) {
         boolean isUser = UserRepository.getUserByCredentials(username, password) != null;
@@ -69,5 +66,14 @@ public class Login implements ILogin {
         }
 
         return true;
+    }
+
+
+    private void turnOnAsInstance(Person found, Person instance) {
+        instance.setName(found.getName());
+        instance.setUsername(found.getUsername());
+        instance.setPassword(found.getPassword());
+        instance.setEmail(found.getEmail());
+        instance.setIsLoggedIn(true);
     }
 }
