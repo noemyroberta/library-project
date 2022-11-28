@@ -5,12 +5,14 @@ import models.library.fine_observable.FineSubject;
 import utils.DateFormat;
 
 public class Fine {
+    private int id = 0;
     private User user;
     private Material material;
     private final FineSubject subject;
 
     public Fine() {
         this.subject = new FineSubject();
+        id += 1;
     }
 
     public Fine(User user, Material material, DateFormat returnDate) {
@@ -18,12 +20,17 @@ public class Fine {
         this.material = material;
         this.subject = new FineSubject();
         calculateTotalFine(returnDate);
+        id += 1;
     }
 
     public void calculateTotalFine(DateFormat returnDate) {
         for (int i = 0; i < DateFormat.getQuantityOfDaysBeforeToday(returnDate); i++) {
             updateFineValue();
         }
+    }
+
+    public int getId() {
+        return id;
     }
 
     private void updateFineValue() {
@@ -37,9 +44,10 @@ public class Fine {
     @Override
     public String toString() {
         return "Fine{" +
-                "user=" + user +
+                "id=" + id +
+                ", user=" + user +
                 ", material=" + material +
-                ", fineValue=" + getFineValue() +
+                ", subject=" + subject +
                 '}';
     }
 }

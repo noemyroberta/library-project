@@ -1,7 +1,6 @@
 package repository;
 
 import models.auth.Admin;
-import models.auth.User;
 
 import java.util.ArrayList;
 import java.util.List;
