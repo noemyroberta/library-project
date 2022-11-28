@@ -8,6 +8,7 @@ import java.util.List;
 
 public interface IUserOperation {
     public List<Fine> viewFines();
+    public void payFine();
     public void applyLoan();
     public void returnLoan(Loan loan);
 }

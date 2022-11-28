@@ -8,6 +8,10 @@ public class LibrarySystemFacade {
         return new Login();
     }
 
+    public static IPayFine payFineOperation() {
+        return new PayFine();
+    }
+
     public static IRegisterUser registerUserOperation() {
         return new RegisterUser();
     }

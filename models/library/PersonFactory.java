@@ -10,7 +10,8 @@ public class PersonFactory implements IPersonOperationFactory {
         return new UserOperation(
                 LibrarySystemFacade.viewFinesOperation(),
                 LibrarySystemFacade.applyLoanOperation(),
-                LibrarySystemFacade.returnLoanOperation()
+                LibrarySystemFacade.returnLoanOperation(),
+                LibrarySystemFacade.payFineOperation()
         );
     }
 
