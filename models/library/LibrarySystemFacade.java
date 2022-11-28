@@ -8,6 +8,14 @@ public class LibrarySystemFacade {
         return new Login();
     }
 
+    public static IRegisterUser registerUserOperation() {
+        return new RegisterUser();
+    }
+
+    public static IRegisterMaterial registerMaterialOperation() {
+        return new RegisterMaterial();
+    }
+
     public static IViewFines viewFinesOperation() {
         return new ViewFines();
     }

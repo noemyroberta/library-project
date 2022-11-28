@@ -5,8 +5,8 @@ import utils.DateFormat;
 
 public class Book extends Material {
 
-    public Book(String ISBN, String author, String edition, DateFormat registerDate) {
-        super(ISBN, author, edition, registerDate);
+    public Book(String name, String ISBN, String author, String edition, DateFormat registerDate) {
+        super(name, ISBN, author, edition, registerDate);
     }
 
     @Override

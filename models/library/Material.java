@@ -4,15 +4,25 @@ import utils.DateFormat;
 
 public abstract class Material {
     private String ISBN;
+    private String name;
     private String author;
     private DateFormat registerDate;
     private String edition;
 
-    public Material(String ISBN, String author, String edition, DateFormat registerDate) {
+    public Material(String name, String ISBN, String author, String edition, DateFormat registerDate) {
+        this.name = name;
         this.ISBN = ISBN;
         this.author = author;
         this.registerDate = registerDate;
         this.edition = edition;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getISBN() {

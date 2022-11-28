@@ -6,6 +6,8 @@ public abstract class Person {
     private String username;
     private String password;
 
+    private boolean isLoggedIn = false;
+
     public Person() {
 
     }
@@ -15,6 +17,14 @@ public abstract class Person {
         this.email = email;
         this.username = username;
         this.password = password;
+    }
+
+    public void setIsLoggedIn(boolean isLoggedIn) {
+        this.isLoggedIn = isLoggedIn;
+    }
+
+    public boolean getIsLoggedIn() {
+        return isLoggedIn;
     }
 
     public String getName() {
@@ -47,5 +57,16 @@ public abstract class Person {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", isLoggedIn=" + isLoggedIn +
+                '}';
     }
 }

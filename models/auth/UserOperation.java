@@ -11,21 +11,14 @@ import java.util.List;
 
 public class UserOperation implements IUserOperation {
 
-    private ILogin iLogin;
     private IViewFines iViewFines;
     private IApplyLoan iApplyLoan;
     private IReturnLoan iReturnLoan;
 
-    public UserOperation(ILogin iLogin, IViewFines iViewFines, IApplyLoan iApplyLoan, IReturnLoan iReturnLoan) {
-        this.iLogin = iLogin;
+    public UserOperation(IViewFines iViewFines, IApplyLoan iApplyLoan, IReturnLoan iReturnLoan) {
         this.iViewFines = iViewFines;
         this.iApplyLoan = iApplyLoan;
         this.iReturnLoan = iReturnLoan;
-    }
-
-    @Override
-    public void login() {
-        iLogin.call();
     }
 
     @Override

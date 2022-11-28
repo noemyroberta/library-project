@@ -12,7 +12,8 @@ public class User extends Person {
     private static User instance = null;
 
     public User() {
-
+        this.loans = new ArrayList<Loan>();
+        this.fines = new ArrayList<Fine>();
     }
 
     public User(String name, String email, String username, String password) {
@@ -51,6 +52,7 @@ public class User extends Person {
     @Override
     public String toString() {
         return "User{" +
+                super.toString()+
                 "loans=" + loans +
                 ", fines=" + fines +
                 '}';

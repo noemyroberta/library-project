@@ -21,6 +21,15 @@ public class DateFormat {
         this.year = year;
     }
 
+    public static DateFormat transformString(String date) {
+        String[] splittedDate = date.split("/");
+
+        int day = Integer.parseInt(splittedDate[0]);
+        int month = Integer.parseInt(splittedDate[1]);
+        int year = Integer.parseInt(splittedDate[2]);
+
+        return new DateFormat(day, month, year);
+    }
     public static boolean isBeforeToday(DateFormat date) {
         return getQuantityOfDaysBeforeToday(date) > 0;
     }

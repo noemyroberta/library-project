@@ -8,7 +8,6 @@ public class PersonFactory implements IPersonOperationFactory {
     @Override
     public UserOperation createUser() {
         return new UserOperation(
-                LibrarySystemFacade.loginOperation(),
                 LibrarySystemFacade.viewFinesOperation(),
                 LibrarySystemFacade.applyLoanOperation(),
                 LibrarySystemFacade.returnLoanOperation()
@@ -17,6 +16,9 @@ public class PersonFactory implements IPersonOperationFactory {
 
     @Override
     public AdminOperation createAdmin() {
-        return new AdminOperation();
+        return new AdminOperation(
+                LibrarySystemFacade.registerUserOperation(),
+                LibrarySystemFacade.registerMaterialOperation()
+        );
     }
 }

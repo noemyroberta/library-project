@@ -1,5 +1,5 @@
 package operations;
 
 public interface ILogin {
-    public void call();
+    public void call(String loginType);
 }

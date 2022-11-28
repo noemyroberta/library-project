@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public interface IUserOperation {
-    public void login();
     public List<Fine> viewFines();
     public void applyLoan();
     public void returnLoan(Loan loan);
