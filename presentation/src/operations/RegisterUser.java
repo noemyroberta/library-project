@@ -1,5 +1,6 @@
 package operations;
 
+import exceptions.UserNotValidException;
 import models.auth.User;
 import repository.UserRepository;
 import utils.Validator;
@@ -10,11 +11,12 @@ public class RegisterUser implements IRegisterUser {
     Scanner input = new Scanner(System.in);
 
     @Override
-    public void call() {
-        User newUser = createUserRegister();
+    public void call(String[] data) throws UserNotValidException {
+        User newUser = createUserRegister(data);
 
         if (!validateUserRegister(newUser)) {
-            System.err.println("Usuário não pôde ser criado.");
+            throw new UserNotValidException("Usuário não pôde ser criado."
+                    + "\nVerifique os campos e digite corretamente");
         } else {
             UserRepository.getInstance();
             UserRepository.addUser(newUser);
@@ -22,23 +24,12 @@ public class RegisterUser implements IRegisterUser {
         }
     }
 
-    private User createUserRegister() {
-        System.out.println("");
-        System.out.println("CRIAÇÃO DE USUÁRIO ===============================");
-        System.out.println("Digite o nome completo");
-        String name = input.nextLine();
-        System.out.println("Digite o nome de usuário");
-        String username = input.nextLine();
-        System.out.println("Digite o e-mail do usuário");
-        String email = input.nextLine();
-        System.out.println("Peça para o usuário digitar a senha de acesso");
-        String password = input.nextLine();
-
-        return new User(name, email, username, password);
+    private User createUserRegister(String[] data) {
+        return new User(data[0], data[2], data[1], data[1]);
     }
+    
 
     private boolean validateUserRegister(User newUser) {
-        System.out.println("VALIDANDO DADOS ==============================");
         return Validator.validatePerson(newUser);
     }
 }

@@ -3,19 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package library.project;
+package presentation;
+
+import javax.swing.JOptionPane;
+import models.auth.IAdminOperation;
+import utils.DateFormat;
 
 /**
  *
  * @author cleyf
  */
-public class RegisterBook extends javax.swing.JFrame {
+public class RegisterMaterial extends javax.swing.JFrame {
 
     /**
      * Creates new form RegisterBook
      */
-    public RegisterBook() {
+    private IAdminOperation operation;
+
+    public RegisterMaterial(IAdminOperation operation) {
         initComponents();
+        this.operation = operation;
     }
 
     /**
@@ -32,9 +39,9 @@ public class RegisterBook extends javax.swing.JFrame {
         lblQuantidade = new javax.swing.JLabel();
         txtAutor = new javax.swing.JTextField();
         lblAutor = new javax.swing.JLabel();
-        btnCadastrar = new javax.swing.JButton();
+        btnRegisterMaterial = new javax.swing.JButton();
         txtTitulo = new javax.swing.JTextField();
-        txtEditora = new javax.swing.JTextField();
+        txtEdition = new javax.swing.JTextField();
         lblTitulo = new javax.swing.JLabel();
         lblEditora = new javax.swing.JLabel();
         lblAno = new javax.swing.JLabel();
@@ -68,11 +75,16 @@ public class RegisterBook extends javax.swing.JFrame {
 
         lblAutor.setFont(new java.awt.Font("Futura Md BT", 0, 20)); // NOI18N
         lblAutor.setForeground(new java.awt.Color(255, 255, 255));
-        lblAutor.setText("Autor");
+        lblAutor.setText("Autor/Autora");
 
-        btnCadastrar.setFont(new java.awt.Font("Futura Md BT", 0, 16)); // NOI18N
-        btnCadastrar.setForeground(new java.awt.Color(51, 51, 51));
-        btnCadastrar.setText("Cadastrar");
+        btnRegisterMaterial.setFont(new java.awt.Font("Futura Md BT", 0, 16)); // NOI18N
+        btnRegisterMaterial.setForeground(new java.awt.Color(51, 51, 51));
+        btnRegisterMaterial.setText("Cadastrar");
+        btnRegisterMaterial.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegisterMaterialActionPerformed(evt);
+            }
+        });
 
         txtTitulo.setFont(new java.awt.Font("Futura Md BT", 0, 14)); // NOI18N
         txtTitulo.setForeground(new java.awt.Color(51, 51, 51));
@@ -82,11 +94,11 @@ public class RegisterBook extends javax.swing.JFrame {
             }
         });
 
-        txtEditora.setFont(new java.awt.Font("Futura Md BT", 0, 14)); // NOI18N
-        txtEditora.setForeground(new java.awt.Color(51, 51, 51));
-        txtEditora.addActionListener(new java.awt.event.ActionListener() {
+        txtEdition.setFont(new java.awt.Font("Futura Md BT", 0, 14)); // NOI18N
+        txtEdition.setForeground(new java.awt.Color(51, 51, 51));
+        txtEdition.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtEditoraActionPerformed(evt);
+                txtEditionActionPerformed(evt);
             }
         });
 
@@ -96,7 +108,7 @@ public class RegisterBook extends javax.swing.JFrame {
 
         lblEditora.setFont(new java.awt.Font("Futura Md BT", 0, 20)); // NOI18N
         lblEditora.setForeground(new java.awt.Color(255, 255, 255));
-        lblEditora.setText("Editora");
+        lblEditora.setText("Edição");
 
         lblAno.setFont(new java.awt.Font("Futura Md BT", 0, 20)); // NOI18N
         lblAno.setForeground(new java.awt.Color(255, 255, 255));
@@ -165,7 +177,7 @@ public class RegisterBook extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(lblEditora)
-                            .addComponent(txtEditora, javax.swing.GroupLayout.PREFERRED_SIZE, 366, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtEdition, javax.swing.GroupLayout.PREFERRED_SIZE, 366, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(lblISBN)
                             .addComponent(txtISBN, javax.swing.GroupLayout.PREFERRED_SIZE, 366, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(lblTitulo)
@@ -184,7 +196,7 @@ public class RegisterBook extends javax.swing.JFrame {
                                 .addComponent(btnExemplar)))
                         .addGap(140, 140, 140))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(btnCadastrar, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnRegisterMaterial, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(357, 357, 357))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(lblLivroCadastrado, javax.swing.GroupLayout.PREFERRED_SIZE, 705, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -217,7 +229,7 @@ public class RegisterBook extends javax.swing.JFrame {
                 .addComponent(lblEditora)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtEditora, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtEdition, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnLivro)
                     .addComponent(btnExemplar))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -225,7 +237,7 @@ public class RegisterBook extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txtISBN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(50, 50, 50)
-                .addComponent(btnCadastrar, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnRegisterMaterial, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(lblLivroCadastrado, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(24, Short.MAX_VALUE))
@@ -252,11 +264,11 @@ public class RegisterBook extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnLivroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLivroActionPerformed
-        // TODO add your handling code here:
+        btnExemplar.setSelected(false);
     }//GEN-LAST:event_btnLivroActionPerformed
 
     private void btnExemplarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExemplarActionPerformed
-        // TODO add your handling code here:
+        btnLivro.setSelected(false);
     }//GEN-LAST:event_btnExemplarActionPerformed
 
     private void txtAnoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAnoActionPerformed
@@ -271,9 +283,9 @@ public class RegisterBook extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtISBNActionPerformed
 
-    private void txtEditoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtEditoraActionPerformed
+    private void txtEditionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtEditionActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtEditoraActionPerformed
+    }//GEN-LAST:event_txtEditionActionPerformed
 
     private void txtTituloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTituloActionPerformed
         // TODO add your handling code here:
@@ -283,45 +295,39 @@ public class RegisterBook extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtAutorActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(RegisterBook.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(RegisterBook.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(RegisterBook.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(RegisterBook.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
+    private void btnRegisterMaterialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegisterMaterialActionPerformed
+        String name = txtTitulo.getText();
+        String author = txtAutor.getText();
+        int year = Integer.parseInt(txtAno.getText());
+        String registerDate = "1/1/" + year;
+        String edition = txtEdition.getText();
+        String ISBN = txtISBN.getText();
 
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new RegisterBook().setVisible(true);
-            }
-        });
-    }
+        int quantity = Integer.parseInt(txtQuantidade.getText());
+
+        String materialType;
+        if (btnExemplar.isSelected()) {
+            materialType = "Exemplar";
+
+        } else {
+            materialType = "Livro";
+
+        }
+
+        String[] data = {name, ISBN, author, edition, registerDate, materialType};
+        try {
+            operation.registerMaterial(data, quantity);
+            JOptionPane.showMessageDialog(null, "Material cadastrado com sucesso!");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }//GEN-LAST:event_btnRegisterMaterialActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnCadastrar;
     private javax.swing.JRadioButton btnExemplar;
     private javax.swing.JRadioButton btnLivro;
+    private javax.swing.JButton btnRegisterMaterial;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lblAno;
     private javax.swing.JLabel lblAutor;
@@ -333,7 +339,7 @@ public class RegisterBook extends javax.swing.JFrame {
     private javax.swing.JLabel lblTitulo;
     private javax.swing.JTextField txtAno;
     private javax.swing.JTextField txtAutor;
-    private javax.swing.JTextField txtEditora;
+    private javax.swing.JTextField txtEdition;
     private javax.swing.JTextField txtISBN;
     private javax.swing.JTextField txtQuantidade;
     private javax.swing.JTextField txtTitulo;

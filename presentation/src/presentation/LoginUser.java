@@ -4,9 +4,7 @@ import exceptions.AdminNotFoundException;
 import exceptions.NoneRegisterException;
 import exceptions.UserNotFoundException;
 import javax.swing.JOptionPane;
-import models.auth.IUserOperation;
 import models.library.LibrarySystemFacade;
-import models.library.PersonFactory;
 
 /**
  *
@@ -18,7 +16,7 @@ public class LoginUser extends javax.swing.JFrame {
         initComponents();
     }
 
-    
+        
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -152,51 +150,16 @@ public class LoginUser extends javax.swing.JFrame {
         
         try {
             LibrarySystemFacade.loginOperation().call("user", username, password);
-            lblMensagem.setText("Login efetuado com sucesso!");
+            JOptionPane.showMessageDialog(null, "Login efetuado com sucesso!");
             
-            IUserOperation as = new PersonFactory().createUser();
+            new ControlUserPanel().setVisible(true);
         } catch (AdminNotFoundException | UserNotFoundException | NoneRegisterException ex) {
             JOptionPane.showMessageDialog(null, ex.getMessage());
             lblMensagem.setText("");
         }
     }//GEN-LAST:event_btnLoginActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
-    public void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(LoginUser.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(LoginUser.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(LoginUser.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(LoginUser.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new LoginUser().setVisible(true);
-            }
-        });
-    }
-
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnLogin;
     private javax.swing.JLabel jLabel2;

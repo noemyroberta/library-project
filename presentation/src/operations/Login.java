@@ -30,7 +30,9 @@ public class Login implements ILogin {
                     User userFound = UserRepository.getUserByCredentials(username, password);
 
                     User instance = User.getInstance();
+                    
                     turnOnAsInstance(userFound, instance);
+                    System.out.println(instance.toString());
                 } else {
                     throw new UserNotFoundException("Usuário não reconhecido. Favor, logar como administrador.");
                 }

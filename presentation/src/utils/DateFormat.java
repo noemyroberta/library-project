@@ -32,6 +32,19 @@ public class DateFormat {
 
         return new DateFormat(day, month, year);
     }
+
+    public int getDay() {
+        return day;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public int getYear() {
+        return year;
+    }
+    
     public static boolean isBeforeToday(DateFormat date) {
         return getQuantityOfDaysBeforeToday(date) > 0;
     }

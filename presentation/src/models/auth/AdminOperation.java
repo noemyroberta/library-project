@@ -1,5 +1,6 @@
 package models.auth;
 
+import exceptions.UserNotValidException;
 import models.library.Material;
 import operations.ILogin;
 import operations.IRegisterMaterial;
@@ -27,8 +28,8 @@ public class AdminOperation implements IAdminOperation {
     }
 
     @Override
-    public void registerUser() {
-        iRegisterUser.call();
+    public void registerUser(String[] data) throws UserNotValidException {
+        iRegisterUser.call(data);
     }
 
     @Override
