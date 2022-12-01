@@ -1,0 +1,214 @@
+@startuml
+abstract class models.auth.Person
+abstract class models.library.Material
+abstract class models.library.fine_observable.Subject
+class Main
+class exceptions.AdminNotFoundException
+class exceptions.NoneRegisterException
+class exceptions.UserNotFoundException
+class exceptions.UserNotValidException
+class java.lang.Exception
+class java.time.LocalDate
+class java.util.ArrayList
+class java.util.List
+class java.util.Scanner
+class javax.swing.JFrame
+class javax.swing.JOptionPane
+class library.project.ViewFines
+class models.auth.Admin
+class models.auth.AdminOperation
+class models.auth.User
+class models.auth.UserOperation
+class models.library.Book
+class models.library.Copy
+class models.library.Fine
+class models.library.LibrarySystemFacade
+class models.library.Loan
+class models.library.PersonFactory
+class models.library.fine_observable.FineSubject
+class models.library.fine_observable.Observer
+class models.library.fine_payment_strategy.CreditCardPayment
+class models.library.fine_payment_strategy.DebitCardPayment
+class models.library.fine_payment_strategy.GRUPayment
+class operations.ApplyLoan
+class operations.Login
+class operations.PayFine
+class operations.RegisterMaterial
+class operations.RegisterUser
+class operations.ReturnLoan
+class operations.ViewFines
+class presentation.ApplyLoan
+class presentation.ControlAdminPanel
+class presentation.ControlUserPanel
+class presentation.LoginAdmin
+class presentation.LoginUser
+class presentation.Presentation
+class presentation.RegisterMaterial
+class presentation.RegisterUser
+class repository.AdminRepository
+class repository.LoanRepository
+class repository.MaterialRepository
+class repository.UserRepository
+class utils.DateFormat
+class utils.Validator
+enum models.library.StatusLoan
+interface models.auth.IAdminOperation
+interface models.auth.IUserOperation
+interface models.library.IPersonOperationFactory
+interface models.library.fine_observable.IObserver
+interface models.library.fine_observable.ISubject
+interface models.library.fine_payment_strategy.IFinePaymentStrategy
+interface operations.IApplyLoan
+interface operations.ILogin
+interface operations.IPayFine
+interface operations.IRegisterMaterial
+interface operations.IRegisterUser
+interface operations.IReturnLoan
+interface operations.IViewFines
+models.library.Material ..> utils.DateFormat
+models.library.fine_observable.Subject ..> java.util.ArrayList
+models.library.fine_observable.Subject --|> models.library.fine_observable.ISubject
+Main ..> java.util.List
+Main ..> utils.DateFormat
+exceptions.AdminNotFoundException --|> java.lang.Exception
+exceptions.NoneRegisterException --|> java.lang.Exception
+exceptions.UserNotFoundException --|> java.lang.Exception
+exceptions.UserNotValidException --|> java.lang.Exception
+library.project.ViewFines --|> javax.swing.JFrame
+models.auth.Admin --|> models.auth.Person
+models.auth.Admin ..> java.util.ArrayList
+models.auth.Admin ..> models.library.Fine
+models.auth.Admin ..> models.library.Loan
+models.auth.AdminOperation ..> models.library.Material
+models.auth.AdminOperation ..> exceptions.UserNotValidException
+models.auth.AdminOperation ..> java.util.ArrayList
+models.auth.AdminOperation --|> models.auth.IAdminOperation
+models.auth.AdminOperation ..> operations.ILogin
+models.auth.AdminOperation ..> operations.IRegisterMaterial
+models.auth.AdminOperation ..> operations.IRegisterUser
+models.auth.User --|> models.auth.Person
+models.auth.User ..> java.util.ArrayList
+models.auth.User ..> models.library.Fine
+models.auth.User ..> models.library.Loan
+models.auth.UserOperation ..> java.util.List
+models.auth.UserOperation ..> models.library.Fine
+models.auth.UserOperation ..> models.library.Loan
+models.auth.UserOperation --|> models.auth.IUserOperation
+models.library.Book --|> models.library.Material
+models.library.Book ..> utils.DateFormat
+models.library.Copy --|> models.library.Material
+models.library.Copy ..> java.util.ArrayList
+models.library.Copy ..> utils.DateFormat
+models.library.Fine ..> models.auth.User
+models.library.Fine ..> models.library.fine_observable.FineSubject
+models.library.Fine ..> utils.DateFormat
+models.library.Loan ..> models.auth.User
+models.library.Loan ..> utils.DateFormat
+models.library.PersonFactory ..> models.auth.AdminOperation
+models.library.PersonFactory ..> models.auth.UserOperation
+models.library.PersonFactory --|> models.library.IPersonOperationFactory
+models.library.fine_observable.FineSubject --|> models.library.fine_observable.Subject
+models.library.fine_observable.Observer --|> models.library.fine_observable.IObserver
+models.library.fine_payment_strategy.CreditCardPayment ..> java.util.Scanner
+models.library.fine_payment_strategy.CreditCardPayment ..> models.library.Fine
+models.library.fine_payment_strategy.CreditCardPayment --|> models.library.fine_payment_strategy.IFinePaymentStrategy
+models.library.fine_payment_strategy.DebitCardPayment ..> java.util.Scanner
+models.library.fine_payment_strategy.DebitCardPayment ..> models.library.Fine
+models.library.fine_payment_strategy.DebitCardPayment --|> models.library.fine_payment_strategy.IFinePaymentStrategy
+models.library.fine_payment_strategy.GRUPayment ..> java.util.Scanner
+models.library.fine_payment_strategy.GRUPayment ..> models.library.Fine
+models.library.fine_payment_strategy.GRUPayment --|> models.library.fine_payment_strategy.IFinePaymentStrategy
+operations.ApplyLoan ..> models.auth.User
+operations.ApplyLoan ..> models.library.Book
+operations.ApplyLoan ..> models.library.Copy
+operations.ApplyLoan ..> models.library.Loan
+operations.ApplyLoan ..> repository.LoanRepository
+operations.ApplyLoan ..> repository.MaterialRepository
+operations.ApplyLoan --|> operations.IApplyLoan
+operations.Login --|> operations.ILogin
+operations.PayFine ..> java.util.Scanner
+operations.PayFine ..> models.library.Loan
+operations.PayFine ..> repository.LoanRepository
+operations.PayFine --|> operations.IPayFine
+operations.RegisterMaterial ..> models.library.Material
+operations.RegisterMaterial ..> java.util.Scanner
+operations.RegisterMaterial ..> models.library.Book
+operations.RegisterMaterial ..> models.library.Copy
+operations.RegisterMaterial ..> repository.MaterialRepository
+operations.RegisterMaterial ..> utils.DateFormat
+operations.RegisterMaterial --|> operations.IRegisterMaterial
+operations.RegisterUser ..> exceptions.UserNotValidException
+operations.RegisterUser ..> java.util.Scanner
+operations.RegisterUser ..> models.auth.User
+operations.RegisterUser ..> repository.UserRepository
+operations.RegisterUser ..> utils.Validator
+operations.RegisterUser --|> operations.IRegisterUser
+operations.ReturnLoan --|> operations.IReturnLoan
+operations.ViewFines ..> java.util.List
+operations.ViewFines ..> models.library.Fine
+operations.ViewFines --|> operations.IViewFines
+presentation.ApplyLoan ..> models.library.Material
+presentation.ApplyLoan --|> javax.swing.JFrame
+presentation.ApplyLoan ..> repository.MaterialRepository
+presentation.ApplyLoan ..> utils.DateFormat
+presentation.ApplyLoan ..> models.auth.IUserOperation
+presentation.ControlAdminPanel --|> javax.swing.JFrame
+presentation.ControlAdminPanel ..> models.library.PersonFactory
+presentation.ControlAdminPanel ..> models.auth.IAdminOperation
+presentation.ControlUserPanel --|> javax.swing.JFrame
+presentation.ControlUserPanel ..> models.auth.User
+presentation.ControlUserPanel ..> models.library.PersonFactory
+presentation.ControlUserPanel ..> models.auth.IUserOperation
+presentation.LoginAdmin ..> exceptions.AdminNotFoundException
+presentation.LoginAdmin ..> exceptions.NoneRegisterException
+presentation.LoginAdmin ..> exceptions.UserNotFoundException
+presentation.LoginAdmin --|> javax.swing.JFrame
+presentation.LoginAdmin ..> javax.swing.JOptionPane
+presentation.LoginUser ..> exceptions.AdminNotFoundException
+presentation.LoginUser ..> exceptions.NoneRegisterException
+presentation.LoginUser ..> exceptions.UserNotFoundException
+presentation.LoginUser --|> javax.swing.JFrame
+presentation.LoginUser ..> javax.swing.JOptionPane
+presentation.LoginUser ..> models.library.LibrarySystemFacade
+presentation.Presentation --|> javax.swing.JFrame
+presentation.RegisterMaterial --|> javax.swing.JFrame
+presentation.RegisterMaterial ..> javax.swing.JOptionPane
+presentation.RegisterMaterial ..> utils.DateFormat
+presentation.RegisterMaterial ..> models.auth.IAdminOperation
+presentation.RegisterUser ..> exceptions.UserNotValidException
+presentation.RegisterUser ..> java.util.List
+presentation.RegisterUser --|> javax.swing.JFrame
+presentation.RegisterUser ..> javax.swing.JOptionPane
+presentation.RegisterUser ..> models.auth.IAdminOperation
+repository.AdminRepository ..> java.util.ArrayList
+repository.AdminRepository ..> java.util.List
+repository.AdminRepository ..> models.auth.Admin
+repository.LoanRepository ..> java.util.ArrayList
+repository.LoanRepository ..> java.util.List
+repository.LoanRepository ..> utils.DateFormat
+repository.MaterialRepository ..> models.library.Material
+repository.MaterialRepository ..> java.util.ArrayList
+repository.MaterialRepository ..> java.util.List
+repository.MaterialRepository ..> models.library.Book
+repository.MaterialRepository ..> utils.DateFormat
+repository.UserRepository ..> java.util.ArrayList
+repository.UserRepository ..> java.util.List
+repository.UserRepository ..> models.auth.Admin
+repository.UserRepository ..> models.auth.User
+utils.DateFormat ..> java.time.LocalDate
+utils.DateFormat ..> java.util.ArrayList
+utils.DateFormat ..> java.util.List
+utils.Validator ..> models.auth.Person
+models.auth.IAdminOperation ..> models.library.Material
+models.auth.IAdminOperation ..> exceptions.UserNotValidException
+models.auth.IAdminOperation ..> java.util.ArrayList
+models.auth.IUserOperation ..> java.util.List
+models.auth.IUserOperation ..> models.library.Fine
+models.auth.IUserOperation ..> models.library.Loan
+models.library.IPersonOperationFactory ..> models.auth.AdminOperation
+models.library.IPersonOperationFactory ..> models.auth.UserOperation
+models.library.fine_payment_strategy.IFinePaymentStrategy ..> models.library.Fine
+operations.IRegisterUser ..> exceptions.UserNotValidException
+operations.IViewFines ..> java.util.List
+operations.IViewFines ..> models.library.Fine
+@enduml

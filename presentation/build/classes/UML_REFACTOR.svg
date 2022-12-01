@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="604px" preserveAspectRatio="none" style="width:5769px;height:604px;" version="1.1" viewBox="0 0 5769 604" width="5769px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fl77z8ibdxyxl" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--MD5=[88c494735ad32c4d4af4f52c1d3539dc]
+cluster models.auth-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="3911,129,4014,129,4021,151.2969,4435,151.2969,4435,351,3911,351,3911,129" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="3911" x2="4021" y1="151.2969" y2="151.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="97" x="3915" y="143.9951">models.auth</text>
+        <!--MD5=[89678455486d3792fffd3077bb829fb7]
+cluster models.library-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="2804,252,2922,252,2929,274.2969,3682,274.2969,3682,474,2804,474,2804,252" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="2804" x2="2929" y1="274.2969" y2="274.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="112" x="2808" y="266.9951">models.library</text>
+        <!--MD5=[c164c068e42fda569326d5e25d1cd8d7]
+cluster models.library.fine_observable-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="16,252,264,252,271,274.2969,277,274.2969,277,597,16,597,16,252" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="271" y1="274.2969" y2="274.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="242" x="20" y="266.9951">models.library.fine_observable</text>
+        <!--MD5=[63c4650f895c02f012fb57dede53fb60]
+cluster exceptions-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="4793,252,4886,252,4893,274.2969,5658,274.2969,5658,351,4793,351,4793,252" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="4793" x2="4893" y1="274.2969" y2="274.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="87" x="4797" y="266.9951">exceptions</text>
+        <!--MD5=[aa8f7b917213fcc1c2766e2d59b49067]
+cluster java.lang-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="5153,375,5228,375,5235,397.2969,5277,397.2969,5277,474,5153,474,5153,375" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="5153" x2="5235" y1="397.2969" y2="397.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="69" x="5157" y="389.9951">java.lang</text>
+        <!--MD5=[5ede147e9e122c363c3337daa7824069]
+cluster java.time-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="2525,498,2601,498,2608,520.2969,2651,520.2969,2651,597,2525,597,2525,498" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="2525" x2="2608" y1="520.2969" y2="520.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="70" x="2529" y="512.9951">java.time</text>
+        <!--MD5=[7db3c59d38ae5b37b484eb2df9368145]
+cluster java.util-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="1523,498,1589,498,1596,520.2969,1848,520.2969,1848,597,1523,597,1523,498" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="1523" x2="1596" y1="520.2969" y2="520.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="60" x="1527" y="512.9951">java.util</text>
+        <!--MD5=[535aab4de90d4dfa371a9b40d5438fc3]
+cluster javax.swing-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="5503,129,5601,129,5608,151.2969,5752,151.2969,5752,228,5503,228,5503,129" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="5503" x2="5608" y1="151.2969" y2="151.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="92" x="5507" y="143.9951">javax.swing</text>
+        <!--MD5=[224144d1a666d0b0fa93f460bd080f7a]
+cluster library.project-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="5615,6,5732,6,5739,28.2969,5742,28.2969,5742,105,5615,105,5615,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="5615" x2="5739" y1="28.2969" y2="28.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5619" y="20.9951">library.project</text>
+        <!--MD5=[da7ad0b3d6b10eba46af16be90300166]
+cluster models.library.fine_payment_strategy-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="321,6,622,6,629,28.2969,835,28.2969,835,228,321,228,321,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="321" x2="629" y1="28.2969" y2="28.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="295" x="325" y="20.9951">models.library.fine_payment_strategy</text>
+        <!--MD5=[1b930b9c55a10694ee42f2859f87174c]
+cluster operations-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="1406,6,1497,6,1504,28.2969,2355,28.2969,2355,228,1406,228,1406,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="1406" x2="1504" y1="28.2969" y2="28.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="85" x="1410" y="20.9951">operations</text>
+        <!--MD5=[3dcf69e4e87a10af00fce8354034ba4c]
+cluster presentation-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="4368,6,4475,6,4482,28.2969,5591,28.2969,5591,105,4368,105,4368,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="4368" x2="4482" y1="28.2969" y2="28.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="101" x="4372" y="20.9951">presentation</text>
+        <!--MD5=[bd0bd4c41e0e5269e37474fd45a6abb7]
+cluster repository-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="2379,129,2467,129,2474,151.2969,3056,151.2969,3056,228,2379,228,2379,129" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="2379" x2="2474" y1="151.2969" y2="151.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="2383" y="143.9951">repository</text>
+        <!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils-->
+        <polygon fill="#FFFFFF" filter="url(#fl77z8ibdxyxl)" points="2519,375,2558,375,2565,397.2969,2780,397.2969,2780,474,2519,474,2519,375" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="2519" x2="2565" y1="397.2969" y2="397.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="33" x="2523" y="389.9951">utils</text>
+        <!--MD5=[12cef4944dfe1899d4b6266da27f014d]
+class models.auth.Person-->
+        <rect codeLine="1" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.auth.Person" style="stroke:#A80036;stroke-width:1.5;" width="76" x="4011" y="287"/>
+        <ellipse cx="4026" cy="303" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M4026.1094,298.3438 L4024.9531,303.4219 L4027.2813,303.4219 L4026.1094,298.3438 Z M4024.625,296.1094 L4027.6094,296.1094 L4030.9688,308.5 L4028.5156,308.5 L4027.75,305.4375 L4024.4688,305.4375 L4023.7188,308.5 L4021.2813,308.5 L4024.625,296.1094 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="44" x="4040" y="307.1543">Person</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4012" x2="4086" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4012" x2="4086" y1="327" y2="327"/>
+        <!--MD5=[4bf383f822569719d8fc58a1fef87704]
+class models.auth.Admin-->
+        <rect codeLine="17" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.auth.Admin" style="stroke:#A80036;stroke-width:1.5;" width="70" x="3927" y="164"/>
+        <ellipse cx="3942" cy="180" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3944.9688,185.6406 Q3944.3906,185.9375 3943.75,186.0781 Q3943.1094,186.2344 3942.4063,186.2344 Q3939.9063,186.2344 3938.5781,184.5938 Q3937.2656,182.9375 3937.2656,179.8125 Q3937.2656,176.6875 3938.5781,175.0313 Q3939.9063,173.375 3942.4063,173.375 Q3943.1094,173.375 3943.75,173.5313 Q3944.4063,173.6875 3944.9688,173.9844 L3944.9688,176.7031 Q3944.3438,176.125 3943.75,175.8594 Q3943.1563,175.5781 3942.5313,175.5781 Q3941.1875,175.5781 3940.5,176.6563 Q3939.8125,177.7188 3939.8125,179.8125 Q3939.8125,181.9063 3940.5,182.9844 Q3941.1875,184.0469 3942.5313,184.0469 Q3943.1563,184.0469 3943.75,183.7813 Q3944.3438,183.5 3944.9688,182.9219 L3944.9688,185.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="3956" y="184.1543">Admin</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3928" x2="3996" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3928" x2="3996" y1="204" y2="204"/>
+        <!--MD5=[dc1fb9524c7107c8e52f2bb2d221ffb6]
+class models.auth.AdminOperation-->
+        <rect codeLine="18" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.auth.AdminOperation" style="stroke:#A80036;stroke-width:1.5;" width="132" x="4287" y="164"/>
+        <ellipse cx="4302" cy="180" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M4304.9688,185.6406 Q4304.3906,185.9375 4303.75,186.0781 Q4303.1094,186.2344 4302.4063,186.2344 Q4299.9063,186.2344 4298.5781,184.5938 Q4297.2656,182.9375 4297.2656,179.8125 Q4297.2656,176.6875 4298.5781,175.0313 Q4299.9063,173.375 4302.4063,173.375 Q4303.1094,173.375 4303.75,173.5313 Q4304.4063,173.6875 4304.9688,173.9844 L4304.9688,176.7031 Q4304.3438,176.125 4303.75,175.8594 Q4303.1563,175.5781 4302.5313,175.5781 Q4301.1875,175.5781 4300.5,176.6563 Q4299.8125,177.7188 4299.8125,179.8125 Q4299.8125,181.9063 4300.5,182.9844 Q4301.1875,184.0469 4302.5313,184.0469 Q4303.1563,184.0469 4303.75,183.7813 Q4304.3438,183.5 4304.9688,182.9219 L4304.9688,185.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="100" x="4316" y="184.1543">AdminOperation</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4288" x2="4418" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4288" x2="4418" y1="204" y2="204"/>
+        <!--MD5=[6daf3c32d61419bb4fd71502be10bf2f]
+class models.auth.User-->
+        <rect codeLine="19" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.auth.User" style="stroke:#A80036;stroke-width:1.5;" width="61" x="4032.5" y="164"/>
+        <ellipse cx="4047.5" cy="180" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M4050.4688,185.6406 Q4049.8906,185.9375 4049.25,186.0781 Q4048.6094,186.2344 4047.9063,186.2344 Q4045.4063,186.2344 4044.0781,184.5938 Q4042.7656,182.9375 4042.7656,179.8125 Q4042.7656,176.6875 4044.0781,175.0313 Q4045.4063,173.375 4047.9063,173.375 Q4048.6094,173.375 4049.25,173.5313 Q4049.9063,173.6875 4050.4688,173.9844 L4050.4688,176.7031 Q4049.8438,176.125 4049.25,175.8594 Q4048.6563,175.5781 4048.0313,175.5781 Q4046.6875,175.5781 4046,176.6563 Q4045.3125,177.7188 4045.3125,179.8125 Q4045.3125,181.9063 4046,182.9844 Q4046.6875,184.0469 4048.0313,184.0469 Q4048.6563,184.0469 4049.25,183.7813 Q4049.8438,183.5 4050.4688,182.9219 L4050.4688,185.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="29" x="4061.5" y="184.1543">User</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4033.5" x2="4092.5" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4033.5" x2="4092.5" y1="204" y2="204"/>
+        <!--MD5=[f2d3ed0f7df22b2f8a440d6a0c3b01b6]
+class models.auth.UserOperation-->
+        <rect codeLine="20" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.auth.UserOperation" style="stroke:#A80036;stroke-width:1.5;" width="123" x="4128.5" y="164"/>
+        <ellipse cx="4143.5" cy="180" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M4146.4688,185.6406 Q4145.8906,185.9375 4145.25,186.0781 Q4144.6094,186.2344 4143.9063,186.2344 Q4141.4063,186.2344 4140.0781,184.5938 Q4138.7656,182.9375 4138.7656,179.8125 Q4138.7656,176.6875 4140.0781,175.0313 Q4141.4063,173.375 4143.9063,173.375 Q4144.6094,173.375 4145.25,173.5313 Q4145.9063,173.6875 4146.4688,173.9844 L4146.4688,176.7031 Q4145.8438,176.125 4145.25,175.8594 Q4144.6563,175.5781 4144.0313,175.5781 Q4142.6875,175.5781 4142,176.6563 Q4141.3125,177.7188 4141.3125,179.8125 Q4141.3125,181.9063 4142,182.9844 Q4142.6875,184.0469 4144.0313,184.0469 Q4144.6563,184.0469 4145.25,183.7813 Q4145.8438,183.5 4146.4688,182.9219 L4146.4688,185.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="91" x="4157.5" y="184.1543">UserOperation</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4129.5" x2="4250.5" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4129.5" x2="4250.5" y1="204" y2="204"/>
+        <!--MD5=[ee1b87e2c811a981cdf738dbfd6ad24a]
+class models.auth.IAdminOperation-->
+        <rect codeLine="54" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.auth.IAdminOperation" style="stroke:#A80036;stroke-width:1.5;" width="135" x="4283.5" y="287"/>
+        <ellipse cx="4298.5" cy="303" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M4294.4219,298.7656 L4294.4219,296.6094 L4301.8125,296.6094 L4301.8125,298.7656 L4299.3438,298.7656 L4299.3438,306.8438 L4301.8125,306.8438 L4301.8125,309 L4294.4219,309 L4294.4219,306.8438 L4296.8906,306.8438 L4296.8906,298.7656 L4294.4219,298.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="103" x="4312.5" y="307.1543">IAdminOperation</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4284.5" x2="4417.5" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4284.5" x2="4417.5" y1="327" y2="327"/>
+        <!--MD5=[ef3cead2fbf9b27a2ed8b1a2cbe6a610]
+class models.auth.IUserOperation-->
+        <rect codeLine="55" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.auth.IUserOperation" style="stroke:#A80036;stroke-width:1.5;" width="126" x="4122" y="287"/>
+        <ellipse cx="4137" cy="303" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M4132.9219,298.7656 L4132.9219,296.6094 L4140.3125,296.6094 L4140.3125,298.7656 L4137.8438,298.7656 L4137.8438,306.8438 L4140.3125,306.8438 L4140.3125,309 L4132.9219,309 L4132.9219,306.8438 L4135.3906,306.8438 L4135.3906,298.7656 L4132.9219,298.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="94" x="4151" y="307.1543">IUserOperation</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4123" x2="4247" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4123" x2="4247" y1="327" y2="327"/>
+        <!--MD5=[4f7301fabf962676974756069f902919]
+class models.library.Material-->
+        <rect codeLine="2" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.Material" style="stroke:#A80036;stroke-width:1.5;" width="82" x="3092" y="410"/>
+        <ellipse cx="3107" cy="426" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3107.1094,421.3438 L3105.9531,426.4219 L3108.2813,426.4219 L3107.1094,421.3438 Z M3105.625,419.1094 L3108.6094,419.1094 L3111.9688,431.5 L3109.5156,431.5 L3108.75,428.4375 L3105.4688,428.4375 L3104.7188,431.5 L3102.2813,431.5 L3105.625,419.1094 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="3121" y="430.1543">Material</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3093" x2="3173" y1="442" y2="442"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3093" x2="3173" y1="450" y2="450"/>
+        <!--MD5=[23e8eccaccf87c076b877d11b0ac1eac]
+class models.library.Book-->
+        <rect codeLine="21" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.Book" style="stroke:#A80036;stroke-width:1.5;" width="63" x="3052.5" y="287"/>
+        <ellipse cx="3067.5" cy="303" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3070.4688,308.6406 Q3069.8906,308.9375 3069.25,309.0781 Q3068.6094,309.2344 3067.9063,309.2344 Q3065.4063,309.2344 3064.0781,307.5938 Q3062.7656,305.9375 3062.7656,302.8125 Q3062.7656,299.6875 3064.0781,298.0313 Q3065.4063,296.375 3067.9063,296.375 Q3068.6094,296.375 3069.25,296.5313 Q3069.9063,296.6875 3070.4688,296.9844 L3070.4688,299.7031 Q3069.8438,299.125 3069.25,298.8594 Q3068.6563,298.5781 3068.0313,298.5781 Q3066.6875,298.5781 3066,299.6563 Q3065.3125,300.7188 3065.3125,302.8125 Q3065.3125,304.9063 3066,305.9844 Q3066.6875,307.0469 3068.0313,307.0469 Q3068.6563,307.0469 3069.25,306.7813 Q3069.8438,306.5 3070.4688,305.9219 L3070.4688,308.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="31" x="3081.5" y="307.1543">Book</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3053.5" x2="3114.5" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3053.5" x2="3114.5" y1="327" y2="327"/>
+        <!--MD5=[e3869acbf707fb8f1af2216652d61e7f]
+class models.library.Copy-->
+        <rect codeLine="22" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.Copy" style="stroke:#A80036;stroke-width:1.5;" width="62" x="3151" y="287"/>
+        <ellipse cx="3166" cy="303" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3168.9688,308.6406 Q3168.3906,308.9375 3167.75,309.0781 Q3167.1094,309.2344 3166.4063,309.2344 Q3163.9063,309.2344 3162.5781,307.5938 Q3161.2656,305.9375 3161.2656,302.8125 Q3161.2656,299.6875 3162.5781,298.0313 Q3163.9063,296.375 3166.4063,296.375 Q3167.1094,296.375 3167.75,296.5313 Q3168.4063,296.6875 3168.9688,296.9844 L3168.9688,299.7031 Q3168.3438,299.125 3167.75,298.8594 Q3167.1563,298.5781 3166.5313,298.5781 Q3165.1875,298.5781 3164.5,299.6563 Q3163.8125,300.7188 3163.8125,302.8125 Q3163.8125,304.9063 3164.5,305.9844 Q3165.1875,307.0469 3166.5313,307.0469 Q3167.1563,307.0469 3167.75,306.7813 Q3168.3438,306.5 3168.9688,305.9219 L3168.9688,308.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="30" x="3180" y="307.1543">Copy</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3152" x2="3212" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3152" x2="3212" y1="327" y2="327"/>
+        <!--MD5=[d50db40f728a8aa7f71677877c4eca3e]
+class models.library.Fine-->
+        <rect codeLine="23" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.Fine" style="stroke:#A80036;stroke-width:1.5;" width="58" x="2959" y="287"/>
+        <ellipse cx="2974" cy="303" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2976.9688,308.6406 Q2976.3906,308.9375 2975.75,309.0781 Q2975.1094,309.2344 2974.4063,309.2344 Q2971.9063,309.2344 2970.5781,307.5938 Q2969.2656,305.9375 2969.2656,302.8125 Q2969.2656,299.6875 2970.5781,298.0313 Q2971.9063,296.375 2974.4063,296.375 Q2975.1094,296.375 2975.75,296.5313 Q2976.4063,296.6875 2976.9688,296.9844 L2976.9688,299.7031 Q2976.3438,299.125 2975.75,298.8594 Q2975.1563,298.5781 2974.5313,298.5781 Q2973.1875,298.5781 2972.5,299.6563 Q2971.8125,300.7188 2971.8125,302.8125 Q2971.8125,304.9063 2972.5,305.9844 Q2973.1875,307.0469 2974.5313,307.0469 Q2975.1563,307.0469 2975.75,306.7813 Q2976.3438,306.5 2976.9688,305.9219 L2976.9688,308.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="2988" y="307.1543">Fine</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2960" x2="3016" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2960" x2="3016" y1="327" y2="327"/>
+        <!--MD5=[fffbdc94653e51360612b92d41ea278b]
+class models.library.LibrarySystemFacade-->
+        <rect codeLine="24" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.LibrarySystemFacade" style="stroke:#A80036;stroke-width:1.5;" width="164" x="3248" y="287"/>
+        <ellipse cx="3263" cy="303" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3265.9688,308.6406 Q3265.3906,308.9375 3264.75,309.0781 Q3264.1094,309.2344 3263.4063,309.2344 Q3260.9063,309.2344 3259.5781,307.5938 Q3258.2656,305.9375 3258.2656,302.8125 Q3258.2656,299.6875 3259.5781,298.0313 Q3260.9063,296.375 3263.4063,296.375 Q3264.1094,296.375 3264.75,296.5313 Q3265.4063,296.6875 3265.9688,296.9844 L3265.9688,299.7031 Q3265.3438,299.125 3264.75,298.8594 Q3264.1563,298.5781 3263.5313,298.5781 Q3262.1875,298.5781 3261.5,299.6563 Q3260.8125,300.7188 3260.8125,302.8125 Q3260.8125,304.9063 3261.5,305.9844 Q3262.1875,307.0469 3263.5313,307.0469 Q3264.1563,307.0469 3264.75,306.7813 Q3265.3438,306.5 3265.9688,305.9219 L3265.9688,308.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="132" x="3277" y="307.1543">LibrarySystemFacade</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3249" x2="3411" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3249" x2="3411" y1="327" y2="327"/>
+        <!--MD5=[c345f9352cccfd25954c7e5116ff3402]
+class models.library.Loan-->
+        <rect codeLine="25" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.Loan" style="stroke:#A80036;stroke-width:1.5;" width="62" x="3447" y="287"/>
+        <ellipse cx="3462" cy="303" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3464.9688,308.6406 Q3464.3906,308.9375 3463.75,309.0781 Q3463.1094,309.2344 3462.4063,309.2344 Q3459.9063,309.2344 3458.5781,307.5938 Q3457.2656,305.9375 3457.2656,302.8125 Q3457.2656,299.6875 3458.5781,298.0313 Q3459.9063,296.375 3462.4063,296.375 Q3463.1094,296.375 3463.75,296.5313 Q3464.4063,296.6875 3464.9688,296.9844 L3464.9688,299.7031 Q3464.3438,299.125 3463.75,298.8594 Q3463.1563,298.5781 3462.5313,298.5781 Q3461.1875,298.5781 3460.5,299.6563 Q3459.8125,300.7188 3459.8125,302.8125 Q3459.8125,304.9063 3460.5,305.9844 Q3461.1875,307.0469 3462.5313,307.0469 Q3463.1563,307.0469 3463.75,306.7813 Q3464.3438,306.5 3464.9688,305.9219 L3464.9688,308.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="30" x="3476" y="307.1543">Loan</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3448" x2="3508" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3448" x2="3508" y1="327" y2="327"/>
+        <!--MD5=[a31de52fca06cb6bb9fef1e99db65379]
+class models.library.PersonFactory-->
+        <rect codeLine="26" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.PersonFactory" style="stroke:#A80036;stroke-width:1.5;" width="122" x="3544" y="287"/>
+        <ellipse cx="3559" cy="303" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3561.9688,308.6406 Q3561.3906,308.9375 3560.75,309.0781 Q3560.1094,309.2344 3559.4063,309.2344 Q3556.9063,309.2344 3555.5781,307.5938 Q3554.2656,305.9375 3554.2656,302.8125 Q3554.2656,299.6875 3555.5781,298.0313 Q3556.9063,296.375 3559.4063,296.375 Q3560.1094,296.375 3560.75,296.5313 Q3561.4063,296.6875 3561.9688,296.9844 L3561.9688,299.7031 Q3561.3438,299.125 3560.75,298.8594 Q3560.1563,298.5781 3559.5313,298.5781 Q3558.1875,298.5781 3557.5,299.6563 Q3556.8125,300.7188 3556.8125,302.8125 Q3556.8125,304.9063 3557.5,305.9844 Q3558.1875,307.0469 3559.5313,307.0469 Q3560.1563,307.0469 3560.75,306.7813 Q3561.3438,306.5 3561.9688,305.9219 L3561.9688,308.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="90" x="3573" y="307.1543">PersonFactory</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3545" x2="3665" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3545" x2="3665" y1="327" y2="327"/>
+        <!--MD5=[08a9280bbc5baa4807b2e00eb09f40fb]
+class models.library.StatusLoan-->
+        <rect codeLine="53" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.StatusLoan" style="stroke:#A80036;stroke-width:1.5;" width="103" x="2820.5" y="287"/>
+        <ellipse cx="2835.5" cy="303" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2839.6094,309 L2831.8906,309 L2831.8906,296.6094 L2839.6094,296.6094 L2839.6094,298.7656 L2834.3438,298.7656 L2834.3438,301.4375 L2839.1094,301.4375 L2839.1094,303.5938 L2834.3438,303.5938 L2834.3438,306.8438 L2839.6094,306.8438 L2839.6094,309 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="2849.5" y="307.1543">StatusLoan</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2821.5" x2="2922.5" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2821.5" x2="2922.5" y1="327" y2="327"/>
+        <!--MD5=[873b5e61bca5d56e22214068a46d9725]
+class models.library.IPersonOperationFactory-->
+        <rect codeLine="56" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.IPersonOperationFactory" style="stroke:#A80036;stroke-width:1.5;" width="187" x="3479.5" y="410"/>
+        <ellipse cx="3494.5" cy="426" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3490.4219,421.7656 L3490.4219,419.6094 L3497.8125,419.6094 L3497.8125,421.7656 L3495.3438,421.7656 L3495.3438,429.8438 L3497.8125,429.8438 L3497.8125,432 L3490.4219,432 L3490.4219,429.8438 L3492.8906,429.8438 L3492.8906,421.7656 L3490.4219,421.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="155" x="3508.5" y="430.1543">IPersonOperationFactory</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3480.5" x2="3665.5" y1="442" y2="442"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3480.5" x2="3665.5" y1="450" y2="450"/>
+        <!--MD5=[fcd9a6a1f7e0a8fe2a81bd055254fcbf]
+class models.library.fine_observable.Subject-->
+        <rect codeLine="3" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.fine_observable.Subject" style="stroke:#A80036;stroke-width:1.5;" width="79" x="174.5" y="410"/>
+        <ellipse cx="189.5" cy="426" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M189.6094,421.3438 L188.4531,426.4219 L190.7813,426.4219 L189.6094,421.3438 Z M188.125,419.1094 L191.1094,419.1094 L194.4688,431.5 L192.0156,431.5 L191.25,428.4375 L187.9688,428.4375 L187.2188,431.5 L184.7813,431.5 L188.125,419.1094 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="47" x="203.5" y="430.1543">Subject</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="175.5" x2="252.5" y1="442" y2="442"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="175.5" x2="252.5" y1="450" y2="450"/>
+        <!--MD5=[70fd8594b4ff2f55b2f767cc7399800e]
+class models.library.fine_observable.FineSubject-->
+        <rect codeLine="27" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.fine_observable.FineSubject" style="stroke:#A80036;stroke-width:1.5;" width="105" x="155.5" y="287"/>
+        <ellipse cx="170.5" cy="303" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M173.4688,308.6406 Q172.8906,308.9375 172.25,309.0781 Q171.6094,309.2344 170.9063,309.2344 Q168.4063,309.2344 167.0781,307.5938 Q165.7656,305.9375 165.7656,302.8125 Q165.7656,299.6875 167.0781,298.0313 Q168.4063,296.375 170.9063,296.375 Q171.6094,296.375 172.25,296.5313 Q172.9063,296.6875 173.4688,296.9844 L173.4688,299.7031 Q172.8438,299.125 172.25,298.8594 Q171.6563,298.5781 171.0313,298.5781 Q169.6875,298.5781 169,299.6563 Q168.3125,300.7188 168.3125,302.8125 Q168.3125,304.9063 169,305.9844 Q169.6875,307.0469 171.0313,307.0469 Q171.6563,307.0469 172.25,306.7813 Q172.8438,306.5 173.4688,305.9219 L173.4688,308.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="184.5" y="307.1543">FineSubject</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="156.5" x2="259.5" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="156.5" x2="259.5" y1="327" y2="327"/>
+        <!--MD5=[bd67cd589895781de1a54ac9b4de5c76]
+class models.library.fine_observable.Observer-->
+        <rect codeLine="28" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.fine_observable.Observer" style="stroke:#A80036;stroke-width:1.5;" width="88" x="32" y="287"/>
+        <ellipse cx="47" cy="303" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M49.9688,308.6406 Q49.3906,308.9375 48.75,309.0781 Q48.1094,309.2344 47.4063,309.2344 Q44.9063,309.2344 43.5781,307.5938 Q42.2656,305.9375 42.2656,302.8125 Q42.2656,299.6875 43.5781,298.0313 Q44.9063,296.375 47.4063,296.375 Q48.1094,296.375 48.75,296.5313 Q49.4063,296.6875 49.9688,296.9844 L49.9688,299.7031 Q49.3438,299.125 48.75,298.8594 Q48.1563,298.5781 47.5313,298.5781 Q46.1875,298.5781 45.5,299.6563 Q44.8125,300.7188 44.8125,302.8125 Q44.8125,304.9063 45.5,305.9844 Q46.1875,307.0469 47.5313,307.0469 Q48.1563,307.0469 48.75,306.7813 Q49.3438,306.5 49.9688,305.9219 L49.9688,308.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="61" y="307.1543">Observer</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="119" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="119" y1="327" y2="327"/>
+        <!--MD5=[da6089a39a1a0ddb192174b721e4755d]
+class models.library.fine_observable.IObserver-->
+        <rect codeLine="57" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.fine_observable.IObserver" style="stroke:#A80036;stroke-width:1.5;" width="91" x="32.5" y="410"/>
+        <ellipse cx="47.5" cy="426" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M43.4219,421.7656 L43.4219,419.6094 L50.8125,419.6094 L50.8125,421.7656 L48.3438,421.7656 L48.3438,429.8438 L50.8125,429.8438 L50.8125,432 L43.4219,432 L43.4219,429.8438 L45.8906,429.8438 L45.8906,421.7656 L43.4219,421.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="59" x="61.5" y="430.1543">IObserver</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="122.5" y1="442" y2="442"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="122.5" y1="450" y2="450"/>
+        <!--MD5=[6fac5922f54b4bd5ca89554bcdbabeef]
+class models.library.fine_observable.ISubject-->
+        <rect codeLine="58" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.fine_observable.ISubject" style="stroke:#A80036;stroke-width:1.5;" width="82" x="173" y="533"/>
+        <ellipse cx="188" cy="549" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M183.9219,544.7656 L183.9219,542.6094 L191.3125,542.6094 L191.3125,544.7656 L188.8438,544.7656 L188.8438,552.8438 L191.3125,552.8438 L191.3125,555 L183.9219,555 L183.9219,552.8438 L186.3906,552.8438 L186.3906,544.7656 L183.9219,544.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="202" y="553.1543">ISubject</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="174" x2="254" y1="565" y2="565"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="174" x2="254" y1="573" y2="573"/>
+        <!--MD5=[ccc18db2ae6ace7c5c13eacb12cbb50b]
+class exceptions.AdminNotFoundException-->
+        <rect codeLine="5" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="exceptions.AdminNotFoundException" style="stroke:#A80036;stroke-width:1.5;" width="192" x="5450" y="287"/>
+        <ellipse cx="5465" cy="303" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M5467.9688,308.6406 Q5467.3906,308.9375 5466.75,309.0781 Q5466.1094,309.2344 5465.4063,309.2344 Q5462.9063,309.2344 5461.5781,307.5938 Q5460.2656,305.9375 5460.2656,302.8125 Q5460.2656,299.6875 5461.5781,298.0313 Q5462.9063,296.375 5465.4063,296.375 Q5466.1094,296.375 5466.75,296.5313 Q5467.4063,296.6875 5467.9688,296.9844 L5467.9688,299.7031 Q5467.3438,299.125 5466.75,298.8594 Q5466.1563,298.5781 5465.5313,298.5781 Q5464.1875,298.5781 5463.5,299.6563 Q5462.8125,300.7188 5462.8125,302.8125 Q5462.8125,304.9063 5463.5,305.9844 Q5464.1875,307.0469 5465.5313,307.0469 Q5466.1563,307.0469 5466.75,306.7813 Q5467.3438,306.5 5467.9688,305.9219 L5467.9688,308.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="160" x="5479" y="307.1543">AdminNotFoundException</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5451" x2="5641" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5451" x2="5641" y1="327" y2="327"/>
+        <!--MD5=[061f7ca87864b93d6d0b155bcb91671a]
+class exceptions.NoneRegisterException-->
+        <rect codeLine="6" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="exceptions.NoneRegisterException" style="stroke:#A80036;stroke-width:1.5;" width="178" x="5018" y="287"/>
+        <ellipse cx="5033" cy="303" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M5035.9688,308.6406 Q5035.3906,308.9375 5034.75,309.0781 Q5034.1094,309.2344 5033.4063,309.2344 Q5030.9063,309.2344 5029.5781,307.5938 Q5028.2656,305.9375 5028.2656,302.8125 Q5028.2656,299.6875 5029.5781,298.0313 Q5030.9063,296.375 5033.4063,296.375 Q5034.1094,296.375 5034.75,296.5313 Q5035.4063,296.6875 5035.9688,296.9844 L5035.9688,299.7031 Q5035.3438,299.125 5034.75,298.8594 Q5034.1563,298.5781 5033.5313,298.5781 Q5032.1875,298.5781 5031.5,299.6563 Q5030.8125,300.7188 5030.8125,302.8125 Q5030.8125,304.9063 5031.5,305.9844 Q5032.1875,307.0469 5033.5313,307.0469 Q5034.1563,307.0469 5034.75,306.7813 Q5035.3438,306.5 5035.9688,305.9219 L5035.9688,308.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="146" x="5047" y="307.1543">NoneRegisterException</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5019" x2="5195" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5019" x2="5195" y1="327" y2="327"/>
+        <!--MD5=[72c1468a568ce139edd9a5dab86f3fad]
+class exceptions.UserNotFoundException-->
+        <rect codeLine="7" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="exceptions.UserNotFoundException" style="stroke:#A80036;stroke-width:1.5;" width="183" x="5231.5" y="287"/>
+        <ellipse cx="5246.5" cy="303" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M5249.4688,308.6406 Q5248.8906,308.9375 5248.25,309.0781 Q5247.6094,309.2344 5246.9063,309.2344 Q5244.4063,309.2344 5243.0781,307.5938 Q5241.7656,305.9375 5241.7656,302.8125 Q5241.7656,299.6875 5243.0781,298.0313 Q5244.4063,296.375 5246.9063,296.375 Q5247.6094,296.375 5248.25,296.5313 Q5248.9063,296.6875 5249.4688,296.9844 L5249.4688,299.7031 Q5248.8438,299.125 5248.25,298.8594 Q5247.6563,298.5781 5247.0313,298.5781 Q5245.6875,298.5781 5245,299.6563 Q5244.3125,300.7188 5244.3125,302.8125 Q5244.3125,304.9063 5245,305.9844 Q5245.6875,307.0469 5247.0313,307.0469 Q5247.6563,307.0469 5248.25,306.7813 Q5248.8438,306.5 5249.4688,305.9219 L5249.4688,308.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="151" x="5260.5" y="307.1543">UserNotFoundException</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5232.5" x2="5413.5" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5232.5" x2="5413.5" y1="327" y2="327"/>
+        <!--MD5=[610f07aae6e47f96594f87f252037441]
+class exceptions.UserNotValidException-->
+        <rect codeLine="8" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="exceptions.UserNotValidException" style="stroke:#A80036;stroke-width:1.5;" width="174" x="4809" y="287"/>
+        <ellipse cx="4824" cy="303" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M4826.9688,308.6406 Q4826.3906,308.9375 4825.75,309.0781 Q4825.1094,309.2344 4824.4063,309.2344 Q4821.9063,309.2344 4820.5781,307.5938 Q4819.2656,305.9375 4819.2656,302.8125 Q4819.2656,299.6875 4820.5781,298.0313 Q4821.9063,296.375 4824.4063,296.375 Q4825.1094,296.375 4825.75,296.5313 Q4826.4063,296.6875 4826.9688,296.9844 L4826.9688,299.7031 Q4826.3438,299.125 4825.75,298.8594 Q4825.1563,298.5781 4824.5313,298.5781 Q4823.1875,298.5781 4822.5,299.6563 Q4821.8125,300.7188 4821.8125,302.8125 Q4821.8125,304.9063 4822.5,305.9844 Q4823.1875,307.0469 4824.5313,307.0469 Q4825.1563,307.0469 4825.75,306.7813 Q4826.3438,306.5 4826.9688,305.9219 L4826.9688,308.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="142" x="4838" y="307.1543">UserNotValidException</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4810" x2="4982" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4810" x2="4982" y1="327" y2="327"/>
+        <!--MD5=[46c05dfe24a0851e179497c4631d3ff2]
+class java.lang.Exception-->
+        <rect codeLine="9" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="java.lang.Exception" style="stroke:#A80036;stroke-width:1.5;" width="93" x="5168.5" y="410"/>
+        <ellipse cx="5183.5" cy="426" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M5186.4688,431.6406 Q5185.8906,431.9375 5185.25,432.0781 Q5184.6094,432.2344 5183.9063,432.2344 Q5181.4063,432.2344 5180.0781,430.5938 Q5178.7656,428.9375 5178.7656,425.8125 Q5178.7656,422.6875 5180.0781,421.0313 Q5181.4063,419.375 5183.9063,419.375 Q5184.6094,419.375 5185.25,419.5313 Q5185.9063,419.6875 5186.4688,419.9844 L5186.4688,422.7031 Q5185.8438,422.125 5185.25,421.8594 Q5184.6563,421.5781 5184.0313,421.5781 Q5182.6875,421.5781 5182,422.6563 Q5181.3125,423.7188 5181.3125,425.8125 Q5181.3125,427.9063 5182,428.9844 Q5182.6875,430.0469 5184.0313,430.0469 Q5184.6563,430.0469 5185.25,429.7813 Q5185.8438,429.5 5186.4688,428.9219 L5186.4688,431.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="5197.5" y="430.1543">Exception</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5169.5" x2="5260.5" y1="442" y2="442"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5169.5" x2="5260.5" y1="450" y2="450"/>
+        <!--MD5=[2dce24b44a790fd9aa1dee3c6eda0a13]
+class java.time.LocalDate-->
+        <rect codeLine="10" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="java.time.LocalDate" style="stroke:#A80036;stroke-width:1.5;" width="94" x="2541" y="533"/>
+        <ellipse cx="2556" cy="549" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2558.9688,554.6406 Q2558.3906,554.9375 2557.75,555.0781 Q2557.1094,555.2344 2556.4063,555.2344 Q2553.9063,555.2344 2552.5781,553.5938 Q2551.2656,551.9375 2551.2656,548.8125 Q2551.2656,545.6875 2552.5781,544.0313 Q2553.9063,542.375 2556.4063,542.375 Q2557.1094,542.375 2557.75,542.5313 Q2558.4063,542.6875 2558.9688,542.9844 L2558.9688,545.7031 Q2558.3438,545.125 2557.75,544.8594 Q2557.1563,544.5781 2556.5313,544.5781 Q2555.1875,544.5781 2554.5,545.6563 Q2553.8125,546.7188 2553.8125,548.8125 Q2553.8125,550.9063 2554.5,551.9844 Q2555.1875,553.0469 2556.5313,553.0469 Q2557.1563,553.0469 2557.75,552.7813 Q2558.3438,552.5 2558.9688,551.9219 L2558.9688,554.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="62" x="2570" y="553.1543">LocalDate</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2542" x2="2634" y1="565" y2="565"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2542" x2="2634" y1="573" y2="573"/>
+        <!--MD5=[8479184e23c2bec09445fccfd361f5d2]
+class java.util.ArrayList-->
+        <rect codeLine="11" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="java.util.ArrayList" style="stroke:#A80036;stroke-width:1.5;" width="85" x="1746.5" y="533"/>
+        <ellipse cx="1761.5" cy="549" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1764.4688,554.6406 Q1763.8906,554.9375 1763.25,555.0781 Q1762.6094,555.2344 1761.9063,555.2344 Q1759.4063,555.2344 1758.0781,553.5938 Q1756.7656,551.9375 1756.7656,548.8125 Q1756.7656,545.6875 1758.0781,544.0313 Q1759.4063,542.375 1761.9063,542.375 Q1762.6094,542.375 1763.25,542.5313 Q1763.9063,542.6875 1764.4688,542.9844 L1764.4688,545.7031 Q1763.8438,545.125 1763.25,544.8594 Q1762.6563,544.5781 1762.0313,544.5781 Q1760.6875,544.5781 1760,545.6563 Q1759.3125,546.7188 1759.3125,548.8125 Q1759.3125,550.9063 1760,551.9844 Q1760.6875,553.0469 1762.0313,553.0469 Q1762.6563,553.0469 1763.25,552.7813 Q1763.8438,552.5 1764.4688,551.9219 L1764.4688,554.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="1775.5" y="553.1543">ArrayList</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1747.5" x2="1830.5" y1="565" y2="565"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1747.5" x2="1830.5" y1="573" y2="573"/>
+        <!--MD5=[6b7a9fc05e2cf62df8c1411c2048df3f]
+class java.util.List-->
+        <rect codeLine="12" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="java.util.List" style="stroke:#A80036;stroke-width:1.5;" width="53" x="1658.5" y="533"/>
+        <ellipse cx="1673.5" cy="549" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1676.4688,554.6406 Q1675.8906,554.9375 1675.25,555.0781 Q1674.6094,555.2344 1673.9063,555.2344 Q1671.4063,555.2344 1670.0781,553.5938 Q1668.7656,551.9375 1668.7656,548.8125 Q1668.7656,545.6875 1670.0781,544.0313 Q1671.4063,542.375 1673.9063,542.375 Q1674.6094,542.375 1675.25,542.5313 Q1675.9063,542.6875 1676.4688,542.9844 L1676.4688,545.7031 Q1675.8438,545.125 1675.25,544.8594 Q1674.6563,544.5781 1674.0313,544.5781 Q1672.6875,544.5781 1672,545.6563 Q1671.3125,546.7188 1671.3125,548.8125 Q1671.3125,550.9063 1672,551.9844 Q1672.6875,553.0469 1674.0313,553.0469 Q1674.6563,553.0469 1675.25,552.7813 Q1675.8438,552.5 1676.4688,551.9219 L1676.4688,554.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="21" x="1687.5" y="553.1543">List</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1659.5" x2="1710.5" y1="565" y2="565"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1659.5" x2="1710.5" y1="573" y2="573"/>
+        <!--MD5=[28e8da24617c3e7f8b010c1b590508e8]
+class java.util.Scanner-->
+        <rect codeLine="13" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="java.util.Scanner" style="stroke:#A80036;stroke-width:1.5;" width="84" x="1539" y="533"/>
+        <ellipse cx="1554" cy="549" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1556.9688,554.6406 Q1556.3906,554.9375 1555.75,555.0781 Q1555.1094,555.2344 1554.4063,555.2344 Q1551.9063,555.2344 1550.5781,553.5938 Q1549.2656,551.9375 1549.2656,548.8125 Q1549.2656,545.6875 1550.5781,544.0313 Q1551.9063,542.375 1554.4063,542.375 Q1555.1094,542.375 1555.75,542.5313 Q1556.4063,542.6875 1556.9688,542.9844 L1556.9688,545.7031 Q1556.3438,545.125 1555.75,544.8594 Q1555.1563,544.5781 1554.5313,544.5781 Q1553.1875,544.5781 1552.5,545.6563 Q1551.8125,546.7188 1551.8125,548.8125 Q1551.8125,550.9063 1552.5,551.9844 Q1553.1875,553.0469 1554.5313,553.0469 Q1555.1563,553.0469 1555.75,552.7813 Q1556.3438,552.5 1556.9688,551.9219 L1556.9688,554.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="1568" y="553.1543">Scanner</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1540" x2="1622" y1="565" y2="565"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1540" x2="1622" y1="573" y2="573"/>
+        <!--MD5=[18a7562403221f513ca44e0f82c4c17a]
+class javax.swing.JFrame-->
+        <rect codeLine="14" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="javax.swing.JFrame" style="stroke:#A80036;stroke-width:1.5;" width="74" x="5519" y="164"/>
+        <ellipse cx="5534" cy="180" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M5536.9688,185.6406 Q5536.3906,185.9375 5535.75,186.0781 Q5535.1094,186.2344 5534.4063,186.2344 Q5531.9063,186.2344 5530.5781,184.5938 Q5529.2656,182.9375 5529.2656,179.8125 Q5529.2656,176.6875 5530.5781,175.0313 Q5531.9063,173.375 5534.4063,173.375 Q5535.1094,173.375 5535.75,173.5313 Q5536.4063,173.6875 5536.9688,173.9844 L5536.9688,176.7031 Q5536.3438,176.125 5535.75,175.8594 Q5535.1563,175.5781 5534.5313,175.5781 Q5533.1875,175.5781 5532.5,176.6563 Q5531.8125,177.7188 5531.8125,179.8125 Q5531.8125,181.9063 5532.5,182.9844 Q5533.1875,184.0469 5534.5313,184.0469 Q5535.1563,184.0469 5535.75,183.7813 Q5536.3438,183.5 5536.9688,182.9219 L5536.9688,185.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="5548" y="184.1543">JFrame</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5520" x2="5592" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5520" x2="5592" y1="204" y2="204"/>
+        <!--MD5=[5874abc0d795fa5bedc3caa05a24ca80]
+class javax.swing.JOptionPane-->
+        <rect codeLine="15" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="javax.swing.JOptionPane" style="stroke:#A80036;stroke-width:1.5;" width="108" x="5628" y="164"/>
+        <ellipse cx="5643" cy="180" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M5645.9688,185.6406 Q5645.3906,185.9375 5644.75,186.0781 Q5644.1094,186.2344 5643.4063,186.2344 Q5640.9063,186.2344 5639.5781,184.5938 Q5638.2656,182.9375 5638.2656,179.8125 Q5638.2656,176.6875 5639.5781,175.0313 Q5640.9063,173.375 5643.4063,173.375 Q5644.1094,173.375 5644.75,173.5313 Q5645.4063,173.6875 5645.9688,173.9844 L5645.9688,176.7031 Q5645.3438,176.125 5644.75,175.8594 Q5644.1563,175.5781 5643.5313,175.5781 Q5642.1875,175.5781 5641.5,176.6563 Q5640.8125,177.7188 5640.8125,179.8125 Q5640.8125,181.9063 5641.5,182.9844 Q5642.1875,184.0469 5643.5313,184.0469 Q5644.1563,184.0469 5644.75,183.7813 Q5645.3438,183.5 5645.9688,182.9219 L5645.9688,185.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="76" x="5657" y="184.1543">JOptionPane</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5629" x2="5735" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5629" x2="5735" y1="204" y2="204"/>
+        <!--MD5=[89d4ca2894c590e3b4703cddd906057d]
+class library.project.ViewFines-->
+        <rect codeLine="16" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="library.project.ViewFines" style="stroke:#A80036;stroke-width:1.5;" width="93" x="5630.5" y="41"/>
+        <ellipse cx="5645.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M5648.4688,62.6406 Q5647.8906,62.9375 5647.25,63.0781 Q5646.6094,63.2344 5645.9063,63.2344 Q5643.4063,63.2344 5642.0781,61.5938 Q5640.7656,59.9375 5640.7656,56.8125 Q5640.7656,53.6875 5642.0781,52.0313 Q5643.4063,50.375 5645.9063,50.375 Q5646.6094,50.375 5647.25,50.5313 Q5647.9063,50.6875 5648.4688,50.9844 L5648.4688,53.7031 Q5647.8438,53.125 5647.25,52.8594 Q5646.6563,52.5781 5646.0313,52.5781 Q5644.6875,52.5781 5644,53.6563 Q5643.3125,54.7188 5643.3125,56.8125 Q5643.3125,58.9063 5644,59.9844 Q5644.6875,61.0469 5646.0313,61.0469 Q5646.6563,61.0469 5647.25,60.7813 Q5647.8438,60.5 5648.4688,59.9219 L5648.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="5659.5" y="61.1543">ViewFines</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5631.5" x2="5722.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5631.5" x2="5722.5" y1="81" y2="81"/>
+        <!--MD5=[bf2b0cfbb8ef8af3ee6e1be41d0eb23f]
+class models.library.fine_payment_strategy.CreditCardPayment-->
+        <rect codeLine="29" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.fine_payment_strategy.CreditCardPayment" style="stroke:#A80036;stroke-width:1.5;" width="152" x="667" y="41"/>
+        <ellipse cx="682" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M684.9688,62.6406 Q684.3906,62.9375 683.75,63.0781 Q683.1094,63.2344 682.4063,63.2344 Q679.9063,63.2344 678.5781,61.5938 Q677.2656,59.9375 677.2656,56.8125 Q677.2656,53.6875 678.5781,52.0313 Q679.9063,50.375 682.4063,50.375 Q683.1094,50.375 683.75,50.5313 Q684.4063,50.6875 684.9688,50.9844 L684.9688,53.7031 Q684.3438,53.125 683.75,52.8594 Q683.1563,52.5781 682.5313,52.5781 Q681.1875,52.5781 680.5,53.6563 Q679.8125,54.7188 679.8125,56.8125 Q679.8125,58.9063 680.5,59.9844 Q681.1875,61.0469 682.5313,61.0469 Q683.1563,61.0469 683.75,60.7813 Q684.3438,60.5 684.9688,59.9219 L684.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="696" y="61.1543">CreditCardPayment</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="668" x2="818" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="668" x2="818" y1="81" y2="81"/>
+        <!--MD5=[97eaea3aeef33966e851efc33c5b559f]
+class models.library.fine_payment_strategy.DebitCardPayment-->
+        <rect codeLine="30" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.fine_payment_strategy.DebitCardPayment" style="stroke:#A80036;stroke-width:1.5;" width="148" x="337" y="41"/>
+        <ellipse cx="352" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M354.9688,62.6406 Q354.3906,62.9375 353.75,63.0781 Q353.1094,63.2344 352.4063,63.2344 Q349.9063,63.2344 348.5781,61.5938 Q347.2656,59.9375 347.2656,56.8125 Q347.2656,53.6875 348.5781,52.0313 Q349.9063,50.375 352.4063,50.375 Q353.1094,50.375 353.75,50.5313 Q354.4063,50.6875 354.9688,50.9844 L354.9688,53.7031 Q354.3438,53.125 353.75,52.8594 Q353.1563,52.5781 352.5313,52.5781 Q351.1875,52.5781 350.5,53.6563 Q349.8125,54.7188 349.8125,56.8125 Q349.8125,58.9063 350.5,59.9844 Q351.1875,61.0469 352.5313,61.0469 Q353.1563,61.0469 353.75,60.7813 Q354.3438,60.5 354.9688,59.9219 L354.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="116" x="366" y="61.1543">DebitCardPayment</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="338" x2="484" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="338" x2="484" y1="81" y2="81"/>
+        <!--MD5=[9edc328c907dcdd4e08e436ec0788329]
+class models.library.fine_payment_strategy.GRUPayment-->
+        <rect codeLine="31" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.fine_payment_strategy.GRUPayment" style="stroke:#A80036;stroke-width:1.5;" width="112" x="520" y="41"/>
+        <ellipse cx="535" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M537.9688,62.6406 Q537.3906,62.9375 536.75,63.0781 Q536.1094,63.2344 535.4063,63.2344 Q532.9063,63.2344 531.5781,61.5938 Q530.2656,59.9375 530.2656,56.8125 Q530.2656,53.6875 531.5781,52.0313 Q532.9063,50.375 535.4063,50.375 Q536.1094,50.375 536.75,50.5313 Q537.4063,50.6875 537.9688,50.9844 L537.9688,53.7031 Q537.3438,53.125 536.75,52.8594 Q536.1563,52.5781 535.5313,52.5781 Q534.1875,52.5781 533.5,53.6563 Q532.8125,54.7188 532.8125,56.8125 Q532.8125,58.9063 533.5,59.9844 Q534.1875,61.0469 535.5313,61.0469 Q536.1563,61.0469 536.75,60.7813 Q537.3438,60.5 537.9688,59.9219 L537.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="80" x="549" y="61.1543">GRUPayment</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="521" x2="631" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="521" x2="631" y1="81" y2="81"/>
+        <!--MD5=[19a8df90fed39c96f1782608b04d5653]
+class models.library.fine_payment_strategy.IFinePaymentStrategy-->
+        <rect codeLine="59" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="models.library.fine_payment_strategy.IFinePaymentStrategy" style="stroke:#A80036;stroke-width:1.5;" width="168" x="651" y="164"/>
+        <ellipse cx="666" cy="180" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M661.9219,175.7656 L661.9219,173.6094 L669.3125,173.6094 L669.3125,175.7656 L666.8438,175.7656 L666.8438,183.8438 L669.3125,183.8438 L669.3125,186 L661.9219,186 L661.9219,183.8438 L664.3906,183.8438 L664.3906,175.7656 L661.9219,175.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="136" x="680" y="184.1543">IFinePaymentStrategy</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="652" x2="818" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="652" x2="818" y1="204" y2="204"/>
+        <!--MD5=[5a99983fa18bf4991754806f92d738fd]
+class operations.ApplyLoan-->
+        <rect codeLine="32" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.ApplyLoan" style="stroke:#A80036;stroke-width:1.5;" width="95" x="2243.5" y="41"/>
+        <ellipse cx="2258.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2261.4688,62.6406 Q2260.8906,62.9375 2260.25,63.0781 Q2259.6094,63.2344 2258.9063,63.2344 Q2256.4063,63.2344 2255.0781,61.5938 Q2253.7656,59.9375 2253.7656,56.8125 Q2253.7656,53.6875 2255.0781,52.0313 Q2256.4063,50.375 2258.9063,50.375 Q2259.6094,50.375 2260.25,50.5313 Q2260.9063,50.6875 2261.4688,50.9844 L2261.4688,53.7031 Q2260.8438,53.125 2260.25,52.8594 Q2259.6563,52.5781 2259.0313,52.5781 Q2257.6875,52.5781 2257,53.6563 Q2256.3125,54.7188 2256.3125,56.8125 Q2256.3125,58.9063 2257,59.9844 Q2257.6875,61.0469 2259.0313,61.0469 Q2259.6563,61.0469 2260.25,60.7813 Q2260.8438,60.5 2261.4688,59.9219 L2261.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="63" x="2272.5" y="61.1543">ApplyLoan</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2244.5" x2="2337.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2244.5" x2="2337.5" y1="81" y2="81"/>
+        <!--MD5=[092d785e88a7c08a1a6a4c827cdde1f6]
+class operations.Login-->
+        <rect codeLine="33" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.Login" style="stroke:#A80036;stroke-width:1.5;" width="65" x="1869.5" y="41"/>
+        <ellipse cx="1884.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1887.4688,62.6406 Q1886.8906,62.9375 1886.25,63.0781 Q1885.6094,63.2344 1884.9063,63.2344 Q1882.4063,63.2344 1881.0781,61.5938 Q1879.7656,59.9375 1879.7656,56.8125 Q1879.7656,53.6875 1881.0781,52.0313 Q1882.4063,50.375 1884.9063,50.375 Q1885.6094,50.375 1886.25,50.5313 Q1886.9063,50.6875 1887.4688,50.9844 L1887.4688,53.7031 Q1886.8438,53.125 1886.25,52.8594 Q1885.6563,52.5781 1885.0313,52.5781 Q1883.6875,52.5781 1883,53.6563 Q1882.3125,54.7188 1882.3125,56.8125 Q1882.3125,58.9063 1883,59.9844 Q1883.6875,61.0469 1885.0313,61.0469 Q1885.6563,61.0469 1886.25,60.7813 Q1886.8438,60.5 1887.4688,59.9219 L1887.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="33" x="1898.5" y="61.1543">Login</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1870.5" x2="1933.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1870.5" x2="1933.5" y1="81" y2="81"/>
+        <!--MD5=[becd5a34ba41ed76acbf3aceceae59a5]
+class operations.PayFine-->
+        <rect codeLine="34" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.PayFine" style="stroke:#A80036;stroke-width:1.5;" width="80" x="1974" y="41"/>
+        <ellipse cx="1989" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1991.9688,62.6406 Q1991.3906,62.9375 1990.75,63.0781 Q1990.1094,63.2344 1989.4063,63.2344 Q1986.9063,63.2344 1985.5781,61.5938 Q1984.2656,59.9375 1984.2656,56.8125 Q1984.2656,53.6875 1985.5781,52.0313 Q1986.9063,50.375 1989.4063,50.375 Q1990.1094,50.375 1990.75,50.5313 Q1991.4063,50.6875 1991.9688,50.9844 L1991.9688,53.7031 Q1991.3438,53.125 1990.75,52.8594 Q1990.1563,52.5781 1989.5313,52.5781 Q1988.1875,52.5781 1987.5,53.6563 Q1986.8125,54.7188 1986.8125,56.8125 Q1986.8125,58.9063 1987.5,59.9844 Q1988.1875,61.0469 1989.5313,61.0469 Q1990.1563,61.0469 1990.75,60.7813 Q1991.3438,60.5 1991.9688,59.9219 L1991.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="2003" y="61.1543">PayFine</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1975" x2="2053" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1975" x2="2053" y1="81" y2="81"/>
+        <!--MD5=[b07200d11a49b6467fe098dfb5cf98f7]
+class operations.RegisterMaterial-->
+        <rect codeLine="35" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.RegisterMaterial" style="stroke:#A80036;stroke-width:1.5;" width="134" x="1697" y="41"/>
+        <ellipse cx="1712" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1714.9688,62.6406 Q1714.3906,62.9375 1713.75,63.0781 Q1713.1094,63.2344 1712.4063,63.2344 Q1709.9063,63.2344 1708.5781,61.5938 Q1707.2656,59.9375 1707.2656,56.8125 Q1707.2656,53.6875 1708.5781,52.0313 Q1709.9063,50.375 1712.4063,50.375 Q1713.1094,50.375 1713.75,50.5313 Q1714.4063,50.6875 1714.9688,50.9844 L1714.9688,53.7031 Q1714.3438,53.125 1713.75,52.8594 Q1713.1563,52.5781 1712.5313,52.5781 Q1711.1875,52.5781 1710.5,53.6563 Q1709.8125,54.7188 1709.8125,56.8125 Q1709.8125,58.9063 1710.5,59.9844 Q1711.1875,61.0469 1712.5313,61.0469 Q1713.1563,61.0469 1713.75,60.7813 Q1714.3438,60.5 1714.9688,59.9219 L1714.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="102" x="1726" y="61.1543">RegisterMaterial</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1698" x2="1830" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1698" x2="1830" y1="81" y2="81"/>
+        <!--MD5=[ad7127ca9ad8adf3e850b49076e6369b]
+class operations.RegisterUser-->
+        <rect codeLine="36" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.RegisterUser" style="stroke:#A80036;stroke-width:1.5;" width="113" x="2093.5" y="41"/>
+        <ellipse cx="2108.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2111.4688,62.6406 Q2110.8906,62.9375 2110.25,63.0781 Q2109.6094,63.2344 2108.9063,63.2344 Q2106.4063,63.2344 2105.0781,61.5938 Q2103.7656,59.9375 2103.7656,56.8125 Q2103.7656,53.6875 2105.0781,52.0313 Q2106.4063,50.375 2108.9063,50.375 Q2109.6094,50.375 2110.25,50.5313 Q2110.9063,50.6875 2111.4688,50.9844 L2111.4688,53.7031 Q2110.8438,53.125 2110.25,52.8594 Q2109.6563,52.5781 2109.0313,52.5781 Q2107.6875,52.5781 2107,53.6563 Q2106.3125,54.7188 2106.3125,56.8125 Q2106.3125,58.9063 2107,59.9844 Q2107.6875,61.0469 2109.0313,61.0469 Q2109.6563,61.0469 2110.25,60.7813 Q2110.8438,60.5 2111.4688,59.9219 L2111.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="81" x="2122.5" y="61.1543">RegisterUser</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2094.5" x2="2205.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2094.5" x2="2205.5" y1="81" y2="81"/>
+        <!--MD5=[ff500ca24ce9055af0fa3eee148d2c09]
+class operations.ReturnLoan-->
+        <rect codeLine="37" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.ReturnLoan" style="stroke:#A80036;stroke-width:1.5;" width="104" x="1555" y="41"/>
+        <ellipse cx="1570" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1572.9688,62.6406 Q1572.3906,62.9375 1571.75,63.0781 Q1571.1094,63.2344 1570.4063,63.2344 Q1567.9063,63.2344 1566.5781,61.5938 Q1565.2656,59.9375 1565.2656,56.8125 Q1565.2656,53.6875 1566.5781,52.0313 Q1567.9063,50.375 1570.4063,50.375 Q1571.1094,50.375 1571.75,50.5313 Q1572.4063,50.6875 1572.9688,50.9844 L1572.9688,53.7031 Q1572.3438,53.125 1571.75,52.8594 Q1571.1563,52.5781 1570.5313,52.5781 Q1569.1875,52.5781 1568.5,53.6563 Q1567.8125,54.7188 1567.8125,56.8125 Q1567.8125,58.9063 1568.5,59.9844 Q1569.1875,61.0469 1570.5313,61.0469 Q1571.1563,61.0469 1571.75,60.7813 Q1572.3438,60.5 1572.9688,59.9219 L1572.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="72" x="1584" y="61.1543">ReturnLoan</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1556" x2="1658" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1556" x2="1658" y1="81" y2="81"/>
+        <!--MD5=[3c3c6d9f8094a24e06767a04f35efbad]
+class operations.ViewFines-->
+        <rect codeLine="38" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.ViewFines" style="stroke:#A80036;stroke-width:1.5;" width="93" x="1423.5" y="41"/>
+        <ellipse cx="1438.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1441.4688,62.6406 Q1440.8906,62.9375 1440.25,63.0781 Q1439.6094,63.2344 1438.9063,63.2344 Q1436.4063,63.2344 1435.0781,61.5938 Q1433.7656,59.9375 1433.7656,56.8125 Q1433.7656,53.6875 1435.0781,52.0313 Q1436.4063,50.375 1438.9063,50.375 Q1439.6094,50.375 1440.25,50.5313 Q1440.9063,50.6875 1441.4688,50.9844 L1441.4688,53.7031 Q1440.8438,53.125 1440.25,52.8594 Q1439.6563,52.5781 1439.0313,52.5781 Q1437.6875,52.5781 1437,53.6563 Q1436.3125,54.7188 1436.3125,56.8125 Q1436.3125,58.9063 1437,59.9844 Q1437.6875,61.0469 1439.0313,61.0469 Q1439.6563,61.0469 1440.25,60.7813 Q1440.8438,60.5 1441.4688,59.9219 L1441.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="1452.5" y="61.1543">ViewFines</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1424.5" x2="1515.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1424.5" x2="1515.5" y1="81" y2="81"/>
+        <!--MD5=[5362ac5c89c845fab3668bc4aef2d4ca]
+class operations.IApplyLoan-->
+        <rect codeLine="60" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.IApplyLoan" style="stroke:#A80036;stroke-width:1.5;" width="98" x="2241" y="164"/>
+        <ellipse cx="2256" cy="180" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2251.9219,175.7656 L2251.9219,173.6094 L2259.3125,173.6094 L2259.3125,175.7656 L2256.8438,175.7656 L2256.8438,183.8438 L2259.3125,183.8438 L2259.3125,186 L2251.9219,186 L2251.9219,183.8438 L2254.3906,183.8438 L2254.3906,175.7656 L2251.9219,175.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="66" x="2270" y="184.1543">IApplyLoan</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2242" x2="2338" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2242" x2="2338" y1="204" y2="204"/>
+        <!--MD5=[f4956b85a934b464240b5853ac8a095e]
+class operations.ILogin-->
+        <rect codeLine="61" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.ILogin" style="stroke:#A80036;stroke-width:1.5;" width="68" x="1868" y="164"/>
+        <ellipse cx="1883" cy="180" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1878.9219,175.7656 L1878.9219,173.6094 L1886.3125,173.6094 L1886.3125,175.7656 L1883.8438,175.7656 L1883.8438,183.8438 L1886.3125,183.8438 L1886.3125,186 L1878.9219,186 L1878.9219,183.8438 L1881.3906,183.8438 L1881.3906,175.7656 L1878.9219,175.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="36" x="1897" y="184.1543">ILogin</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1869" x2="1935" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1869" x2="1935" y1="204" y2="204"/>
+        <!--MD5=[c53375e879b078578ed4965e4ea2edea]
+class operations.IPayFine-->
+        <rect codeLine="62" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.IPayFine" style="stroke:#A80036;stroke-width:1.5;" width="83" x="1971.5" y="164"/>
+        <ellipse cx="1986.5" cy="180" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1982.4219,175.7656 L1982.4219,173.6094 L1989.8125,173.6094 L1989.8125,175.7656 L1987.3438,175.7656 L1987.3438,183.8438 L1989.8125,183.8438 L1989.8125,186 L1982.4219,186 L1982.4219,183.8438 L1984.8906,183.8438 L1984.8906,175.7656 L1982.4219,175.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="2000.5" y="184.1543">IPayFine</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1972.5" x2="2053.5" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1972.5" x2="2053.5" y1="204" y2="204"/>
+        <!--MD5=[aeb81d79e13f93b01fb8a649f5925118]
+class operations.IRegisterMaterial-->
+        <rect codeLine="63" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.IRegisterMaterial" style="stroke:#A80036;stroke-width:1.5;" width="137" x="1695.5" y="164"/>
+        <ellipse cx="1710.5" cy="180" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1706.4219,175.7656 L1706.4219,173.6094 L1713.8125,173.6094 L1713.8125,175.7656 L1711.3438,175.7656 L1711.3438,183.8438 L1713.8125,183.8438 L1713.8125,186 L1706.4219,186 L1706.4219,183.8438 L1708.8906,183.8438 L1708.8906,175.7656 L1706.4219,175.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="105" x="1724.5" y="184.1543">IRegisterMaterial</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1696.5" x2="1831.5" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1696.5" x2="1831.5" y1="204" y2="204"/>
+        <!--MD5=[c1a37d6e0732e053df2fa4bc11239921]
+class operations.IRegisterUser-->
+        <rect codeLine="64" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.IRegisterUser" style="stroke:#A80036;stroke-width:1.5;" width="116" x="2090" y="164"/>
+        <ellipse cx="2105" cy="180" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2100.9219,175.7656 L2100.9219,173.6094 L2108.3125,173.6094 L2108.3125,175.7656 L2105.8438,175.7656 L2105.8438,183.8438 L2108.3125,183.8438 L2108.3125,186 L2100.9219,186 L2100.9219,183.8438 L2103.3906,183.8438 L2103.3906,175.7656 L2100.9219,175.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="2119" y="184.1543">IRegisterUser</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2091" x2="2205" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2091" x2="2205" y1="204" y2="204"/>
+        <!--MD5=[eb5f7eb29179e0d9713c14a2c9748e88]
+class operations.IReturnLoan-->
+        <rect codeLine="65" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.IReturnLoan" style="stroke:#A80036;stroke-width:1.5;" width="107" x="1553.5" y="164"/>
+        <ellipse cx="1568.5" cy="180" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1564.4219,175.7656 L1564.4219,173.6094 L1571.8125,173.6094 L1571.8125,175.7656 L1569.3438,175.7656 L1569.3438,183.8438 L1571.8125,183.8438 L1571.8125,186 L1564.4219,186 L1564.4219,183.8438 L1566.8906,183.8438 L1566.8906,175.7656 L1564.4219,175.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="75" x="1582.5" y="184.1543">IReturnLoan</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1554.5" x2="1659.5" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1554.5" x2="1659.5" y1="204" y2="204"/>
+        <!--MD5=[2537cbb3a9e6fbb43c39659496356515]
+class operations.IViewFines-->
+        <rect codeLine="66" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="operations.IViewFines" style="stroke:#A80036;stroke-width:1.5;" width="96" x="1422" y="164"/>
+        <ellipse cx="1437" cy="180" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1432.9219,175.7656 L1432.9219,173.6094 L1440.3125,173.6094 L1440.3125,175.7656 L1437.8438,175.7656 L1437.8438,183.8438 L1440.3125,183.8438 L1440.3125,186 L1432.9219,186 L1432.9219,183.8438 L1435.3906,183.8438 L1435.3906,175.7656 L1432.9219,175.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="64" x="1451" y="184.1543">IViewFines</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1423" x2="1517" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1423" x2="1517" y1="204" y2="204"/>
+        <!--MD5=[5f5735839f1ca8c816bc7c05907048aa]
+class presentation.ApplyLoan-->
+        <rect codeLine="39" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="presentation.ApplyLoan" style="stroke:#A80036;stroke-width:1.5;" width="95" x="4384.5" y="41"/>
+        <ellipse cx="4399.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M4402.4688,62.6406 Q4401.8906,62.9375 4401.25,63.0781 Q4400.6094,63.2344 4399.9063,63.2344 Q4397.4063,63.2344 4396.0781,61.5938 Q4394.7656,59.9375 4394.7656,56.8125 Q4394.7656,53.6875 4396.0781,52.0313 Q4397.4063,50.375 4399.9063,50.375 Q4400.6094,50.375 4401.25,50.5313 Q4401.9063,50.6875 4402.4688,50.9844 L4402.4688,53.7031 Q4401.8438,53.125 4401.25,52.8594 Q4400.6563,52.5781 4400.0313,52.5781 Q4398.6875,52.5781 4398,53.6563 Q4397.3125,54.7188 4397.3125,56.8125 Q4397.3125,58.9063 4398,59.9844 Q4398.6875,61.0469 4400.0313,61.0469 Q4400.6563,61.0469 4401.25,60.7813 Q4401.8438,60.5 4402.4688,59.9219 L4402.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="63" x="4413.5" y="61.1543">ApplyLoan</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4385.5" x2="4478.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4385.5" x2="4478.5" y1="81" y2="81"/>
+        <!--MD5=[0c3aa05f8018f35a7b9b8a0f87a567a8]
+class presentation.ControlAdminPanel-->
+        <rect codeLine="40" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="presentation.ControlAdminPanel" style="stroke:#A80036;stroke-width:1.5;" width="150" x="4691" y="41"/>
+        <ellipse cx="4706" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M4708.9688,62.6406 Q4708.3906,62.9375 4707.75,63.0781 Q4707.1094,63.2344 4706.4063,63.2344 Q4703.9063,63.2344 4702.5781,61.5938 Q4701.2656,59.9375 4701.2656,56.8125 Q4701.2656,53.6875 4702.5781,52.0313 Q4703.9063,50.375 4706.4063,50.375 Q4707.1094,50.375 4707.75,50.5313 Q4708.4063,50.6875 4708.9688,50.9844 L4708.9688,53.7031 Q4708.3438,53.125 4707.75,52.8594 Q4707.1563,52.5781 4706.5313,52.5781 Q4705.1875,52.5781 4704.5,53.6563 Q4703.8125,54.7188 4703.8125,56.8125 Q4703.8125,58.9063 4704.5,59.9844 Q4705.1875,61.0469 4706.5313,61.0469 Q4707.1563,61.0469 4707.75,60.7813 Q4708.3438,60.5 4708.9688,59.9219 L4708.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="118" x="4720" y="61.1543">ControlAdminPanel</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4692" x2="4840" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4692" x2="4840" y1="81" y2="81"/>
+        <!--MD5=[67b7ecb61225b8d16772128106687d9a]
+class presentation.ControlUserPanel-->
+        <rect codeLine="41" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="presentation.ControlUserPanel" style="stroke:#A80036;stroke-width:1.5;" width="141" x="4514.5" y="41"/>
+        <ellipse cx="4529.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M4532.4688,62.6406 Q4531.8906,62.9375 4531.25,63.0781 Q4530.6094,63.2344 4529.9063,63.2344 Q4527.4063,63.2344 4526.0781,61.5938 Q4524.7656,59.9375 4524.7656,56.8125 Q4524.7656,53.6875 4526.0781,52.0313 Q4527.4063,50.375 4529.9063,50.375 Q4530.6094,50.375 4531.25,50.5313 Q4531.9063,50.6875 4532.4688,50.9844 L4532.4688,53.7031 Q4531.8438,53.125 4531.25,52.8594 Q4530.6563,52.5781 4530.0313,52.5781 Q4528.6875,52.5781 4528,53.6563 Q4527.3125,54.7188 4527.3125,56.8125 Q4527.3125,58.9063 4528,59.9844 Q4528.6875,61.0469 4530.0313,61.0469 Q4530.6563,61.0469 4531.25,60.7813 Q4531.8438,60.5 4532.4688,59.9219 L4532.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="109" x="4543.5" y="61.1543">ControlUserPanel</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4515.5" x2="4654.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4515.5" x2="4654.5" y1="81" y2="81"/>
+        <!--MD5=[0651b1d57cda46ebaa9258110011030a]
+class presentation.LoginAdmin-->
+        <rect codeLine="42" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="presentation.LoginAdmin" style="stroke:#A80036;stroke-width:1.5;" width="103" x="5323.5" y="41"/>
+        <ellipse cx="5338.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M5341.4688,62.6406 Q5340.8906,62.9375 5340.25,63.0781 Q5339.6094,63.2344 5338.9063,63.2344 Q5336.4063,63.2344 5335.0781,61.5938 Q5333.7656,59.9375 5333.7656,56.8125 Q5333.7656,53.6875 5335.0781,52.0313 Q5336.4063,50.375 5338.9063,50.375 Q5339.6094,50.375 5340.25,50.5313 Q5340.9063,50.6875 5341.4688,50.9844 L5341.4688,53.7031 Q5340.8438,53.125 5340.25,52.8594 Q5339.6563,52.5781 5339.0313,52.5781 Q5337.6875,52.5781 5337,53.6563 Q5336.3125,54.7188 5336.3125,56.8125 Q5336.3125,58.9063 5337,59.9844 Q5337.6875,61.0469 5339.0313,61.0469 Q5339.6563,61.0469 5340.25,60.7813 Q5340.8438,60.5 5341.4688,59.9219 L5341.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="5352.5" y="61.1543">LoginAdmin</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5324.5" x2="5425.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5324.5" x2="5425.5" y1="81" y2="81"/>
+        <!--MD5=[5998d98c69080d6a64a70147d1382e00]
+class presentation.LoginUser-->
+        <rect codeLine="43" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="presentation.LoginUser" style="stroke:#A80036;stroke-width:1.5;" width="94" x="5194" y="41"/>
+        <ellipse cx="5209" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M5211.9688,62.6406 Q5211.3906,62.9375 5210.75,63.0781 Q5210.1094,63.2344 5209.4063,63.2344 Q5206.9063,63.2344 5205.5781,61.5938 Q5204.2656,59.9375 5204.2656,56.8125 Q5204.2656,53.6875 5205.5781,52.0313 Q5206.9063,50.375 5209.4063,50.375 Q5210.1094,50.375 5210.75,50.5313 Q5211.4063,50.6875 5211.9688,50.9844 L5211.9688,53.7031 Q5211.3438,53.125 5210.75,52.8594 Q5210.1563,52.5781 5209.5313,52.5781 Q5208.1875,52.5781 5207.5,53.6563 Q5206.8125,54.7188 5206.8125,56.8125 Q5206.8125,58.9063 5207.5,59.9844 Q5208.1875,61.0469 5209.5313,61.0469 Q5210.1563,61.0469 5210.75,60.7813 Q5211.3438,60.5 5211.9688,59.9219 L5211.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="62" x="5223" y="61.1543">LoginUser</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5195" x2="5287" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5195" x2="5287" y1="81" y2="81"/>
+        <!--MD5=[5bb3138786ed80eb1c4070b741ddfc40]
+class presentation.Presentation-->
+        <rect codeLine="44" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="presentation.Presentation" style="stroke:#A80036;stroke-width:1.5;" width="113" x="5461.5" y="41"/>
+        <ellipse cx="5476.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M5479.4688,62.6406 Q5478.8906,62.9375 5478.25,63.0781 Q5477.6094,63.2344 5476.9063,63.2344 Q5474.4063,63.2344 5473.0781,61.5938 Q5471.7656,59.9375 5471.7656,56.8125 Q5471.7656,53.6875 5473.0781,52.0313 Q5474.4063,50.375 5476.9063,50.375 Q5477.6094,50.375 5478.25,50.5313 Q5478.9063,50.6875 5479.4688,50.9844 L5479.4688,53.7031 Q5478.8438,53.125 5478.25,52.8594 Q5477.6563,52.5781 5477.0313,52.5781 Q5475.6875,52.5781 5475,53.6563 Q5474.3125,54.7188 5474.3125,56.8125 Q5474.3125,58.9063 5475,59.9844 Q5475.6875,61.0469 5477.0313,61.0469 Q5477.6563,61.0469 5478.25,60.7813 Q5478.8438,60.5 5479.4688,59.9219 L5479.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="81" x="5490.5" y="61.1543">Presentation</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5462.5" x2="5573.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5462.5" x2="5573.5" y1="81" y2="81"/>
+        <!--MD5=[917534081d189755e6e7e9d26f01edb1]
+class presentation.RegisterMaterial-->
+        <rect codeLine="45" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="presentation.RegisterMaterial" style="stroke:#A80036;stroke-width:1.5;" width="134" x="4876" y="41"/>
+        <ellipse cx="4891" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M4893.9688,62.6406 Q4893.3906,62.9375 4892.75,63.0781 Q4892.1094,63.2344 4891.4063,63.2344 Q4888.9063,63.2344 4887.5781,61.5938 Q4886.2656,59.9375 4886.2656,56.8125 Q4886.2656,53.6875 4887.5781,52.0313 Q4888.9063,50.375 4891.4063,50.375 Q4892.1094,50.375 4892.75,50.5313 Q4893.4063,50.6875 4893.9688,50.9844 L4893.9688,53.7031 Q4893.3438,53.125 4892.75,52.8594 Q4892.1563,52.5781 4891.5313,52.5781 Q4890.1875,52.5781 4889.5,53.6563 Q4888.8125,54.7188 4888.8125,56.8125 Q4888.8125,58.9063 4889.5,59.9844 Q4890.1875,61.0469 4891.5313,61.0469 Q4892.1563,61.0469 4892.75,60.7813 Q4893.3438,60.5 4893.9688,59.9219 L4893.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="102" x="4905" y="61.1543">RegisterMaterial</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4877" x2="5009" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4877" x2="5009" y1="81" y2="81"/>
+        <!--MD5=[b2a16f40492331d5c8588af604b9487a]
+class presentation.RegisterUser-->
+        <rect codeLine="46" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="presentation.RegisterUser" style="stroke:#A80036;stroke-width:1.5;" width="113" x="5045.5" y="41"/>
+        <ellipse cx="5060.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M5063.4688,62.6406 Q5062.8906,62.9375 5062.25,63.0781 Q5061.6094,63.2344 5060.9063,63.2344 Q5058.4063,63.2344 5057.0781,61.5938 Q5055.7656,59.9375 5055.7656,56.8125 Q5055.7656,53.6875 5057.0781,52.0313 Q5058.4063,50.375 5060.9063,50.375 Q5061.6094,50.375 5062.25,50.5313 Q5062.9063,50.6875 5063.4688,50.9844 L5063.4688,53.7031 Q5062.8438,53.125 5062.25,52.8594 Q5061.6563,52.5781 5061.0313,52.5781 Q5059.6875,52.5781 5059,53.6563 Q5058.3125,54.7188 5058.3125,56.8125 Q5058.3125,58.9063 5059,59.9844 Q5059.6875,61.0469 5061.0313,61.0469 Q5061.6563,61.0469 5062.25,60.7813 Q5062.8438,60.5 5063.4688,59.9219 L5063.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="81" x="5074.5" y="61.1543">RegisterUser</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5046.5" x2="5157.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="5046.5" x2="5157.5" y1="81" y2="81"/>
+        <!--MD5=[8f36edb73718e700db51dc7cd43ea058]
+class repository.AdminRepository-->
+        <rect codeLine="47" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="repository.AdminRepository" style="stroke:#A80036;stroke-width:1.5;" width="136" x="2558" y="164"/>
+        <ellipse cx="2573" cy="180" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2575.9688,185.6406 Q2575.3906,185.9375 2574.75,186.0781 Q2574.1094,186.2344 2573.4063,186.2344 Q2570.9063,186.2344 2569.5781,184.5938 Q2568.2656,182.9375 2568.2656,179.8125 Q2568.2656,176.6875 2569.5781,175.0313 Q2570.9063,173.375 2573.4063,173.375 Q2574.1094,173.375 2574.75,173.5313 Q2575.4063,173.6875 2575.9688,173.9844 L2575.9688,176.7031 Q2575.3438,176.125 2574.75,175.8594 Q2574.1563,175.5781 2573.5313,175.5781 Q2572.1875,175.5781 2571.5,176.6563 Q2570.8125,177.7188 2570.8125,179.8125 Q2570.8125,181.9063 2571.5,182.9844 Q2572.1875,184.0469 2573.5313,184.0469 Q2574.1563,184.0469 2574.75,183.7813 Q2575.3438,183.5 2575.9688,182.9219 L2575.9688,185.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="104" x="2587" y="184.1543">AdminRepository</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2559" x2="2693" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2559" x2="2693" y1="204" y2="204"/>
+        <!--MD5=[82a448ebe4d93e667e348ccd59cb64cb]
+class repository.LoanRepository-->
+        <rect codeLine="48" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="repository.LoanRepository" style="stroke:#A80036;stroke-width:1.5;" width="128" x="2729" y="164"/>
+        <ellipse cx="2744" cy="180" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2746.9688,185.6406 Q2746.3906,185.9375 2745.75,186.0781 Q2745.1094,186.2344 2744.4063,186.2344 Q2741.9063,186.2344 2740.5781,184.5938 Q2739.2656,182.9375 2739.2656,179.8125 Q2739.2656,176.6875 2740.5781,175.0313 Q2741.9063,173.375 2744.4063,173.375 Q2745.1094,173.375 2745.75,173.5313 Q2746.4063,173.6875 2746.9688,173.9844 L2746.9688,176.7031 Q2746.3438,176.125 2745.75,175.8594 Q2745.1563,175.5781 2744.5313,175.5781 Q2743.1875,175.5781 2742.5,176.6563 Q2741.8125,177.7188 2741.8125,179.8125 Q2741.8125,181.9063 2742.5,182.9844 Q2743.1875,184.0469 2744.5313,184.0469 Q2745.1563,184.0469 2745.75,183.7813 Q2746.3438,183.5 2746.9688,182.9219 L2746.9688,185.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="96" x="2758" y="184.1543">LoanRepository</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2730" x2="2856" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2730" x2="2856" y1="204" y2="204"/>
+        <!--MD5=[447047005429525da6ee498e0e325f4e]
+class repository.MaterialRepository-->
+        <rect codeLine="49" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="repository.MaterialRepository" style="stroke:#A80036;stroke-width:1.5;" width="148" x="2892" y="164"/>
+        <ellipse cx="2907" cy="180" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2909.9688,185.6406 Q2909.3906,185.9375 2908.75,186.0781 Q2908.1094,186.2344 2907.4063,186.2344 Q2904.9063,186.2344 2903.5781,184.5938 Q2902.2656,182.9375 2902.2656,179.8125 Q2902.2656,176.6875 2903.5781,175.0313 Q2904.9063,173.375 2907.4063,173.375 Q2908.1094,173.375 2908.75,173.5313 Q2909.4063,173.6875 2909.9688,173.9844 L2909.9688,176.7031 Q2909.3438,176.125 2908.75,175.8594 Q2908.1563,175.5781 2907.5313,175.5781 Q2906.1875,175.5781 2905.5,176.6563 Q2904.8125,177.7188 2904.8125,179.8125 Q2904.8125,181.9063 2905.5,182.9844 Q2906.1875,184.0469 2907.5313,184.0469 Q2908.1563,184.0469 2908.75,183.7813 Q2909.3438,183.5 2909.9688,182.9219 L2909.9688,185.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="116" x="2921" y="184.1543">MaterialRepository</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2893" x2="3039" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2893" x2="3039" y1="204" y2="204"/>
+        <!--MD5=[39e2d153c90946d3169456c2f2c5a808]
+class repository.UserRepository-->
+        <rect codeLine="50" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="repository.UserRepository" style="stroke:#A80036;stroke-width:1.5;" width="127" x="2395.5" y="164"/>
+        <ellipse cx="2410.5" cy="180" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2413.4688,185.6406 Q2412.8906,185.9375 2412.25,186.0781 Q2411.6094,186.2344 2410.9063,186.2344 Q2408.4063,186.2344 2407.0781,184.5938 Q2405.7656,182.9375 2405.7656,179.8125 Q2405.7656,176.6875 2407.0781,175.0313 Q2408.4063,173.375 2410.9063,173.375 Q2411.6094,173.375 2412.25,173.5313 Q2412.9063,173.6875 2413.4688,173.9844 L2413.4688,176.7031 Q2412.8438,176.125 2412.25,175.8594 Q2411.6563,175.5781 2411.0313,175.5781 Q2409.6875,175.5781 2409,176.6563 Q2408.3125,177.7188 2408.3125,179.8125 Q2408.3125,181.9063 2409,182.9844 Q2409.6875,184.0469 2411.0313,184.0469 Q2411.6563,184.0469 2412.25,183.7813 Q2412.8438,183.5 2413.4688,182.9219 L2413.4688,185.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="95" x="2424.5" y="184.1543">UserRepository</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2396.5" x2="2521.5" y1="196" y2="196"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2396.5" x2="2521.5" y1="204" y2="204"/>
+        <!--MD5=[703b5d343c624305859ccc926abb4718]
+class utils.DateFormat-->
+        <rect codeLine="51" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="utils.DateFormat" style="stroke:#A80036;stroke-width:1.5;" width="106" x="2535" y="410"/>
+        <ellipse cx="2550" cy="426" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2552.9688,431.6406 Q2552.3906,431.9375 2551.75,432.0781 Q2551.1094,432.2344 2550.4063,432.2344 Q2547.9063,432.2344 2546.5781,430.5938 Q2545.2656,428.9375 2545.2656,425.8125 Q2545.2656,422.6875 2546.5781,421.0313 Q2547.9063,419.375 2550.4063,419.375 Q2551.1094,419.375 2551.75,419.5313 Q2552.4063,419.6875 2552.9688,419.9844 L2552.9688,422.7031 Q2552.3438,422.125 2551.75,421.8594 Q2551.1563,421.5781 2550.5313,421.5781 Q2549.1875,421.5781 2548.5,422.6563 Q2547.8125,423.7188 2547.8125,425.8125 Q2547.8125,427.9063 2548.5,428.9844 Q2549.1875,430.0469 2550.5313,430.0469 Q2551.1563,430.0469 2551.75,429.7813 Q2552.3438,429.5 2552.9688,428.9219 L2552.9688,431.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="74" x="2564" y="430.1543">DateFormat</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2536" x2="2640" y1="442" y2="442"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2536" x2="2640" y1="450" y2="450"/>
+        <!--MD5=[cd0e6ac69b6b5bb776db9f56cead79da]
+class utils.Validator-->
+        <rect codeLine="52" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="utils.Validator" style="stroke:#A80036;stroke-width:1.5;" width="88" x="2676" y="410"/>
+        <ellipse cx="2691" cy="426" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2693.9688,431.6406 Q2693.3906,431.9375 2692.75,432.0781 Q2692.1094,432.2344 2691.4063,432.2344 Q2688.9063,432.2344 2687.5781,430.5938 Q2686.2656,428.9375 2686.2656,425.8125 Q2686.2656,422.6875 2687.5781,421.0313 Q2688.9063,419.375 2691.4063,419.375 Q2692.1094,419.375 2692.75,419.5313 Q2693.4063,419.6875 2693.9688,419.9844 L2693.9688,422.7031 Q2693.3438,422.125 2692.75,421.8594 Q2692.1563,421.5781 2691.5313,421.5781 Q2690.1875,421.5781 2689.5,422.6563 Q2688.8125,423.7188 2688.8125,425.8125 Q2688.8125,427.9063 2689.5,428.9844 Q2690.1875,430.0469 2691.5313,430.0469 Q2692.1563,430.0469 2692.75,429.7813 Q2693.3438,429.5 2693.9688,428.9219 L2693.9688,431.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="2705" y="430.1543">Validator</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2677" x2="2763" y1="442" y2="442"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2677" x2="2763" y1="450" y2="450"/>
+        <!--MD5=[84718776d214be480e4c259efcb737fc]
+class Main-->
+        <rect codeLine="4" fill="#FEFECE" filter="url(#fl77z8ibdxyxl)" height="48" id="Main" style="stroke:#A80036;stroke-width:1.5;" width="61" x="3772.5" y="287"/>
+        <ellipse cx="3787.5" cy="303" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3790.4688,308.6406 Q3789.8906,308.9375 3789.25,309.0781 Q3788.6094,309.2344 3787.9063,309.2344 Q3785.4063,309.2344 3784.0781,307.5938 Q3782.7656,305.9375 3782.7656,302.8125 Q3782.7656,299.6875 3784.0781,298.0313 Q3785.4063,296.375 3787.9063,296.375 Q3788.6094,296.375 3789.25,296.5313 Q3789.9063,296.6875 3790.4688,296.9844 L3790.4688,299.7031 Q3789.8438,299.125 3789.25,298.8594 Q3788.6563,298.5781 3788.0313,298.5781 Q3786.6875,298.5781 3786,299.6563 Q3785.3125,300.7188 3785.3125,302.8125 Q3785.3125,304.9063 3786,305.9844 Q3786.6875,307.0469 3788.0313,307.0469 Q3788.6563,307.0469 3789.25,306.7813 Q3789.8438,306.5 3790.4688,305.9219 L3790.4688,308.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="29" x="3801.5" y="307.1543">Main</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3773.5" x2="3832.5" y1="319" y2="319"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3773.5" x2="3832.5" y1="327" y2="327"/>
+        <!--MD5=[5460d3dd08671e0ebd9af9651f7e65b3]
+link models.library.Material to utils.DateFormat-->
+        <path codeLine="67" d="M3091.93,419.27 C3050.97,404.87 2986.11,382.87 2929,367 C2921.31,364.86 2919.43,363.89 2911.5,363 C2885.55,360.07 2702.45,360.07 2676.5,363 C2668.57,363.89 2666.04,363.24 2659,367 C2640.83,376.71 2623.9,392.3 2611.14,406.01 " fill="none" id="models.library.Material-to-utils.DateFormat" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2607.65,409.82,2616.676,405.879,2611.0247,406.1307,2610.7731,400.4794,2607.65,409.82" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[216eb385fda7471c6f4a2fe4456540fd]
+link models.library.fine_observable.Subject to java.util.ArrayList-->
+        <path codeLine="68" d="M253.64,436.6 C408.37,442.83 986.7,465.88 1463,482 C1477.78,482.5 1715.57,483.82 1729,490 C1746.72,498.16 1761.53,514.27 1772,528.53 " fill="none" id="models.library.fine_observable.Subject-to-java.util.ArrayList" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1775.11,532.88,1773.1466,523.2288,1772.2092,528.8075,1766.6306,527.8701,1775.11,532.88" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[286b12a8f240ced45a478858ce9ace13]
+link models.library.fine_observable.Subject to models.library.fine_observable.ISubject-->
+        <path codeLine="69" d="M214,458.04 C214,473.42 214,494.12 214,512.53 " fill="none" id="models.library.fine_observable.Subject-to-models.library.fine_observable.ISubject" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="221,512.63,214,532.63,207,512.63,221,512.63" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[fcec85be8326c65702b52e47857c9c8c]
+link Main to java.util.List-->
+        <path codeLine="70" d="M3794.6,335.29 C3779.18,374.08 3742.31,450.74 3682,482 C3657.92,494.48 1752.89,477.15 1729,490 C1713.85,498.15 1703.01,514.05 1695.88,528.21 " fill="none" id="Main-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1693.61,532.93,1701.1159,526.5534,1695.7774,528.4242,1693.9066,523.0856,1693.61,532.93" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[7a3b548d8156e821c208ffdaf0ccc18c]
+link Main to utils.DateFormat-->
+        <path codeLine="71" d="M3772.09,327.61 C3748.17,338.79 3713.87,352.9 3682,359 C3654.09,364.34 2685.41,356.5 2659,367 C2638.99,374.96 2621.24,391.45 2608.5,405.96 " fill="none" id="Main-to-utils.DateFormat" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2605.04,409.99,2613.9341,405.7599,2608.294,406.1937,2607.8601,400.5535,2605.04,409.99" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[fbd9cd35f6b208416a547c6c29773e31]
+link exceptions.AdminNotFoundException to java.lang.Exception-->
+        <path codeLine="72" d="M5492.05,335.05 C5473.16,342.91 5451.74,351.57 5432,359 C5381.72,377.92 5324.13,397.46 5280.92,411.71 " fill="none" id="exceptions.AdminNotFoundException-to-java.lang.Exception" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="5283.05,418.38,5261.86,417.96,5278.69,405.07,5283.05,418.38" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[edae2a5171b492f537df74c5345922f9]
+link exceptions.NoneRegisterException to java.lang.Exception-->
+        <path codeLine="73" d="M5127.57,335.04 C5142.56,351.84 5163.22,374.99 5180.69,394.57 " fill="none" id="exceptions.NoneRegisterException-to-java.lang.Exception" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="5186.04,390.05,5194.14,409.63,5175.6,399.37,5186.04,390.05" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[f4b9098169ba3ac42d7aaf297401c1c7]
+link exceptions.UserNotFoundException to java.lang.Exception-->
+        <path codeLine="74" d="M5302.43,335.04 C5287.44,351.84 5266.78,374.99 5249.31,394.57 " fill="none" id="exceptions.UserNotFoundException-to-java.lang.Exception" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="5254.4,399.37,5235.86,409.63,5243.96,390.05,5254.4,399.37" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[3cb11613680e71dbce7ed16b9f1854db]
+link exceptions.UserNotValidException to java.lang.Exception-->
+        <path codeLine="75" d="M4945.03,335.02 C4962.55,342.96 4982.52,351.69 5001,359 C5050.07,378.42 5106.52,397.82 5149.12,411.88 " fill="none" id="exceptions.UserNotValidException-to-java.lang.Exception" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="5151.4,405.27,5168.23,418.14,5147.05,418.57,5151.4,405.27" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[f351aad2f897fd1137d09efc18885e02]
+link library.project.ViewFines to javax.swing.JFrame-->
+        <path codeLine="76" d="M5647.09,89.01 C5635.42,98.47 5622.18,109.82 5611,121 C5602.63,129.37 5594.16,138.9 5586.46,148.06 " fill="none" id="library.project.ViewFines-to-javax.swing.JFrame" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="5591.68,152.73,5573.62,163.82,5580.83,143.89,5591.68,152.73" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[ff5a7831507a86b208e4f228d1f34d6e]
+link models.auth.Admin to models.auth.Person-->
+        <path codeLine="77" d="M3978.57,212.04 C3990.35,228.42 4006.46,250.84 4020.31,270.1 " fill="none" id="models.auth.Admin-to-models.auth.Person" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="4026.2,266.3,4032.2,286.63,4014.84,274.48,4026.2,266.3" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[7300cf1f13e43b1c9d588c5d9fb02d44]
+link models.auth.Admin to java.util.ArrayList-->
+        <path codeLine="78" d="M3926.62,191.23 C3805.34,198.8 3395.2,223.69 3056,236 C3013.13,237.56 2712.2,236.3 2670,244 C2339.05,304.41 1966.29,471.62 1836.53,533.01 " fill="none" id="models.auth.Admin-to-java.util.ArrayList" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1831.64,535.33,1841.4861,535.0962,1836.1596,533.1914,1838.0643,527.8649,1831.64,535.33" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[6a4c1adc6756c1a4e0b8ab1cd8fdf935]
+link models.auth.Admin to models.library.Fine-->
+        <path codeLine="79" d="M3926.78,195.22 C3864.4,205.92 3730.26,227.48 3616,236 C3599.9,237.2 3049.29,236.51 3035,244 C3019.44,252.16 3007.88,268.06 3000.11,282.21 " fill="none" id="models.auth.Admin-to-models.library.Fine" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2997.63,286.93,3005.3743,280.8452,2999.9681,282.5104,2998.3029,277.1042,2997.63,286.93" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[8284564a8356a32fb804e1ce4da0b489]
+link models.auth.Admin to models.library.Loan-->
+        <path codeLine="80" d="M3927,199.23 C3886.66,210.51 3818.18,228.1 3758,236 C3732.54,239.34 3549.74,232.06 3527,244 C3511.33,252.22 3499.35,267.96 3491.15,282.01 " fill="none" id="models.auth.Admin-to-models.library.Loan" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3488.52,286.69,3496.4022,280.7848,3490.9591,282.3253,3489.4186,276.8822,3488.52,286.69" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[0e6154f12662c4db3e3c48a67f80b45d]
+link models.auth.AdminOperation to models.library.Material-->
+        <path codeLine="81" d="M4320.72,212.02 C4305.74,221.36 4287.23,231.09 4269,236 C4241.42,243.42 3779.83,229.89 3755,244 C3702.77,273.67 3735.92,328.8 3684,359 C3662.66,371.41 3486.51,364.12 3462,367 C3360.14,378.97 3242.78,405.69 3179.42,421.21 " fill="none" id="models.auth.AdminOperation-to-models.library.Material" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3174.2,422.49,3183.8967,424.2146,3179.0541,421.2908,3181.9779,416.4481,3174.2,422.49" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[fb90ad33d7b63d6c1a43cfe281cebe71]
+link models.auth.AdminOperation to exceptions.UserNotValidException-->
+        <path codeLine="82" d="M4419.28,209.4 C4449.01,218.19 4484.6,228.21 4517,236 C4614.27,259.39 4726.92,280.65 4803.96,294.32 " fill="none" id="models.auth.AdminOperation-to-exceptions.UserNotValidException" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4808.99,295.21,4800.8239,289.7041,4804.0664,294.3394,4799.431,297.5819,4808.99,295.21" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[80f05418e8d293da8f81205e0539aa2f]
+link models.auth.AdminOperation to java.util.ArrayList-->
+        <path codeLine="83" d="M4320.74,212.11 C4305.77,221.46 4287.26,231.19 4269,236 C4229.65,246.38 2842.72,231.48 2804,244 C2720.33,271.06 2725.83,329.48 2643,359 C2590.98,377.54 2571.95,351.32 2519,367 C2418.83,396.66 2412.98,448.58 2314,482 C2144.96,539.08 1930.92,552.14 1836.93,555.13 " fill="none" id="models.auth.AdminOperation-to-java.util.ArrayList" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1831.73,555.28,1840.8406,559.0213,1836.728,555.1372,1840.6121,551.0246,1831.73,555.28" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[8e79f7a1753743450a062a1fc6f776eb]
+link models.auth.AdminOperation to models.auth.IAdminOperation-->
+        <path codeLine="84" d="M4352.62,212.04 C4352.36,227.42 4352.02,248.12 4351.72,266.53 " fill="none" id="models.auth.AdminOperation-to-models.auth.IAdminOperation" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="4358.72,266.75,4351.39,286.63,4344.72,266.52,4358.72,266.75" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[978e6a908c163e1197c6aa28feea2800]
+link models.auth.AdminOperation to operations.ILogin-->
+        <path codeLine="85" d="M4332.07,163.8 C4313.28,144.69 4283.77,120.64 4251.5,117 C4220.03,113.45 2002.97,113.45 1971.5,117 C1963.57,117.89 1960.73,116.71 1954,121 C1939.17,130.46 1926.85,145.69 1917.93,159.24 " fill="none" id="models.auth.AdminOperation-to-operations.ILogin" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1915.04,163.75,1923.2632,158.3297,1917.7373,159.5399,1916.5271,154.0141,1915.04,163.75" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[4e386ffc2de77e6be78960955622c476]
+link models.auth.AdminOperation to operations.IRegisterMaterial-->
+        <path codeLine="86" d="M4332.07,163.8 C4313.28,144.69 4283.77,120.64 4251.5,117 C4218.61,113.29 1901.39,113.29 1868.5,117 C1837.65,120.48 1808.96,141.82 1789.48,160.21 " fill="none" id="models.auth.AdminOperation-to-operations.IRegisterMaterial" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1785.71,163.84,1794.9721,160.4912,1789.3164,160.3767,1789.4309,154.721,1785.71,163.84" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[9f21eca6fb2d164bf5d9b26be4d718f4]
+link models.auth.AdminOperation to operations.IRegisterUser-->
+        <path codeLine="87" d="M4332.07,163.8 C4313.28,144.69 4283.77,120.64 4251.5,117 C4223.76,113.87 2269.24,113.87 2241.5,117 C2233.57,117.89 2231.1,117.36 2224,121 C2204.97,130.75 2186.88,146.35 2173.12,160.05 " fill="none" id="models.auth.AdminOperation-to-operations.IRegisterUser" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2169.36,163.85,2178.5308,160.2588,2172.874,160.2931,2172.8398,154.6364,2169.36,163.85" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[0974cf51d8115fea75bdec2c5cfa2a0a]
+link models.auth.User to models.auth.Person-->
+        <path codeLine="88" d="M4060.33,212.04 C4058.55,227.42 4056.16,248.12 4054.03,266.53 " fill="none" id="models.auth.User-to-models.auth.Person" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="4060.96,267.57,4051.7,286.63,4047.05,265.96,4060.96,267.57" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[0b0049d69801a1a1b60c41e38ab0e8bd]
+link models.auth.User to java.util.ArrayList-->
+        <path codeLine="89" d="M4045.99,212.16 C4037.78,221.41 4027.08,231.03 4015,236 C3982.28,249.47 2775.53,236.27 2741,244 C2622.44,270.54 2608.19,320.37 2493,359 C2477.05,364.35 2472.21,362.49 2456,367 C2303.94,409.31 2271.91,439.16 2120,482 C2020.3,510.11 1901.32,534.53 1836.64,547.06 " fill="none" id="models.auth.User-to-java.util.ArrayList" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1831.7,548.01,1841.2999,550.2104,1836.6073,547.0514,1839.7662,542.3588,1831.7,548.01" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[9895ed0ab38bd718fb87856ae5217aa0]
+link models.auth.User to models.library.Fine-->
+        <path codeLine="90" d="M4062.48,212.15 C4055.77,221.4 4045.07,231.02 4033,236 C4007.84,246.39 3077.15,231.43 3053,244 C3037.28,252.18 3025.65,268.29 3015.75,282.55 " fill="none" id="models.auth.User-to-models.library.Fine" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3012.73,286.9,3021.137,281.7695,3015.5723,282.7865,3014.5554,277.2218,3012.73,286.9" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[3df34f553d6a8c4790d57ac4aab0bf9a]
+link models.library.Fine to models.auth.User-->
+        <path codeLine="101" d="M2983.33,286.9 C2988.29,271.71 3000.66,253.03 3018,244 C3042.15,231.43 3972.84,246.39 3998,236 C4009.32,231.33 4019.43,222.58 4028.59,213.89 " fill="none" id="models.library.Fine-to-models.auth.User" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4032.46,210.18,4023.1979,213.5288,4028.8536,213.6433,4028.7391,219.299,4032.46,210.18" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[ba6a8f68ce7b8236bdaef11fc647f7bf]
+link models.auth.User to models.library.Loan-->
+        <path codeLine="91" d="M4062.46,212.1 C4055.75,221.34 4045.05,230.97 4033,236 C4007.98,246.45 3569.12,231.62 3545,244 C3529.01,252.21 3516.89,268.32 3506.56,282.57 " fill="none" id="models.auth.User-to-models.library.Loan" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3503.41,286.92,3511.9323,281.9833,3506.3458,282.8726,3505.4565,277.2861,3503.41,286.92" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[654eac5c1ee9946b907f92efec9f9381]
+link models.library.Loan to models.auth.User-->
+        <path codeLine="104" d="M3474.01,286.92 C3479.42,271.74 3492.35,253.06 3510,244 C3534.12,231.62 3972.98,246.45 3998,236 C4009.3,231.28 4019.41,222.53 4028.57,213.84 " fill="none" id="models.library.Loan-to-models.auth.User" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4032.44,210.13,4023.1713,213.4604,4028.8268,213.5861,4028.7011,219.2416,4032.44,210.13" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[2a525724c061795d6674e368e2bedc2f]
+link models.auth.UserOperation to java.util.List-->
+        <path codeLine="92" d="M4159.85,212.09 C4145.8,221.44 4128.37,231.17 4111,236 C4074.34,246.2 2778.76,239.24 2741,244 C2308.73,298.55 2218.04,400.65 1790,482 C1763.14,487.11 1752.22,475.55 1729,490 C1714.61,498.95 1703.88,514.56 1696.63,528.34 " fill="none" id="models.auth.UserOperation-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1694.3,532.94,1701.9504,526.7374,1696.5703,528.4851,1694.8226,523.105,1694.3,532.94" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[afcbbfda185b0420413780ec53f8e421]
+link models.auth.UserOperation to models.library.Fine-->
+        <path codeLine="93" d="M4159.85,212.08 C4145.8,221.43 4128.37,231.15 4111,236 C4082.21,244.03 3061.52,230.21 3035,244 C3019.42,252.11 3007.85,268.01 3000.09,282.18 " fill="none" id="models.auth.UserOperation-to-models.library.Fine" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2997.61,286.9,3005.339,280.7956,2999.937,282.4745,2998.2581,277.0725,2997.61,286.9" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[c3fb134a908ca60dd1d9fefbef5a7d36]
+link models.auth.UserOperation to models.library.Loan-->
+        <path codeLine="94" d="M4159.83,212.02 C4145.78,221.37 4128.36,231.1 4111,236 C4079.77,244.82 3555.89,229.22 3527,244 C3511.13,252.12 3499.09,268.02 3490.91,282.18 " fill="none" id="models.auth.UserOperation-to-models.library.Loan" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3488.28,286.91,3496.1622,281.0048,3490.7191,282.5453,3489.1786,277.1022,3488.28,286.91" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[43fcebeab01b1dcf3fe96da890e93d87]
+link models.auth.UserOperation to models.auth.IUserOperation-->
+        <path codeLine="95" d="M4189.05,212.04 C4188.41,227.42 4187.56,248.12 4186.8,266.53 " fill="none" id="models.auth.UserOperation-to-models.auth.IUserOperation" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="4193.79,266.94,4185.97,286.63,4179.8,266.36,4193.79,266.94" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[4121e36e019fc42005e5f73ad69a7867]
+link models.library.Book to models.library.Material-->
+        <path codeLine="96" d="M3093.33,335.04 C3099.73,350.84 3108.4,372.25 3116,391.02 " fill="none" id="models.library.Book-to-models.library.Material" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="3122.52,388.46,3123.54,409.63,3109.54,393.72,3122.52,388.46" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[d7874952174f470ff1831773007647df]
+link models.library.Book to utils.DateFormat-->
+        <path codeLine="97" d="M3066.51,335.09 C3058.1,344.32 3047.2,353.95 3035,359 C2996.4,375 2697.73,351.3 2659,367 C2639.18,375.03 2621.55,391.35 2608.81,405.75 " fill="none" id="models.library.Book-to-utils.DateFormat" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2605.35,409.75,2614.2689,405.5724,2608.6263,405.973,2608.2257,400.3303,2605.35,409.75" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[713d8ca0a16235457e59d48f5c32399f]
+link models.library.Copy to models.library.Material-->
+        <path codeLine="98" d="M3172.67,335.04 C3166.27,350.84 3157.6,372.25 3150,391.02 " fill="none" id="models.library.Copy-to-models.library.Material" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="3156.46,393.72,3142.46,409.63,3143.48,388.46,3156.46,393.72" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[211ba74b1038a8e45c391495cc0f87af]
+link models.library.Copy to java.util.ArrayList-->
+        <path codeLine="99" d="M3163.29,335.4 C3154.97,344.22 3144.46,353.45 3133,359 C3109.58,370.34 3100.18,360.45 3075,367 C2938.81,402.41 2917.87,453.83 2780,482 C2724.45,493.35 2581.59,486.58 2525,490 C2264.75,505.74 1953.87,538.08 1836.75,550.75 " fill="none" id="models.library.Copy-to-java.util.ArrayList" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1831.66,551.3,1841.041,554.2994,1836.6305,550.7572,1840.1726,546.3467,1831.66,551.3" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[5670056af07b2fdd4ec97e92711123d6]
+link models.library.Copy to utils.DateFormat-->
+        <path codeLine="100" d="M3164.52,335.11 C3156.11,344.35 3145.21,353.97 3133,359 C3084.3,379.06 2707.86,347.32 2659,367 C2639.17,374.99 2621.53,391.3 2608.8,405.71 " fill="none" id="models.library.Copy-to-utils.DateFormat" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2605.34,409.72,2614.2511,405.5257,2608.6092,405.9368,2608.1981,400.295,2605.34,409.72" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[926fe26218e20ce70e2a533f0f533d66]
+link models.library.Fine to models.library.fine_observable.FineSubject-->
+        <path codeLine="102" d="M2976.74,286.76 C2968.76,272.22 2956.68,254.54 2941,244 C2918.95,229.18 2848.07,239.64 2821.5,240 C1797.22,253.91 547.75,298.47 266.18,308.83 " fill="none" id="models.library.Fine-to-models.library.fine_observable.FineSubject" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="260.9,309.03,270.0427,312.6922,265.8965,308.8439,269.7449,304.6978,260.9,309.03" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[c6e282bd0384d29a5d2b59302edc4c95]
+link models.library.Fine to utils.DateFormat-->
+        <path codeLine="103" d="M2971.38,335.03 C2963.35,344.25 2952.87,353.89 2941,359 C2912.21,371.41 2688.01,355.12 2659,367 C2639.21,375.1 2621.58,391.42 2608.83,405.8 " fill="none" id="models.library.Fine-to-utils.DateFormat" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2605.37,409.8,2614.2901,405.6249,2608.6474,406.0239,2608.2484,400.3811,2605.37,409.8" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[2d625f35e03ccd332ec37a3f36470677]
+link models.library.Loan to utils.DateFormat-->
+        <path codeLine="105" d="M3460.98,335.14 C3452.76,344.38 3442.07,354 3430,359 C3390.42,375.39 2698.79,351.13 2659,367 C2639.14,374.92 2621.5,391.24 2608.78,405.67 " fill="none" id="models.library.Loan-to-utils.DateFormat" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2605.32,409.68,2614.222,405.4664,2608.581,405.8898,2608.1577,400.2488,2605.32,409.68" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[ca2699d289f086b5ca93ab8c7d2cc1b3]
+link models.library.PersonFactory to models.auth.AdminOperation-->
+        <path codeLine="106" d="M3627.24,286.94 C3643.75,271.56 3667.7,252.63 3693,244 C3753.58,223.34 4207.18,252.58 4269,236 C4285.53,231.57 4302.28,223.16 4316.42,214.67 " fill="none" id="models.library.PersonFactory-to-models.auth.AdminOperation" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4320.72,212.03,4310.9524,213.2927,4316.449,214.6297,4315.112,220.1263,4320.72,212.03" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[0d3048308b07a35693659b853fc46741]
+link models.library.PersonFactory to models.auth.UserOperation-->
+        <path codeLine="107" d="M3627.26,286.98 C3643.77,271.62 3667.72,252.7 3693,244 C3736.93,228.89 4066.33,248.74 4111,236 C4126.44,231.59 4141.95,223.39 4155.09,215.06 " fill="none" id="models.library.PersonFactory-to-models.auth.UserOperation" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4159.45,212.23,4149.72,213.7555,4155.2506,214.9439,4154.0622,220.4745,4159.45,212.23" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[b2814bf624a69b3647e478829fc6ef95]
+link models.library.PersonFactory to models.library.IPersonOperationFactory-->
+        <path codeLine="108" d="M3598.91,335.04 C3594.8,350.59 3589.25,371.57 3584.34,390.13 " fill="none" id="models.library.PersonFactory-to-models.library.IPersonOperationFactory" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="3591.06,392.08,3579.18,409.63,3577.53,388.5,3591.06,392.08" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[31ae0f1f437ee1be7b0a74ea9b700569]
+link models.library.fine_observable.FineSubject to models.library.fine_observable.Subject-->
+        <path codeLine="109" d="M209.14,335.04 C209.91,350.42 210.93,371.12 211.84,389.53 " fill="none" id="models.library.fine_observable.FineSubject-to-models.library.fine_observable.Subject" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="218.84,389.31,212.84,409.63,204.86,390,218.84,389.31" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[ed0e01ae3e27d3c8afc5c7633922d808]
+link models.library.fine_observable.Observer to models.library.fine_observable.IObserver-->
+        <path codeLine="110" d="M76.38,335.04 C76.64,350.42 76.98,371.12 77.28,389.53 " fill="none" id="models.library.fine_observable.Observer-to-models.library.fine_observable.IObserver" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="84.28,389.52,77.61,409.63,70.28,389.75,84.28,389.52" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[5dda4577f208ee371da6fba1c1096b90]
+link models.library.fine_payment_strategy.CreditCardPayment to java.util.Scanner-->
+        <path codeLine="111" d="M696.99,89.01 C666.84,104.08 633,121 633,121 C606.13,164.48 607.4,191.76 633,236 C742.89,425.9 853.54,410.59 1061,482 C1228.34,539.6 1440.82,552.4 1533.82,555.22 " fill="none" id="models.library.fine_payment_strategy.CreditCardPayment-to-java.util.Scanner" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1538.97,555.37,1530.0879,551.1146,1533.972,555.2272,1529.8594,559.1113,1538.97,555.37" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[cefa6ad34c1d81f5aa537bcec05f1a91]
+link models.library.fine_payment_strategy.CreditCardPayment to models.library.Fine-->
+        <path codeLine="112" d="M810.17,89.1 C928.71,128.53 1183.55,207.35 1406,236 C1427.15,238.72 2922.08,234.18 2941,244 C2956.59,252.09 2968.16,267.99 2975.91,282.16 " fill="none" id="models.library.fine_payment_strategy.CreditCardPayment-to-models.library.Fine" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2978.4,286.89,2977.7519,277.0625,2976.073,282.4645,2970.671,280.7856,2978.4,286.89" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[2637d2a05c3fb0ac6db98dc6323f801b]
+link models.library.fine_payment_strategy.CreditCardPayment to models.library.fine_payment_strategy.IFinePaymentStrategy-->
+        <path codeLine="113" d="M741.48,89.04 C740.46,104.42 739.09,125.12 737.87,143.53 " fill="none" id="models.library.fine_payment_strategy.CreditCardPayment-to-models.library.fine_payment_strategy.IFinePaymentStrategy" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="744.85,144.14,736.55,163.63,730.88,143.21,744.85,144.14" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[da810715cb212731768214a907d9d33b]
+link models.library.fine_payment_strategy.DebitCardPayment to java.util.Scanner-->
+        <path codeLine="114" d="M413.82,89.1 C424.03,161.59 466.17,385.49 606,482 C682.95,535.11 1349.56,551.61 1533.92,555.18 " fill="none" id="models.library.fine_payment_strategy.DebitCardPayment-to-java.util.Scanner" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1538.98,555.28,1530.0618,551.1008,1533.981,555.18,1529.9018,559.0992,1538.98,555.28" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[074e4a7cc6d644ed29b37ddd05d11638]
+link models.library.fine_payment_strategy.DebitCardPayment to models.library.Fine-->
+        <path codeLine="115" d="M424.08,89.19 C447.58,128.2 501.1,205.66 571,236 C601.19,249.11 2911.77,228.87 2941,244 C2956.6,252.08 2968.17,267.98 2975.92,282.15 " fill="none" id="models.library.fine_payment_strategy.DebitCardPayment-to-models.library.Fine" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2978.4,286.88,2977.7767,277.0509,2976.0842,282.4486,2970.6865,280.7561,2978.4,286.88" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[e652faf64f8f635b06c87b3dd81bbba2]
+link models.library.fine_payment_strategy.DebitCardPayment to models.library.fine_payment_strategy.IFinePaymentStrategy-->
+        <path codeLine="116" d="M451.98,89.04 C467.39,97.2 485.24,106.07 502,113 C543.55,130.18 590.62,145.82 631.52,158.24 " fill="none" id="models.library.fine_payment_strategy.DebitCardPayment-to-models.library.fine_payment_strategy.IFinePaymentStrategy" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="633.58,151.55,650.74,163.99,629.57,164.97,633.58,151.55" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[97c31fc3f77146f884143437c1549d89]
+link models.library.fine_payment_strategy.GRUPayment to java.util.Scanner-->
+        <path codeLine="117" d="M571.55,89.21 C566.05,122.3 558.81,184.72 571,236 C601.63,364.81 621.17,421.62 739,482 C879.28,553.89 1377.06,557.23 1533.55,556.45 " fill="none" id="models.library.fine_payment_strategy.GRUPayment-to-java.util.Scanner" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1538.97,556.42,1529.9586,552.4457,1533.97,556.4343,1529.9815,560.4457,1538.97,556.42" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[1d393c9f299ff3a1fde8325b818af519]
+link models.library.fine_payment_strategy.GRUPayment to models.library.Fine-->
+        <path codeLine="118" d="M575.92,89.27 C577.19,127.32 585.93,202.01 633,236 C658.99,254.77 2912.53,229.26 2941,244 C2956.6,252.08 2968.16,267.98 2975.92,282.15 " fill="none" id="models.library.fine_payment_strategy.GRUPayment-to-models.library.Fine" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2978.4,286.88,2977.7767,277.0509,2976.0842,282.4486,2970.6865,280.7561,2978.4,286.88" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[6db2b007d86ca8bd5ab7bed789fbb576]
+link models.library.fine_payment_strategy.GRUPayment to models.library.fine_payment_strategy.IFinePaymentStrategy-->
+        <path codeLine="119" d="M606.28,89.04 C629.53,106.73 662.03,131.47 688.55,151.65 " fill="none" id="models.library.fine_payment_strategy.GRUPayment-to-models.library.fine_payment_strategy.IFinePaymentStrategy" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="692.89,146.15,704.56,163.84,684.41,157.29,692.89,146.15" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[11e15e167ebdbcb800bf395565d3aab4]
+link operations.ApplyLoan to models.auth.User-->
+        <path codeLine="120" d="M2338.82,66.34 C2609.4,68.43 3938.95,80.74 4015,121 C4030.52,129.22 4042.27,144.96 4050.26,159.01 " fill="none" id="operations.ApplyLoan-to-models.auth.User" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4052.82,163.69,4052.0085,153.8746,4050.4197,159.3038,4044.9906,157.7151,4052.82,163.69" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[d1870a7859b3b322e9a85fcb0142bf29]
+link operations.ApplyLoan to models.library.Book-->
+        <path codeLine="121" d="M2338.51,67.12 C2519.97,71.63 3160.59,89.73 3190,121 C3225.02,158.23 3223.49,197.39 3190,236 C3173.53,254.99 3155.66,231.24 3134,244 C3118.75,252.98 3106.61,268.58 3098.11,282.36 " fill="none" id="operations.ApplyLoan-to-models.library.Book" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3095.37,286.95,3103.4304,281.2905,3097.9425,282.6625,3096.5705,277.1746,3095.37,286.95" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[c547a757d50dd5134f4f16159a1a90df]
+link operations.ApplyLoan to models.library.Copy-->
+        <path codeLine="122" d="M2338.6,67 C2525.07,71.15 3197.2,88.34 3228,121 C3270.03,165.57 3229.4,241.86 3202.15,282.55 " fill="none" id="operations.ApplyLoan-to-models.library.Copy" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3199.23,286.86,3207.5837,281.6432,3202.0298,282.7174,3200.9556,277.1635,3199.23,286.86" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[694be88e14cbed480d5d8ea3b4d338f9]
+link operations.ApplyLoan to models.library.Loan-->
+        <path codeLine="123" d="M2338.69,67.1 C2522.04,71.56 3175.64,89.54 3263,121 C3349.73,152.23 3365.01,178.62 3430,244 C3441.58,255.65 3452.51,270.27 3461.01,282.8 " fill="none" id="operations.ApplyLoan-to-models.library.Loan" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3463.79,286.96,3462.1028,277.2567,3461.0066,282.8063,3455.457,281.7101,3463.79,286.96" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[6985c0f9156bcf320023e4ba6ac5c100]
+link operations.ApplyLoan to repository.LoanRepository-->
+        <path codeLine="124" d="M2338.61,68.94 C2434.12,75.36 2645.66,92.42 2712,121 C2733.04,130.06 2753.03,146.25 2767.89,160.32 " fill="none" id="operations.ApplyLoan-to-repository.LoanRepository" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2771.56,163.85,2767.8579,154.7234,2767.9608,160.3793,2762.3049,160.4822,2771.56,163.85" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[26cfcc061f9bd318cc2eebfe12a9ad22]
+link operations.ApplyLoan to repository.MaterialRepository-->
+        <path codeLine="125" d="M2338.78,67.27 C2460.05,70.99 2777.1,84.07 2875,121 C2898.23,129.76 2920.85,146.12 2937.72,160.35 " fill="none" id="operations.ApplyLoan-to-repository.MaterialRepository" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2941.88,163.92,2937.6664,155.018,2938.0898,160.659,2932.4488,161.0823,2941.88,163.92" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[c0dcc658c2e4397b4255d7deaf563079]
+link operations.ApplyLoan to operations.IApplyLoan-->
+        <path codeLine="126" d="M2290.81,89.04 C2290.68,104.42 2290.51,125.12 2290.36,143.53 " fill="none" id="operations.ApplyLoan-to-operations.IApplyLoan" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="2297.36,143.69,2290.19,163.63,2283.36,143.57,2297.36,143.69" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[a2998ec288bb1342f30a4740f1c6ce7b]
+link operations.Login to operations.ILogin-->
+        <path codeLine="127" d="M1902,89.04 C1902,104.42 1902,125.12 1902,143.53 " fill="none" id="operations.Login-to-operations.ILogin" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1909,143.63,1902,163.63,1895,143.63,1909,143.63" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[103f1657f7c8e8557edf1c760d0b9395]
+link operations.PayFine to java.util.Scanner-->
+        <path codeLine="128" d="M1990.8,89.23 C1979.97,98.49 1966.31,108.1 1952,113 C1932.26,119.75 1216.32,106.84 1201,121 C1141.98,175.56 1127.57,420.24 1179,482 C1223.72,535.71 1437.62,550.58 1533.88,554.58 " fill="none" id="operations.PayFine-to-java.util.Scanner" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1538.93,554.78,1530.0971,550.4235,1533.934,554.5802,1529.7773,558.4171,1538.93,554.78" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[2217ebbb3a9ba08a8ceff03c7e36db23]
+link operations.PayFine to models.library.Loan-->
+        <path codeLine="129" d="M2036.9,89.01 C2047.78,98.35 2061.55,108.08 2076,113 C2135.07,133.09 3138.52,105.67 3199,121 C3311.75,149.57 3342.22,167.69 3430,244 C3442.58,254.94 3453.74,269.77 3462.13,282.6 " fill="none" id="operations.PayFine-to-models.library.Loan" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3464.86,286.87,3463.3729,277.1341,3462.1627,282.6599,3456.6368,281.4497,3464.86,286.87" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[b891d756facfb90d493da553d3cda2e8]
+link operations.PayFine to repository.LoanRepository-->
+        <path codeLine="130" d="M2037.2,89.22 C2048.04,98.48 2061.69,108.09 2076,113 C2109.42,124.47 2678.78,108.94 2712,121 C2734.01,128.99 2754.41,145.7 2769.24,160.3 " fill="none" id="operations.PayFine-to-repository.LoanRepository" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2772.88,163.96,2769.363,154.7605,2769.3516,160.4173,2763.6948,160.4059,2772.88,163.96" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[f84f8c985f310dd46bf2be2f7a2ba7e4]
+link operations.PayFine to operations.IPayFine-->
+        <path codeLine="131" d="M2013.81,89.04 C2013.68,104.42 2013.51,125.12 2013.36,143.53 " fill="none" id="operations.PayFine-to-operations.IPayFine" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="2020.36,143.69,2013.19,163.63,2006.36,143.57,2020.36,143.69" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[f68ae09ac55906b76c95e231fe236f6d]
+link operations.RegisterMaterial to models.library.Material-->
+        <path codeLine="132" d="M1730.01,89.15 C1714.54,98.39 1695.57,108.01 1677,113 C1662.4,116.92 1415.53,110.15 1405,121 C1369.39,157.67 1369.75,198.99 1405,236 C1411.29,242.61 1559.9,243.32 1569,244 C2108.47,284.53 2244.53,289.89 2780,367 C2890.66,382.94 3019.5,408.93 3086.75,423.07 " fill="none" id="operations.RegisterMaterial-to-models.library.Material" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3091.88,424.15,3083.8937,418.3864,3086.9866,423.1228,3082.2502,426.2158,3091.88,424.15" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[b2b0e0d6ca1afd6ddbe98b7c51623b51]
+link operations.RegisterMaterial to java.util.Scanner-->
+        <path codeLine="133" d="M1730.45,89 C1714.91,98.34 1695.76,108.07 1677,113 C1629.81,125.39 1282.74,101.55 1238,121 C1168.24,151.32 1150.64,174.83 1119,244 C1074.95,340.29 1039.15,401.55 1108,482 C1162.53,545.72 1425,554.96 1533.7,556.02 " fill="none" id="operations.RegisterMaterial-to-java.util.Scanner" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1538.76,556.07,1529.7946,551.993,1533.7602,556.0271,1529.726,559.9927,1538.76,556.07" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[66ecf248fbd19a0d9a863886d7c66db5]
+link operations.RegisterMaterial to models.library.Book-->
+        <path codeLine="134" d="M1797.94,89.11 C1813.66,98.47 1833.03,108.19 1852,113 C1869.06,117.33 3106.6,108.52 3119,121 C3161.78,164.05 3126.11,241.32 3101.86,282.47 " fill="none" id="operations.RegisterMaterial-to-models.library.Book" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3099.26,286.82,3107.3065,281.1408,3101.8219,282.5262,3100.4365,277.0417,3099.26,286.82" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[295d5cf7cfc6fa28717dccb83bbe270e]
+link operations.RegisterMaterial to models.library.Copy-->
+        <path codeLine="135" d="M1797.94,89.11 C1813.66,98.47 1833.03,108.19 1852,113 C1869.53,117.44 3140.34,109.14 3154,121 C3199.61,160.6 3194.5,239.49 3187.75,281.74 " fill="none" id="operations.RegisterMaterial-to-models.library.Copy" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3186.92,286.71,3192.3336,278.4824,3187.735,281.7769,3184.4406,277.1783,3186.92,286.71" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[9aa5a9ca3954710263f59f5f060afe95]
+link operations.RegisterMaterial to repository.MaterialRepository-->
+        <path codeLine="136" d="M1797.94,89.09 C1813.66,98.45 1833.03,108.17 1852,113 C1907.08,127.02 2821.01,103.25 2875,121 C2898.93,128.87 2921.86,145.58 2938.72,160.21 " fill="none" id="operations.RegisterMaterial-to-repository.MaterialRepository" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2942.87,163.88,2938.7838,154.9188,2939.1267,160.5653,2933.4802,160.9082,2942.87,163.88" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[740d558b4d4b71f6c24b3a70bbe09f07]
+link operations.RegisterMaterial to utils.DateFormat-->
+        <path codeLine="137" d="M1730.04,89.23 C1714.57,98.49 1695.59,108.1 1677,113 C1666.12,115.87 1279.88,112.97 1272,121 C1236.22,157.5 1238.73,197.2 1272,236 C1355.49,333.39 2284.75,410.08 2529.31,428.68 " fill="none" id="operations.RegisterMaterial-to-utils.DateFormat" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2534.61,429.08,2525.9453,424.3977,2529.6249,428.6943,2525.3283,432.3739,2534.61,429.08" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[9d0b25e4a5585822611da455278366b3]
+link operations.RegisterMaterial to operations.IRegisterMaterial-->
+        <path codeLine="138" d="M1764,89.04 C1764,104.42 1764,125.12 1764,143.53 " fill="none" id="operations.RegisterMaterial-to-operations.IRegisterMaterial" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1771,143.63,1764,163.63,1757,143.63,1771,143.63" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[18b13e96d780c1f2a813bbb3402f4cba]
+link operations.RegisterUser to exceptions.UserNotValidException-->
+        <path codeLine="139" d="M2178.87,89.1 C2192.36,98.45 2209.15,108.18 2226,113 C2284.99,129.88 4374.82,109.03 4435,121 C4595.12,152.85 4769.72,240.47 4850.41,284.31 " fill="none" id="operations.RegisterUser-to-exceptions.UserNotValidException" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4855.12,286.88,4849.1254,279.0656,4850.7278,284.4908,4845.3026,286.0931,4855.12,286.88" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[8dd329e4693b3c1320bea9943bbbd281]
+link operations.RegisterUser to java.util.Scanner-->
+        <path codeLine="140" d="M2120.26,89.04 C2106.4,98.39 2089.19,108.12 2072,113 C2053.24,118.33 1385.31,108.93 1370,121 C1243.48,220.75 1241.02,352.6 1337,482 C1360.5,513.69 1469.56,537.12 1533.64,548.44 " fill="none" id="operations.RegisterUser-to-java.util.Scanner" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1538.94,549.36,1530.7612,543.8731,1534.0144,548.5009,1529.3866,551.7541,1538.94,549.36" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[cfe33816a115dc06c47bb787ab8b1512]
+link operations.RegisterUser to models.auth.User-->
+        <path codeLine="141" d="M2178.87,89.09 C2192.37,98.45 2209.15,108.17 2226,113 C2249.89,119.85 3992.88,109.68 4015,121 C4030.75,129.06 4042.56,144.97 4050.52,159.14 " fill="none" id="operations.RegisterUser-to-models.auth.User" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4053.07,163.87,4052.3212,154.0496,4050.6978,159.4686,4045.2789,157.8452,4053.07,163.87" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[0cb54f14bc5be4b2cc4c6b3958ebea3d]
+link operations.RegisterUser to repository.UserRepository-->
+        <path codeLine="142" d="M2179.73,89.13 C2193.12,98.25 2209.59,107.78 2226,113 C2280.74,130.41 2300.36,103.27 2355,121 C2381.29,129.53 2407.53,146.26 2427.09,160.75 " fill="none" id="operations.RegisterUser-to-repository.UserRepository" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2431.4,163.99,2426.6196,155.3791,2427.4069,160.9809,2421.805,161.7681,2431.4,163.99" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[55c7e491f90834287371fcdd6330fb8d]
+link operations.RegisterUser to utils.Validator-->
+        <path codeLine="143" d="M2120.26,89.04 C2106.39,98.38 2089.18,108.11 2072,113 C2054.18,118.07 1418.02,107.82 1405,121 C1369.08,157.36 1369.1,199.62 1405,236 C1416.84,248 1995.22,242.31 2012,244 C2303.23,273.37 2403.02,225.05 2659,367 C2675.82,376.33 2690.58,391.97 2701.37,405.69 " fill="none" id="operations.RegisterUser-to-utils.Validator" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2704.59,409.87,2702.2698,400.2983,2701.5401,405.9079,2695.9305,405.1782,2704.59,409.87" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[3e4a098920b01d71ad61ff97ba1cd014]
+link operations.RegisterUser to operations.IRegisterUser-->
+        <path codeLine="144" d="M2149.62,89.04 C2149.36,104.42 2149.02,125.12 2148.72,143.53 " fill="none" id="operations.RegisterUser-to-operations.IRegisterUser" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="2155.72,143.75,2148.39,163.63,2141.72,143.52,2155.72,143.75" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[39fc6dfc025dc9c957692d06bc0e2130]
+link operations.ReturnLoan to operations.IReturnLoan-->
+        <path codeLine="145" d="M1607,89.04 C1607,104.42 1607,125.12 1607,143.53 " fill="none" id="operations.ReturnLoan-to-operations.IReturnLoan" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1614,143.63,1607,163.63,1600,143.63,1614,143.63" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[484283d33310d2293658657e84b75ab8]
+link operations.ViewFines to java.util.List-->
+        <path codeLine="146" d="M1423.33,70.33 C1362.35,77.06 1260.66,92.34 1238,121 C1206.3,161.09 1228.28,185.82 1238,236 C1260.41,351.7 1240.22,414.75 1337,482 C1364.75,501.28 1611.42,473.67 1641,490 C1655.95,498.25 1666.74,513.99 1673.89,528.03 " fill="none" id="operations.ViewFines-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1676.18,532.71,1675.8083,522.8682,1673.9783,528.2208,1668.6256,526.3909,1676.18,532.71" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[7dc95331add682298d99a7d3b70361d4]
+link operations.ViewFines to models.library.Fine-->
+        <path codeLine="147" d="M1495.47,89.05 C1507.47,98.4 1522.53,108.13 1538,113 C1558.11,119.33 3041.13,106.05 3056,121 C3092.05,157.24 3085,193.91 3056,236 C3050.33,244.22 3042.9,237.89 3035,244 C3021.7,254.28 3010.58,269.34 3002.49,282.48 " fill="none" id="operations.ViewFines-to-models.library.Fine" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2999.87,286.86,3007.9304,281.2005,3002.4425,282.5725,3001.0705,277.0846,2999.87,286.86" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[ded40051543abf2f74d5d5d5568e1274]
+link operations.ViewFines to operations.IViewFines-->
+        <path codeLine="148" d="M1470,89.04 C1470,104.42 1470,125.12 1470,143.53 " fill="none" id="operations.ViewFines-to-operations.IViewFines" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1477,143.63,1470,163.63,1463,143.63,1477,143.63" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[e1f2aa23e0530373be464809e8f59384]
+link presentation.ApplyLoan to models.library.Material-->
+        <path codeLine="149" d="M4454.51,89.25 C4461.89,98.4 4469.18,109.47 4473,121 C4506.73,222.67 4520.94,295.06 4435,359 C4424.16,367.07 3475.44,365.61 3462,367 C3359.98,377.56 3242.69,404.81 3179.37,420.8 " fill="none" id="presentation.ApplyLoan-to-models.library.Material" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3174.16,422.12,3183.8661,423.7909,3179.0073,420.8939,3181.9043,416.0352,3174.16,422.12" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[e61569be88fe273142e9e000a916d00b]
+link presentation.ApplyLoan to javax.swing.JFrame-->
+        <path codeLine="150" d="M4456.56,89.06 C4467.97,98.29 4482.25,107.92 4497,113 C4519.5,120.75 4687.25,119.63 4711,121 C5008.02,138.14 5362.95,169.38 5499.05,181.75 " fill="none" id="presentation.ApplyLoan-to-javax.swing.JFrame" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="5499.69,174.78,5518.97,183.57,5498.42,188.72,5499.69,174.78" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[6e471d2713b7671d484a0cea96550052]
+link presentation.ApplyLoan to repository.MaterialRepository-->
+        <path codeLine="151" d="M4384.42,66.4 C4233,68.12 3748.83,76.94 3351,121 C3244.48,132.8 3122.76,155.18 3045.2,170.58 " fill="none" id="presentation.ApplyLoan-to-repository.MaterialRepository" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3040.15,171.59,3049.756,173.7634,3045.0545,170.6177,3048.2003,165.9162,3040.15,171.59" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[da5b9b24a6849c5f2f824c60282e423c]
+link presentation.ApplyLoan to utils.DateFormat-->
+        <path codeLine="152" d="M4384.21,66.36 C4252.68,67.93 3874.5,76.31 3564,121 C3334.87,153.98 3285.93,209.15 3056,236 C3044.8,237.31 2251.94,235.99 2244,244 C2208.04,280.32 2211.88,319.24 2244,359 C2279.24,402.62 2440.86,421.74 2529.47,429.06 " fill="none" id="presentation.ApplyLoan-to-utils.DateFormat" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2534.67,429.48,2526.0187,424.7731,2529.686,429.0801,2525.3789,432.7474,2534.67,429.48" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[fe210a9babfe50e3e11b4597139e9733]
+link presentation.ApplyLoan to models.auth.IUserOperation-->
+        <path codeLine="153" d="M4441.75,89.15 C4455.41,125.69 4474.61,196.59 4437,236 C4423.87,249.76 4283.77,237.21 4266,244 C4244.29,252.3 4224.02,268.83 4209.19,283.27 " fill="none" id="presentation.ApplyLoan-to-models.auth.IUserOperation" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4205.53,286.89,4214.7366,283.3916,4209.0798,283.3688,4209.1026,277.7119,4205.53,286.89" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[991dd622e777a5c86c5d607328048939]
+link presentation.ControlAdminPanel to javax.swing.JFrame-->
+        <path codeLine="154" d="M4804.07,89.18 C4820.42,98.07 4840.09,107.42 4859,113 C5088.88,180.81 5377.61,188.08 5498.56,187.83 " fill="none" id="presentation.ControlAdminPanel-to-javax.swing.JFrame" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="5498.77,180.83,5518.81,187.71,5498.85,194.83,5498.77,180.83" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[96256e91ebab6fb85b822fbba27f0f1e]
+link presentation.ControlAdminPanel to models.library.PersonFactory-->
+        <path codeLine="155" d="M4729.95,89.08 C4713.31,98.43 4692.86,108.16 4673,113 C4631.87,123.03 3950.1,104.76 3911,121 C3843.66,148.97 3860.34,205.74 3794,236 C3753.03,254.69 3735.12,228.08 3693,244 C3670.27,252.59 3648.4,268.94 3632.15,283.22 " fill="none" id="presentation.ControlAdminPanel-to-models.library.PersonFactory" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3628.14,286.8,3637.5113,283.7704,3631.8628,283.4623,3632.1709,277.8138,3628.14,286.8" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[e4af9f91aae4a653ff08623840140b82]
+link presentation.ControlAdminPanel to models.auth.IAdminOperation-->
+        <path codeLine="156" d="M4741.05,89.01 C4701.66,124.4 4621.54,192.65 4544,236 C4506.08,257.2 4460.86,274.9 4423.73,287.67 " fill="none" id="presentation.ControlAdminPanel-to-models.auth.IAdminOperation" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4418.78,289.36,4428.5897,290.2378,4423.5119,287.7446,4426.005,282.6668,4418.78,289.36" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[5349ce29a2875907ad7df3d357216372]
+link presentation.ControlUserPanel to javax.swing.JFrame-->
+        <path codeLine="157" d="M4620.83,89.16 C4636.53,98.16 4655.55,107.6 4674,113 C4752.87,136.09 5315.79,172.26 5498.73,183.53 " fill="none" id="presentation.ControlUserPanel-to-javax.swing.JFrame" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="5499.32,176.55,5518.86,184.76,5498.47,190.53,5499.32,176.55" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[ebdc88138ea0e7195b979f1f86867973]
+link presentation.ControlUserPanel to models.auth.User-->
+        <path codeLine="158" d="M4550.61,89.23 C4534.96,98.49 4515.77,108.09 4497,113 C4476.25,118.42 4130.01,111.07 4111,121 C4095.32,129.19 4083.51,145.1 4075.53,159.24 " fill="none" id="presentation.ControlUserPanel-to-models.auth.User" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4072.98,163.96,4080.7862,157.9548,4075.3633,159.5645,4073.7535,154.1416,4072.98,163.96" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[8e8e1ff979dc0ccd30b2630b8893906c]
+link presentation.ControlUserPanel to models.library.PersonFactory-->
+        <path codeLine="159" d="M4551.05,89.05 C4535.32,98.4 4515.96,108.13 4497,113 C4462.08,121.97 3882.03,109.09 3848,121 C3799.6,137.94 3687.22,235.68 3633.98,283.57 " fill="none" id="presentation.ControlUserPanel-to-models.library.PersonFactory" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3630.25,286.93,3639.6155,283.8825,3633.9665,283.5852,3634.2638,277.9361,3630.25,286.93" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[1fca439960412d9e7e84b99159628908]
+link presentation.ControlUserPanel to models.auth.IUserOperation-->
+        <path codeLine="160" d="M4577.63,89.01 C4563.97,127.39 4530.72,203.45 4473,236 C4452.95,247.31 4287.53,235.87 4266,244 C4244.26,252.21 4223.98,268.74 4209.16,283.2 " fill="none" id="presentation.ControlUserPanel-to-models.auth.IUserOperation" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4205.51,286.83,4214.7166,283.3317,4209.0598,283.3088,4209.0827,277.652,4205.51,286.83" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[a65ff115eb6096c3049f7684beadb3df]
+link presentation.LoginAdmin to exceptions.AdminNotFoundException-->
+        <path codeLine="161" d="M5395.29,89.08 C5403.52,98.75 5412.97,110.22 5421,121 C5462.34,176.47 5505.87,244.92 5529.07,282.33 " fill="none" id="presentation.LoginAdmin-to-exceptions.AdminNotFoundException" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="5531.8,286.74,5530.4605,276.9827,5529.1667,282.4896,5523.6598,281.1959,5531.8,286.74" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[8e67a899c420a767ba8c672232660714]
+link presentation.LoginAdmin to exceptions.NoneRegisterException-->
+        <path codeLine="162" d="M5353.93,89.01 C5322.7,122.67 5261.68,186.68 5205,236 C5185.71,252.78 5162.99,270.08 5144.28,283.73 " fill="none" id="presentation.LoginAdmin-to-exceptions.NoneRegisterException" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="5140.11,286.76,5149.7404,284.6974,5144.1524,283.8174,5145.0324,278.2294,5140.11,286.76" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[b17903a5367bc49ec869ca9718c7843f]
+link presentation.LoginAdmin to exceptions.UserNotFoundException-->
+        <path codeLine="163" d="M5370.01,89.4 C5360.42,134.39 5339.44,232.85 5329.06,281.55 " fill="none" id="presentation.LoginAdmin-to-exceptions.UserNotFoundException" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="5327.97,286.68,5333.7606,278.7133,5329.0137,281.7902,5325.9369,277.0433,5327.97,286.68" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[8dba2b53e8aefcaf6cacaa7361fe9828]
+link presentation.LoginAdmin to javax.swing.JFrame-->
+        <path codeLine="164" d="M5402.95,89.12 C5414.92,97.9 5429.47,107.17 5444,113 C5464.07,121.05 5472.85,110.96 5492,121 C5504.77,127.69 5516.49,137.88 5526.32,148.26 " fill="none" id="presentation.LoginAdmin-to-javax.swing.JFrame" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="5531.9,144.02,5539.67,163.73,5521.3,153.16,5531.9,144.02" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[e571dc600dd73aef580c18010aa7b062]
+link presentation.LoginAdmin to javax.swing.JOptionPane-->
+        <path codeLine="165" d="M5401.65,89.24 C5413.74,98.38 5428.74,107.89 5444,113 C5479.23,124.79 5576.76,106.59 5611,121 C5630.71,129.3 5648.34,145.61 5661.11,159.95 " fill="none" id="presentation.LoginAdmin-to-javax.swing.JOptionPane" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="5664.58,163.93,5661.684,154.5165,5661.2956,160.16,5655.6521,159.7716,5664.58,163.93" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[24a26604383862823443a89050753a82]
+link presentation.LoginUser to exceptions.AdminNotFoundException-->
+        <path codeLine="166" d="M5268.38,89.11 C5279.59,98.77 5292.59,110.24 5304,121 C5356.14,170.15 5359.61,193.09 5417,236 C5423.05,240.52 5425.4,240.33 5432,244 C5455.42,257.02 5481.28,271.95 5502.44,284.31 " fill="none" id="presentation.LoginUser-to-exceptions.AdminNotFoundException" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="5506.89,286.9,5501.1282,278.9124,5502.5701,284.3824,5497.1001,285.8243,5506.89,286.9" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[be7a70ee65e8248fe5449c62c612286e]
+link presentation.LoginUser to exceptions.NoneRegisterException-->
+        <path codeLine="167" d="M5228.15,89.4 C5203.34,134.58 5148.93,233.65 5122.3,282.14 " fill="none" id="presentation.LoginUser-to-exceptions.NoneRegisterException" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="5119.81,286.68,5127.6394,280.7051,5122.2103,282.2938,5120.6215,276.8646,5119.81,286.68" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[90982bb63891c50f25cc2014f6d92383]
+link presentation.LoginUser to exceptions.UserNotFoundException-->
+        <path codeLine="168" d="M5248.86,89.4 C5264.02,134.49 5297.21,233.25 5313.54,281.85 " fill="none" id="presentation.LoginUser-to-exceptions.UserNotFoundException" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="5315.16,286.68,5316.0998,276.8761,5313.5746,281.938,5308.5126,279.4128,5315.16,286.68" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[5cf97a62d81c0a0ad041203612266b61]
+link presentation.LoginUser to javax.swing.JFrame-->
+        <path codeLine="169" d="M5265.95,89.08 C5277.32,98.2 5291.47,107.73 5306,113 C5354.17,130.46 5371.51,107.73 5421,121 C5448.67,128.42 5477.45,141.62 5501.29,154.28 " fill="none" id="presentation.LoginUser-to-javax.swing.JFrame" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="5504.71,148.18,5518.84,163.97,5497.95,160.43,5504.71,148.18" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[9fa3507bb3813a7d1b6866264c5055ef]
+link presentation.LoginUser to javax.swing.JOptionPane-->
+        <path codeLine="170" d="M5265.54,89.14 C5276.94,98.38 5291.23,108 5306,113 C5338.11,123.86 5579.61,108.19 5611,121 C5630.8,129.08 5648.43,145.4 5661.17,159.79 " fill="none" id="presentation.LoginUser-to-javax.swing.JOptionPane" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="5664.64,163.78,5661.7819,154.355,5661.3708,159.9968,5655.7289,159.5857,5664.64,163.78" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[874bb18f88bf7b119fd7f7af41d73570]
+link presentation.LoginUser to models.library.LibrarySystemFacade-->
+        <path codeLine="171" d="M5216.81,89.03 C5205.37,98.38 5190.96,108.11 5176,113 C5142.6,123.93 3945.51,114.4 3911,121 C3772.79,147.44 3753.71,207.03 3616,236 C3575.51,244.52 3469.36,231.25 3430,244 C3404.43,252.28 3379.19,269.02 3360.47,283.57 " fill="none" id="presentation.LoginUser-to-models.library.LibrarySystemFacade" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3356.33,286.83,3365.8743,284.3995,3360.2566,283.7346,3360.9216,278.1169,3356.33,286.83" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[b90c0430267b80141c3f9cb9de6f0e16]
+link presentation.Presentation to javax.swing.JFrame-->
+        <path codeLine="172" d="M5525.24,89.04 C5530.14,104.67 5536.78,125.8 5542.63,144.43 " fill="none" id="presentation.Presentation-to-javax.swing.JFrame" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="5549.35,142.45,5548.66,163.63,5535.99,146.65,5549.35,142.45" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[7e980052e5cc62c5c7e6adb497878b01]
+link presentation.RegisterMaterial to javax.swing.JFrame-->
+        <path codeLine="173" d="M4978.06,89.18 C4992.9,97.97 5010.73,107.23 5028,113 C5192.86,168.03 5399.92,182.14 5498.59,185.76 " fill="none" id="presentation.RegisterMaterial-to-javax.swing.JFrame" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="5499.01,178.77,5518.78,186.4,5498.57,192.76,5499.01,178.77" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[c1e645596e315324ba1269f999b01d0e]
+link presentation.RegisterMaterial to javax.swing.JOptionPane-->
+        <path codeLine="174" d="M4975.7,89.04 C4990.86,98.38 5009.58,108.11 5028,113 C5059.31,121.31 5580.93,108.95 5611,121 C5630.85,128.96 5648.48,145.27 5661.21,159.69 " fill="none" id="presentation.RegisterMaterial-to-javax.swing.JOptionPane" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="5664.67,163.7,5661.8119,154.275,5661.4008,159.9168,5655.7589,159.5057,5664.67,163.7" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[62d0827db88227ff7c608229bbee6fe5]
+link presentation.RegisterMaterial to utils.DateFormat-->
+        <path codeLine="175" d="M4910.74,89.1 C4895.76,98.45 4877.26,108.18 4859,113 C4792.02,130.69 3679.89,107.2 3612,121 C3481.78,147.48 3466.11,208.96 3336,236 C3307.06,242.01 2831.67,233.61 2804,244 C2717.24,276.59 2642.53,361.59 2608.16,405.64 " fill="none" id="presentation.RegisterMaterial-to-utils.DateFormat" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2604.96,409.78,2613.6277,405.1033,2608.0168,405.8233,2607.2969,400.2124,2604.96,409.78" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[bf34e7de91cd0b127ae06463c539bc06]
+link presentation.RegisterMaterial to models.auth.IAdminOperation-->
+        <path codeLine="176" d="M4910.06,89.12 C4857.13,125.29 4748.86,195.31 4648,236 C4574.19,265.78 4485.07,286.05 4423.83,297.74 " fill="none" id="presentation.RegisterMaterial-to-models.auth.IAdminOperation" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4418.73,298.7,4428.3162,300.9594,4423.6431,297.7717,4426.8308,293.0985,4418.73,298.7" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[e1540233e827438a7d8905818f8f63ad]
+link presentation.RegisterUser to exceptions.UserNotValidException-->
+        <path codeLine="177" d="M5090.85,89.28 C5073.57,123.84 5037.81,189.62 4995,236 C4978.22,254.18 4956.48,270.99 4937.65,283.98 " fill="none" id="presentation.RegisterUser-to-exceptions.UserNotValidException" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4933.43,286.86,4943.1196,285.0959,4937.5614,284.0438,4938.6136,278.4856,4933.43,286.86" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[441fe8249ace988294711b2d8fdedb9b]
+link presentation.RegisterUser to java.util.List-->
+        <path codeLine="178" d="M5070.93,89.19 C5058.18,97.76 5042.92,106.88 5028,113 C5012.44,119.39 5005.56,112.58 4991,121 C4931.34,155.5 4948.74,205.39 4887,236 C4868.22,245.31 4813.43,239.31 4793,244 C4653.82,275.92 4629.67,317.62 4493,359 C4255.34,430.96 4194.74,454.05 3948,482 C3932.69,483.73 1742.57,482.7 1729,490 C1713.85,498.14 1703.01,514.05 1695.88,528.2 " fill="none" id="presentation.RegisterUser-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1693.61,532.92,1701.1238,526.5527,1695.7829,528.4169,1693.9188,523.076,1693.61,532.92" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[a1ba811c9fa61ce91a0566e39796efbd]
+link presentation.RegisterUser to javax.swing.JFrame-->
+        <path codeLine="179" d="M5133.11,89.09 C5146.1,97.76 5161.71,106.96 5177,113 C5286.05,156.09 5422.99,174.84 5498.82,182.4 " fill="none" id="presentation.RegisterUser-to-javax.swing.JFrame" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="5499.7,175.45,5518.96,184.28,5498.39,189.39,5499.7,175.45" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[fc26777e4b335e9d129a912cd8d86ea6]
+link presentation.RegisterUser to javax.swing.JOptionPane-->
+        <path codeLine="180" d="M5130.84,89.23 C5144.09,98.48 5160.5,108.09 5177,113 C5223.23,126.75 5566.28,102.95 5611,121 C5630.83,129 5648.46,145.32 5661.2,159.73 " fill="none" id="presentation.RegisterUser-to-javax.swing.JOptionPane" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="5664.66,163.73,5661.8019,154.305,5661.3908,159.9468,5655.7489,159.5357,5664.66,163.73" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[896e39fa30463d655a8f12e4e90c1a7c]
+link presentation.RegisterUser to models.auth.IAdminOperation-->
+        <path codeLine="181" d="M5072.7,89.13 C5059.73,98.14 5043.84,107.58 5028,113 C4992.1,125.29 4978.59,107.84 4943,121 C4859.84,151.75 4862.12,202.58 4780,236 C4759.16,244.48 4752.2,240.29 4730,244 C4623.32,261.82 4499.94,283.51 4423.68,297.04 " fill="none" id="presentation.RegisterUser-to-models.auth.IAdminOperation" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4418.73,297.92,4428.289,300.2919,4423.6536,297.0494,4426.8961,292.4141,4418.73,297.92" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[2b77ab85f0f8c99fe1921ae15c9ce3af]
+link repository.AdminRepository to java.util.ArrayList-->
+        <path codeLine="182" d="M2592.89,212.06 C2577.54,221.41 2558.6,231.14 2540,236 C2520.59,241.07 1832.75,230.41 1818,244 C1738.23,317.51 1765.13,465.79 1780.93,527.76 " fill="none" id="repository.AdminRepository-to-java.util.ArrayList" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1782.23,532.78,1783.8403,523.0637,1780.9737,527.9404,1776.097,525.0738,1782.23,532.78" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[6491c93e6acb2a32bf28724bbc7ad3d2]
+link repository.AdminRepository to java.util.List-->
+        <path codeLine="183" d="M2592.89,212.07 C2577.54,221.42 2558.6,231.15 2540,236 C2497.91,246.98 1797.93,229.28 1757,244 C1675.23,273.41 1642.43,288.57 1605,367 C1582.99,413.13 1573.02,442.13 1605,482 C1615.26,494.79 1627.48,480.74 1641,490 C1654.78,499.44 1665.38,514.75 1672.72,528.25 " fill="none" id="repository.AdminRepository-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1675.08,532.75,1674.4188,522.9234,1672.7471,528.3276,1667.3429,526.6559,1675.08,532.75" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[6fa7af50e3c500bf6bae0a3fc217dd02]
+link repository.AdminRepository to models.auth.Admin-->
+        <path codeLine="184" d="M2647.45,163.83 C2666.67,144.73 2696.8,120.69 2729.5,117 C2761.33,113.41 3850.67,113.41 3882.5,117 C3890.43,117.89 3893.09,117.01 3900,121 C3916.53,130.56 3931.24,145.98 3942.18,159.61 " fill="none" id="repository.AdminRepository-to-models.auth.Admin" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3945.45,163.77,3943.0364,154.2215,3942.3615,159.8379,3936.7451,159.163,3945.45,163.77" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[f3be5b7c9dccb10518007eac04edafba]
+link repository.LoanRepository to java.util.ArrayList-->
+        <path codeLine="185" d="M2762,212.06 C2747.58,221.41 2729.72,231.14 2712,236 C2689.95,242.05 1907.4,230.44 1889,244 C1842.14,278.54 1806.29,457.27 1793.8,527.56 " fill="none" id="repository.LoanRepository-to-java.util.ArrayList" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1792.87,532.83,1798.3759,524.6639,1793.7406,527.9064,1790.4981,523.271,1792.87,532.83" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[5bbc54fa0bb14ab59beb8474b44a4501]
+link repository.LoanRepository to java.util.List-->
+        <path codeLine="186" d="M2762,212.07 C2747.58,221.43 2729.72,231.15 2712,236 C2686.14,243.07 1770.16,230.5 1747,244 C1743.59,245.99 1677.02,363.19 1676,367 C1662.77,416.37 1672.91,430.98 1676,482 C1676.91,497.05 1678.86,513.74 1680.71,527.44 " fill="none" id="repository.LoanRepository-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1681.44,532.74,1684.1691,523.2768,1680.7549,527.7872,1676.2445,524.373,1681.44,532.74" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[6a865ba858fabc5f055a0d3fb78be13d]
+link repository.LoanRepository to utils.DateFormat-->
+        <path codeLine="187" d="M2761.99,212.03 C2747.57,221.38 2729.71,231.11 2712,236 C2695.67,240.51 2113.9,231.94 2102,244 C2066.1,280.38 2068.69,320.23 2102,359 C2156.53,422.47 2412.66,432.12 2529.56,433.17 " fill="none" id="repository.LoanRepository-to-utils.DateFormat" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2534.68,433.21,2525.703,429.1586,2529.6801,433.1814,2525.6573,437.1585,2534.68,433.21" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[971a2f7ccd990fdc86a0a7a37581d75a]
+link repository.MaterialRepository to models.library.Material-->
+        <path codeLine="188" d="M2928.79,212.14 C2912.8,221.04 2893.55,230.39 2875,236 C2859.59,240.66 2813.74,232 2803,244 C2768.91,282.08 2771.06,319.1 2803,359 C2838.01,402.73 3004.16,422.38 3086.51,429.56 " fill="none" id="repository.MaterialRepository-to-models.library.Material" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3091.81,430.01,3083.1856,425.2539,3086.8284,429.5818,3082.5005,433.2245,3091.81,430.01" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[d206d3f1930a966f487db570a35b3893]
+link repository.MaterialRepository to java.util.ArrayList-->
+        <path codeLine="189" d="M2930.79,212.07 C2914.51,221.42 2894.5,231.15 2875,236 C2835.32,245.87 2177.13,229.23 2139,244 C1985.24,303.54 1855.69,464.18 1808.29,528.67 " fill="none" id="repository.MaterialRepository-to-java.util.ArrayList" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1805.29,532.77,1813.8401,527.8818,1808.2487,528.7393,1807.3911,523.1479,1805.29,532.77" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[a3ae01c9207c6aa84b82aea6e7216eb7]
+link repository.MaterialRepository to java.util.List-->
+        <path codeLine="190" d="M2930.8,212.09 C2914.52,221.45 2894.5,231.17 2875,236 C2850.22,242.14 1979.34,233.66 1956,244 C1823.4,302.76 1731.24,463.26 1698.33,528.19 " fill="none" id="repository.MaterialRepository-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1696.06,532.7,1703.6865,526.4681,1698.3132,528.2365,1696.5449,522.8631,1696.06,532.7" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[37ed38a944220e4a4002bb210a0bf2f9]
+link repository.MaterialRepository to models.library.Book-->
+        <path codeLine="191" d="M2998.38,212.03 C3010.47,221.32 3023.93,232.54 3035,244 C3046.4,255.8 3057.45,270.32 3066.16,282.73 " fill="none" id="repository.MaterialRepository-to-models.library.Book" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3069.02,286.85,3067.1946,277.1718,3066.1777,282.7365,3060.613,281.7195,3069.02,286.85" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[3dff7e3133b4bcf7a230a0338c5582fd]
+link repository.MaterialRepository to utils.DateFormat-->
+        <path codeLine="192" d="M2930.79,212.07 C2914.51,221.42 2894.5,231.14 2875,236 C2856.08,240.71 2186.71,230.13 2173,244 C2137.07,280.35 2140.18,319.82 2173,359 C2217.82,412.52 2426.32,427.37 2529.64,431.46 " fill="none" id="repository.MaterialRepository-to-utils.DateFormat" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2534.79,431.66,2525.9576,427.3025,2529.794,431.4596,2525.6369,435.296,2534.79,431.66" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[2d13ce9eaa166195307482bf08066ed3]
+link repository.UserRepository to java.util.ArrayList-->
+        <path codeLine="193" d="M2418.37,212.09 C2399.69,221.44 2376.86,231.17 2355,236 C2334.66,240.5 1619.65,229.19 1605,244 C1569.05,280.33 1586.09,311.52 1605,359 C1634.66,433.48 1674.48,431.23 1729,490 C1740.83,502.75 1753.82,517.01 1764.69,529.01 " fill="none" id="repository.UserRepository-to-java.util.ArrayList" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1768.29,532.99,1765.2425,523.6245,1764.9452,529.2735,1759.2961,528.9762,1768.29,532.99" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[386a4beb3f34fd7f8e9aec49c1b07c3b]
+link repository.UserRepository to java.util.List-->
+        <path codeLine="194" d="M2418.37,212.09 C2399.69,221.45 2376.86,231.17 2355,236 C2344.42,238.34 1582.62,236.3 1575,244 C1500.18,319.59 1524.5,407.09 1600,482 C1613.18,495.08 1625.55,479.71 1641,490 C1655,499.33 1665.66,514.79 1672.98,528.4 " fill="none" id="repository.UserRepository-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1675.33,532.94,1674.7317,523.1093,1673.0255,528.5027,1667.6321,526.7965,1675.33,532.94" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[17a6cf1f313956e9a9530f16d72a94a5]
+link repository.UserRepository to models.auth.Admin-->
+        <path codeLine="195" d="M2479.41,163.78 C2497.76,144.65 2526.66,120.59 2558.5,117 C2595.05,112.88 3845.95,112.88 3882.5,117 C3890.43,117.89 3893.09,117.01 3900,121 C3916.53,130.56 3931.24,145.98 3942.18,159.61 " fill="none" id="repository.UserRepository-to-models.auth.Admin" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3945.45,163.77,3943.0364,154.2215,3942.3615,159.8379,3936.7451,159.163,3945.45,163.77" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[43c65e715a400fa7cf8a0fee03582f65]
+link repository.UserRepository to models.auth.User-->
+        <path codeLine="196" d="M2479.41,163.78 C2497.76,144.65 2526.66,120.59 2558.5,117 C2598.22,112.52 3957.78,112.52 3997.5,117 C4005.43,117.89 4008.36,116.58 4015,121 C4029.24,130.47 4040.64,145.7 4048.75,159.24 " fill="none" id="repository.UserRepository-to-models.auth.User" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4051.38,163.76,4050.3043,153.9701,4048.8624,159.4401,4043.3924,157.9982,4051.38,163.76" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[977b5903d038101e3dd33cb9c75f7d57]
+link utils.DateFormat to java.time.LocalDate-->
+        <path codeLine="197" d="M2588,458.04 C2588,477.77 2588,506.24 2588,527.41 " fill="none" id="utils.DateFormat-to-java.time.LocalDate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2588,532.63,2592,523.63,2588,527.63,2584,523.63,2588,532.63" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[7e65b041c475addbb071ccbcc79ce8cb]
+link utils.DateFormat to java.util.ArrayList-->
+        <path codeLine="198" d="M2556.05,458.04 C2541.98,467.02 2524.84,476.48 2508,482 C2382.48,523.16 1977.09,546.67 1837.09,553.72 " fill="none" id="utils.DateFormat-to-java.util.ArrayList" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1831.82,553.99,1841.0141,557.5211,1836.8134,553.7325,1840.602,549.5317,1831.82,553.99" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[8dd84d6b733aa367ab58e58ad493e38a]
+link utils.DateFormat to java.util.List-->
+        <path codeLine="199" d="M2534.78,439.5 C2424.24,448.7 2161.69,469.82 1941,482 C1917.46,483.3 1749.57,478.49 1729,490 C1714.1,498.34 1703.31,514.08 1696.15,528.1 " fill="none" id="utils.DateFormat-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1693.86,532.78,1701.4144,526.4609,1696.0617,528.2908,1694.2317,522.9382,1693.86,532.78" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[73cd9d1dc1d10a77307e646f02133ce4]
+link utils.Validator to models.auth.Person-->
+        <path codeLine="200" d="M2741.02,409.91 C2756.67,394.52 2779.49,375.58 2804,367 C2831.45,357.39 3822.13,362.49 3851,359 C3905.04,352.46 3965.76,336.77 4005.54,325.31 " fill="none" id="utils.Validator-to-models.auth.Person" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4010.77,323.79,4001.0147,322.4355,4005.9651,325.173,4003.2276,330.1234,4010.77,323.79" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[1c27f49cd6eb7b285edfc4ad961205d1]
+link models.auth.IAdminOperation to models.library.Material-->
+        <path codeLine="201" d="M4318.31,335.07 C4303.15,344.42 4284.43,354.15 4266,359 C4222.8,370.38 3506.43,362.36 3462,367 C3359.99,377.64 3242.69,404.86 3179.38,420.82 " fill="none" id="models.auth.IAdminOperation-to-models.library.Material" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3174.16,422.14,3183.8673,423.8041,3179.0065,420.9105,3181.9001,416.0497,3174.16,422.14" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[aa3c388401b03eb8b0634d927618c884]
+link models.auth.IAdminOperation to exceptions.UserNotValidException-->
+        <path codeLine="202" d="M4418.59,311 C4546.89,311 4675.19,311 4803.48,311 " fill="none" id="models.auth.IAdminOperation-to-exceptions.UserNotValidException" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4808.82,311,4799.82,307,4803.82,311,4799.82,315,4808.82,311" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[63d299beed79ee77012b62e6b3280a75]
+link models.auth.IAdminOperation to java.util.ArrayList-->
+        <path codeLine="203" d="M4312.17,335.03 C4242.27,374.92 4089.38,455.2 3948,482 C3909.16,489.36 2564.48,488.12 2525,490 C2264.57,502.39 1953.79,536.7 1836.73,550.32 " fill="none" id="models.auth.IAdminOperation-to-java.util.ArrayList" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1831.64,550.92,1841.0472,553.8363,1836.6055,550.3333,1840.1085,545.8916,1831.64,550.92" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[24f6e5a636020189a1dcb8adca4b9f02]
+link models.auth.IUserOperation to java.util.List-->
+        <path codeLine="204" d="M4149.15,335.04 C4135.62,343.2 4119.9,352.07 4105,359 C3956.27,428.2 3918.63,453.95 3757,482 C3729.25,486.82 1753.81,476.66 1729,490 C1713.85,498.14 1703.01,514.05 1695.88,528.2 " fill="none" id="models.auth.IUserOperation-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1693.61,532.92,1701.1159,526.5434,1695.7774,528.4142,1693.9066,523.0756,1693.61,532.92" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[a4644419c82053a64e6d353b4a51f181]
+link models.auth.IUserOperation to models.library.Fine-->
+        <path codeLine="205" d="M4162.29,286.88 C4147.33,272.38 4126.58,254.72 4105,244 C4097.85,240.45 4095.43,240.89 4087.5,240 C4058.93,236.78 3081.07,236.78 3052.5,240 C3044.57,240.89 3041.62,239.55 3035,244 C3020.91,253.47 3009.73,268.7 3001.82,282.25 " fill="none" id="models.auth.IUserOperation-to-models.library.Fine" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2999.26,286.76,3007.1651,280.8855,3001.7161,282.4048,3000.1967,276.9558,2999.26,286.76" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[a8f017aebaf3a83235ac86e8dc7f3679]
+link models.auth.IUserOperation to models.library.Loan-->
+        <path codeLine="206" d="M4162.29,286.88 C4147.33,272.38 4126.58,254.72 4105,244 C4097.85,240.45 4095.43,240.89 4087.5,240 C4057.52,236.62 3574.48,236.62 3544.5,240 C3536.57,240.89 3533.66,239.61 3527,244 C3512.62,253.47 3500.98,268.69 3492.67,282.24 " fill="none" id="models.auth.IUserOperation-to-models.library.Loan" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3489.98,286.76,3498.0182,281.069,3492.5357,282.4625,3491.1422,276.98,3489.98,286.76" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[4b2d479a0737997319900ddf72bedf03]
+link models.library.IPersonOperationFactory to models.auth.AdminOperation-->
+        <path codeLine="207" d="M3666.57,431.61 C3740.3,426.35 3842.7,409.43 3917,359 C3967.89,324.45 3940.17,273.76 3994,244 C4020.75,229.21 4239.54,244.14 4269,236 C4285.35,231.48 4301.94,223.16 4316.01,214.76 " fill="none" id="models.library.IPersonOperationFactory-to-models.auth.AdminOperation" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4320.29,212.15,4310.5224,213.4127,4316.019,214.7497,4314.682,220.2463,4320.29,212.15" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[f0a53bf0dd4b873d0199902cc8d32eb1]
+link models.library.IPersonOperationFactory to models.auth.UserOperation-->
+        <path codeLine="208" d="M3666.77,424.37 C3724.14,415.33 3796.71,396.84 3851,359 C3902.29,323.26 3877.16,274.02 3932,244 C3949.46,234.44 4091.93,241.71 4111,236 C4126.39,231.4 4141.88,223.15 4155.02,214.84 " fill="none" id="models.library.IPersonOperationFactory-to-models.auth.UserOperation" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4159.39,212.02,4149.66,213.5455,4155.1906,214.7339,4154.0022,220.2645,4159.39,212.02" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[374428ed7350d7eda62d90440463d46a]
+link models.library.fine_payment_strategy.IFinePaymentStrategy to models.library.Fine-->
+        <path codeLine="209" d="M819.24,204.52 C884.42,215.73 977.09,229.92 1059,236 C1085.07,237.94 2917.79,231.97 2941,244 C2956.6,252.08 2968.16,267.99 2975.92,282.16 " fill="none" id="models.library.fine_payment_strategy.IFinePaymentStrategy-to-models.library.Fine" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2978.4,286.88,2977.7519,277.0525,2976.073,282.4545,2970.671,280.7756,2978.4,286.88" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[dae24ce5a40130d183fd4d9bb55491e2]
+link operations.IRegisterUser to exceptions.UserNotValidException-->
+        <path codeLine="210" d="M2176.87,212.1 C2190.36,221.45 2207.15,231.18 2224,236 C2253.52,244.45 4404.37,241.76 4435,244 C4563.73,253.4 4711.18,276.74 4803.95,292.98 " fill="none" id="operations.IRegisterUser-to-exceptions.UserNotValidException" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4808.87,293.85,4800.7039,288.3441,4803.9464,292.9794,4799.311,296.2219,4808.87,293.85" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[b5c5ac8914cfc655cd4b85b9e812543a]
+link operations.IViewFines to java.util.List-->
+        <path codeLine="211" d="M1421.99,212.25 C1410.03,220.51 1398.71,231.06 1392,244 C1343.31,337.91 1318.41,406.01 1392,482 C1411.26,501.89 1616.81,476.55 1641,490 C1655.92,498.3 1666.71,514.04 1673.87,528.07 " fill="none" id="operations.IViewFines-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1676.16,532.75,1675.8136,522.9072,1673.9699,528.2552,1668.6219,526.4115,1676.16,532.75" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[b790e912b1e33954fb2dccb6331d4b19]
+link operations.IViewFines to models.library.Fine-->
+        <path codeLine="212" d="M1494.61,212.04 C1506.24,221.39 1520.87,231.12 1536,236 C1573.14,247.99 2906.36,226.02 2941,244 C2956.59,252.09 2968.16,268 2975.91,282.16 " fill="none" id="operations.IViewFines-to-models.library.Fine" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2978.4,286.89,2977.7519,277.0625,2976.073,282.4645,2970.671,280.7856,2978.4,286.89" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[0676711ccf3b95627a7e640d92a63988]
+@startuml
+abstract class models.auth.Person
+abstract class models.library.Material
+abstract class models.library.fine_observable.Subject
+class Main
+class exceptions.AdminNotFoundException
+class exceptions.NoneRegisterException
+class exceptions.UserNotFoundException
+class exceptions.UserNotValidException
+class java.lang.Exception
+class java.time.LocalDate
+class java.util.ArrayList
+class java.util.List
+class java.util.Scanner
+class javax.swing.JFrame
+class javax.swing.JOptionPane
+class library.project.ViewFines
+class models.auth.Admin
+class models.auth.AdminOperation
+class models.auth.User
+class models.auth.UserOperation
+class models.library.Book
+class models.library.Copy
+class models.library.Fine
+class models.library.LibrarySystemFacade
+class models.library.Loan
+class models.library.PersonFactory
+class models.library.fine_observable.FineSubject
+class models.library.fine_observable.Observer
+class models.library.fine_payment_strategy.CreditCardPayment
+class models.library.fine_payment_strategy.DebitCardPayment
+class models.library.fine_payment_strategy.GRUPayment
+class operations.ApplyLoan
+class operations.Login
+class operations.PayFine
+class operations.RegisterMaterial
+class operations.RegisterUser
+class operations.ReturnLoan
+class operations.ViewFines
+class presentation.ApplyLoan
+class presentation.ControlAdminPanel
+class presentation.ControlUserPanel
+class presentation.LoginAdmin
+class presentation.LoginUser
+class presentation.Presentation
+class presentation.RegisterMaterial
+class presentation.RegisterUser
+class repository.AdminRepository
+class repository.LoanRepository
+class repository.MaterialRepository
+class repository.UserRepository
+class utils.DateFormat
+class utils.Validator
+enum models.library.StatusLoan
+interface models.auth.IAdminOperation
+interface models.auth.IUserOperation
+interface models.library.IPersonOperationFactory
+interface models.library.fine_observable.IObserver
+interface models.library.fine_observable.ISubject
+interface models.library.fine_payment_strategy.IFinePaymentStrategy
+interface operations.IApplyLoan
+interface operations.ILogin
+interface operations.IPayFine
+interface operations.IRegisterMaterial
+interface operations.IRegisterUser
+interface operations.IReturnLoan
+interface operations.IViewFines
+models.library.Material ..> utils.DateFormat
+models.library.fine_observable.Subject ..> java.util.ArrayList
+models.library.fine_observable.Subject - -|> models.library.fine_observable.ISubject
+Main ..> java.util.List
+Main ..> utils.DateFormat
+exceptions.AdminNotFoundException - -|> java.lang.Exception
+exceptions.NoneRegisterException - -|> java.lang.Exception
+exceptions.UserNotFoundException - -|> java.lang.Exception
+exceptions.UserNotValidException - -|> java.lang.Exception
+library.project.ViewFines - -|> javax.swing.JFrame
+models.auth.Admin - -|> models.auth.Person
+models.auth.Admin ..> java.util.ArrayList
+models.auth.Admin ..> models.library.Fine
+models.auth.Admin ..> models.library.Loan
+models.auth.AdminOperation ..> models.library.Material
+models.auth.AdminOperation ..> exceptions.UserNotValidException
+models.auth.AdminOperation ..> java.util.ArrayList
+models.auth.AdminOperation - -|> models.auth.IAdminOperation
+models.auth.AdminOperation ..> operations.ILogin
+models.auth.AdminOperation ..> operations.IRegisterMaterial
+models.auth.AdminOperation ..> operations.IRegisterUser
+models.auth.User - -|> models.auth.Person
+models.auth.User ..> java.util.ArrayList
+models.auth.User ..> models.library.Fine
+models.auth.User ..> models.library.Loan
+models.auth.UserOperation ..> java.util.List
+models.auth.UserOperation ..> models.library.Fine
+models.auth.UserOperation ..> models.library.Loan
+models.auth.UserOperation - -|> models.auth.IUserOperation
+models.library.Book - -|> models.library.Material
+models.library.Book ..> utils.DateFormat
+models.library.Copy - -|> models.library.Material
+models.library.Copy ..> java.util.ArrayList
+models.library.Copy ..> utils.DateFormat
+models.library.Fine ..> models.auth.User
+models.library.Fine ..> models.library.fine_observable.FineSubject
+models.library.Fine ..> utils.DateFormat
+models.library.Loan ..> models.auth.User
+models.library.Loan ..> utils.DateFormat
+models.library.PersonFactory ..> models.auth.AdminOperation
+models.library.PersonFactory ..> models.auth.UserOperation
+models.library.PersonFactory - -|> models.library.IPersonOperationFactory
+models.library.fine_observable.FineSubject - -|> models.library.fine_observable.Subject
+models.library.fine_observable.Observer - -|> models.library.fine_observable.IObserver
+models.library.fine_payment_strategy.CreditCardPayment ..> java.util.Scanner
+models.library.fine_payment_strategy.CreditCardPayment ..> models.library.Fine
+models.library.fine_payment_strategy.CreditCardPayment - -|> models.library.fine_payment_strategy.IFinePaymentStrategy
+models.library.fine_payment_strategy.DebitCardPayment ..> java.util.Scanner
+models.library.fine_payment_strategy.DebitCardPayment ..> models.library.Fine
+models.library.fine_payment_strategy.DebitCardPayment - -|> models.library.fine_payment_strategy.IFinePaymentStrategy
+models.library.fine_payment_strategy.GRUPayment ..> java.util.Scanner
+models.library.fine_payment_strategy.GRUPayment ..> models.library.Fine
+models.library.fine_payment_strategy.GRUPayment - -|> models.library.fine_payment_strategy.IFinePaymentStrategy
+operations.ApplyLoan ..> models.auth.User
+operations.ApplyLoan ..> models.library.Book
+operations.ApplyLoan ..> models.library.Copy
+operations.ApplyLoan ..> models.library.Loan
+operations.ApplyLoan ..> repository.LoanRepository
+operations.ApplyLoan ..> repository.MaterialRepository
+operations.ApplyLoan - -|> operations.IApplyLoan
+operations.Login - -|> operations.ILogin
+operations.PayFine ..> java.util.Scanner
+operations.PayFine ..> models.library.Loan
+operations.PayFine ..> repository.LoanRepository
+operations.PayFine - -|> operations.IPayFine
+operations.RegisterMaterial ..> models.library.Material
+operations.RegisterMaterial ..> java.util.Scanner
+operations.RegisterMaterial ..> models.library.Book
+operations.RegisterMaterial ..> models.library.Copy
+operations.RegisterMaterial ..> repository.MaterialRepository
+operations.RegisterMaterial ..> utils.DateFormat
+operations.RegisterMaterial - -|> operations.IRegisterMaterial
+operations.RegisterUser ..> exceptions.UserNotValidException
+operations.RegisterUser ..> java.util.Scanner
+operations.RegisterUser ..> models.auth.User
+operations.RegisterUser ..> repository.UserRepository
+operations.RegisterUser ..> utils.Validator
+operations.RegisterUser - -|> operations.IRegisterUser
+operations.ReturnLoan - -|> operations.IReturnLoan
+operations.ViewFines ..> java.util.List
+operations.ViewFines ..> models.library.Fine
+operations.ViewFines - -|> operations.IViewFines
+presentation.ApplyLoan ..> models.library.Material
+presentation.ApplyLoan - -|> javax.swing.JFrame
+presentation.ApplyLoan ..> repository.MaterialRepository
+presentation.ApplyLoan ..> utils.DateFormat
+presentation.ApplyLoan ..> models.auth.IUserOperation
+presentation.ControlAdminPanel - -|> javax.swing.JFrame
+presentation.ControlAdminPanel ..> models.library.PersonFactory
+presentation.ControlAdminPanel ..> models.auth.IAdminOperation
+presentation.ControlUserPanel - -|> javax.swing.JFrame
+presentation.ControlUserPanel ..> models.auth.User
+presentation.ControlUserPanel ..> models.library.PersonFactory
+presentation.ControlUserPanel ..> models.auth.IUserOperation
+presentation.LoginAdmin ..> exceptions.AdminNotFoundException
+presentation.LoginAdmin ..> exceptions.NoneRegisterException
+presentation.LoginAdmin ..> exceptions.UserNotFoundException
+presentation.LoginAdmin - -|> javax.swing.JFrame
+presentation.LoginAdmin ..> javax.swing.JOptionPane
+presentation.LoginUser ..> exceptions.AdminNotFoundException
+presentation.LoginUser ..> exceptions.NoneRegisterException
+presentation.LoginUser ..> exceptions.UserNotFoundException
+presentation.LoginUser - -|> javax.swing.JFrame
+presentation.LoginUser ..> javax.swing.JOptionPane
+presentation.LoginUser ..> models.library.LibrarySystemFacade
+presentation.Presentation - -|> javax.swing.JFrame
+presentation.RegisterMaterial - -|> javax.swing.JFrame
+presentation.RegisterMaterial ..> javax.swing.JOptionPane
+presentation.RegisterMaterial ..> utils.DateFormat
+presentation.RegisterMaterial ..> models.auth.IAdminOperation
+presentation.RegisterUser ..> exceptions.UserNotValidException
+presentation.RegisterUser ..> java.util.List
+presentation.RegisterUser - -|> javax.swing.JFrame
+presentation.RegisterUser ..> javax.swing.JOptionPane
+presentation.RegisterUser ..> models.auth.IAdminOperation
+repository.AdminRepository ..> java.util.ArrayList
+repository.AdminRepository ..> java.util.List
+repository.AdminRepository ..> models.auth.Admin
+repository.LoanRepository ..> java.util.ArrayList
+repository.LoanRepository ..> java.util.List
+repository.LoanRepository ..> utils.DateFormat
+repository.MaterialRepository ..> models.library.Material
+repository.MaterialRepository ..> java.util.ArrayList
+repository.MaterialRepository ..> java.util.List
+repository.MaterialRepository ..> models.library.Book
+repository.MaterialRepository ..> utils.DateFormat
+repository.UserRepository ..> java.util.ArrayList
+repository.UserRepository ..> java.util.List
+repository.UserRepository ..> models.auth.Admin
+repository.UserRepository ..> models.auth.User
+utils.DateFormat ..> java.time.LocalDate
+utils.DateFormat ..> java.util.ArrayList
+utils.DateFormat ..> java.util.List
+utils.Validator ..> models.auth.Person
+models.auth.IAdminOperation ..> models.library.Material
+models.auth.IAdminOperation ..> exceptions.UserNotValidException
+models.auth.IAdminOperation ..> java.util.ArrayList
+models.auth.IUserOperation ..> java.util.List
+models.auth.IUserOperation ..> models.library.Fine
+models.auth.IUserOperation ..> models.library.Loan
+models.library.IPersonOperationFactory ..> models.auth.AdminOperation
+models.library.IPersonOperationFactory ..> models.auth.UserOperation
+models.library.fine_payment_strategy.IFinePaymentStrategy ..> models.library.Fine
+operations.IRegisterUser ..> exceptions.UserNotValidException
+operations.IViewFines ..> java.util.List
+operations.IViewFines ..> models.library.Fine
+@enduml
+
+PlantUML version 1.2021.3(Mon Mar 22 13:53:19 BRT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+-->
+    </g>
+</svg>
