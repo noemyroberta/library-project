@@ -4,6 +4,7 @@ import models.library.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import utils.DateFormat;
 
 public class LoanRepository {
 
@@ -38,7 +39,32 @@ public class LoanRepository {
         }
         return null;
     }
+    
+    public static boolean returnLoan(Loan loanToReturn) {
+        for (Loan loan : instance) {
+            if(loan.equals(loanToReturn)){
+                loan.setStatus(StatusLoan.RETURNED); 
+                return true;
+            }
+        }
+        return false;
+    }
 
+    public static List<Loan> getLoanCloseToReturnDate(DateFormat firstDate, DateFormat pickedDate) {
+        List<Loan> closeToReturnDate = new ArrayList<Loan>();
+        DateFormat.getQuantityOfDaysAfterToday(pickedDate);
+        
+        for (Loan loan : instance) {           
+            List<DateFormat> days = DateFormat.getDatesBetween(firstDate, pickedDate);
+            
+            if (days.contains(loan.getReturnDate()) && loan.getStatus().equals(StatusLoan.LOANED)) {
+                closeToReturnDate.add(loan);
+            }
+        }
+        
+        return closeToReturnDate;
+    }
+    
 
     public static void getAll() {
         for (Loan loan : instance) {

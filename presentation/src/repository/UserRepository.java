@@ -41,7 +41,8 @@ public class UserRepository {
 
     public static User getUserByCredentials(String username, String password) {
         for (User user : instance) {
-            if (user.getUsername().equals(username) && user.getPassword().equalsIgnoreCase(password)) {
+            if (user.getUsername().equals(username) 
+                    && user.getPassword().equalsIgnoreCase(password)) {
                 return user;
 
             }

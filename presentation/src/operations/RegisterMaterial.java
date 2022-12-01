@@ -6,14 +6,13 @@ import models.library.Material;
 import repository.MaterialRepository;
 import utils.DateFormat;
 
-import java.util.List;
 import java.util.Scanner;
 
 public class RegisterMaterial implements IRegisterMaterial {
     Scanner input = new Scanner(System.in);
 
     @Override
-    public void call() {
+    public void call(String[] data, int quantity) {
 
         String option = "s";
         do {
@@ -38,10 +37,12 @@ public class RegisterMaterial implements IRegisterMaterial {
 
             Material material;
             if (materialType.equals("Livro")) {
-                material = new Book(materialName, materialISBN, materialAuthor, materialEdition, date);
+                material = new Book(materialName, materialISBN, 
+                        materialAuthor, materialEdition, date, quantity);
                 System.out.println("Material livro "+material.getName()+" registrado!");
             } else {
-                material = new Copy(materialName, materialISBN, materialAuthor, materialEdition, date);
+                material = new Copy(materialName, materialISBN, materialAuthor,
+                        materialEdition, date, quantity);
                 System.out.println("Material exemplar "+material.getName()+" registrado!");
             }
 

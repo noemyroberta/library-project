@@ -1,5 +1,5 @@
 package operations;
 
 public interface IApplyLoan {
-    public void call();
+    public void call(String materialType, String ISBN);
 }

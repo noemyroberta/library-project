@@ -8,13 +8,23 @@ public abstract class Material {
     private String author;
     private DateFormat registerDate;
     private String edition;
+    private int quantity;
 
-    public Material(String name, String ISBN, String author, String edition, DateFormat registerDate) {
+    public Material(String name, String ISBN, String author, String edition, DateFormat registerDate, int quantity) {
         this.name = name;
         this.ISBN = ISBN;
         this.author = author;
         this.registerDate = registerDate;
         this.edition = edition;
+        this.quantity = quantity;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 
     public String getName() {

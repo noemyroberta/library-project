@@ -37,8 +37,8 @@ public class AdminOperation implements IAdminOperation {
     }
 
     @Override
-    public void registerMaterial() {
-        iRegisterMaterial.call();
+    public void registerMaterial(String[] data, int quantity) {
+        iRegisterMaterial.call(data, quantity);
     }
 
     @Override

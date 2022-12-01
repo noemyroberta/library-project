@@ -4,6 +4,8 @@ import models.library.Material;
 
 import java.util.ArrayList;
 import java.util.List;
+import models.library.Book;
+import utils.DateFormat;
 
 public class MaterialRepository {
     private static List<Material> instance = null;
@@ -17,6 +19,9 @@ public class MaterialRepository {
             synchronized (MaterialRepository.class) {
                 if (instance == null) {
                     instance = new ArrayList<Material>();
+                    addMaterial(new Book("As aventuras de Pi", "0000000000123", 
+                            "Unknowm", "First", 
+                            new DateFormat(1, 12, 2013), 2));
                 }
             }
         }

@@ -6,8 +6,8 @@ import java.util.ArrayList;
 
 public class Copy extends Material {
 
-    public Copy(String name, String ISBN, String author, String edition, DateFormat registerDate) {
-        super(name, ISBN, author, edition, registerDate);
+    public Copy(String name, String ISBN, String author, String edition, DateFormat registerDate, int quantity) {
+        super(name, ISBN, author, edition, registerDate, quantity);
     }
 
     @Override

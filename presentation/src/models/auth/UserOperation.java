@@ -13,7 +13,8 @@ public class UserOperation implements IUserOperation {
     private IReturnLoan iReturnLoan;
     private IPayFine iPayFine;
 
-    public UserOperation(IViewFines iViewFines, IApplyLoan iApplyLoan, IReturnLoan iReturnLoan, IPayFine iPayFine) {
+    public UserOperation(IViewFines iViewFines, IApplyLoan iApplyLoan, 
+            IReturnLoan iReturnLoan, IPayFine iPayFine) {
         this.iViewFines = iViewFines;
         this.iApplyLoan = iApplyLoan;
         this.iReturnLoan = iReturnLoan;
@@ -31,8 +32,8 @@ public class UserOperation implements IUserOperation {
     }
 
     @Override
-    public void applyLoan() {
-        iApplyLoan.call();
+    public void applyLoan(String materialType, String ISBN) {
+        iApplyLoan.call(materialType, ISBN);
     }
 
     @Override

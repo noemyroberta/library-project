@@ -8,12 +8,14 @@ public class Loan {
     private Material material;
     private DateFormat returnDate;
     private Fine fine;
+    private StatusLoan status;
 
     public Loan(User user, Material material) {
         this.user = user;
         this.material = material;
         this.returnDate = new DateFormat();
         this.fine = createFine();
+        this.status = StatusLoan.LOANED;
     }
 
     private Fine createFine() {
@@ -24,6 +26,14 @@ public class Loan {
         return new Fine();
     }
 
+    public StatusLoan getStatus() {
+        return status;
+    }
+
+    public void setStatus(StatusLoan status) {
+        this.status = status;
+    }
+    
     public Fine getFine() {return fine;}
 
     public User getUser() {

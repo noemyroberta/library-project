@@ -1,6 +1,8 @@
 package utils;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DateFormat {
     private final int day;
@@ -37,6 +39,22 @@ public class DateFormat {
     public static int getQuantityOfDaysBeforeToday(DateFormat date) {
         DateFormat today = getParsedTodayDate();
         return (today.year - date.year) + (today.month - date.month) + (today.day - date.day);
+    }
+    
+    public static int getQuantityOfDaysAfterToday(DateFormat date) {
+        DateFormat today = getParsedTodayDate();
+        return (date.year - today.year) + (date.month - today.month) + (date.day - today.day);
+    }
+    
+    public static List<DateFormat> getDatesBetween(DateFormat firstDate, DateFormat secondDate) {
+        List<DateFormat> listDate = new ArrayList<>();
+        
+        int quant = secondDate.day - firstDate.day;
+        
+        for (int i=0; i<=quant; i++) {
+            listDate.add(new DateFormat(firstDate.day + i, firstDate.month, firstDate.year));
+        }
+        return listDate;
     }
 
     private static DateFormat getParsedTodayDate() {
